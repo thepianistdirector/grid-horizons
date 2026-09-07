@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "project": "grid-horizons",
+  "contractVersion": "initial-2026-09-07",
+  "stateAuthority": "../STATUS.md",
+  "tasks": [
+    {
+      "id": "GH-001",
+      "wave": 1,
+      "title": "Choose a public feeder and metrics",
+      "status": "PLANNED",
+      "dependsOn": [],
+      "ownedPaths": [
+        "docs/benchmarks/"
+      ],
+      "acceptance": "Record source, license, units, topology and reference outputs; justify voltage/loading bounds and numerical tolerances."
+    },
+    {
+      "id": "GH-002",
+      "wave": 1,
+      "title": "Specify data and engine decisions",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-001"
+      ],
+      "ownedPaths": [
+        "docs/data/",
+        "docs/decisions/"
+      ],
+      "acceptance": "Review exact dependency candidates, profiles, rights and supported hardware; distinguish synthetic profiles from observed data."
+    },
+    {
+      "id": "GH-003",
+      "wave": 1,
+      "title": "Build the scenario skeleton",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-001",
+        "GH-002"
+      ],
+      "ownedPaths": [
+        "src/",
+        "tests/",
+        "scenarios/"
+      ],
+      "acceptance": "A local CLI rejects inconsistent units and dangling network references; its synthetic balance test is hand-checkable."
+    },
+    {
+      "id": "GH-004",
+      "wave": 2,
+      "title": "Integrate the network baseline",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-001",
+        "GH-002",
+        "GH-003"
+      ],
+      "ownedPaths": [
+        "adapters/network/"
+      ],
+      "acceptance": "Match a public reference power-flow case and retain convergence and residual diagnostics."
+    },
+    {
+      "id": "GH-005",
+      "wave": 2,
+      "title": "Add transformer loss and thermal state",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-001",
+        "GH-002",
+        "GH-003"
+      ],
+      "ownedPaths": [
+        "adapters/transformer/"
+      ],
+      "acceptance": "Compare the reduced-order model with a documented reference; reject unsupported temperature and load ranges."
+    },
+    {
+      "id": "GH-006",
+      "wave": 2,
+      "title": "Validate time-series coupling",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-001",
+        "GH-002",
+        "GH-003"
+      ],
+      "ownedPaths": [
+        "src/coupling/"
+      ],
+      "acceptance": "Power-to-energy integration uses explicit intervals; no hidden energy appears at component boundaries."
+    },
+    {
+      "id": "GH-007",
+      "wave": 3,
+      "title": "Implement baseline and candidate schedules",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-004",
+        "GH-005",
+        "GH-006"
+      ],
+      "ownedPaths": [
+        "scenarios/feeder/"
+      ],
+      "acceptance": "Compare fixed operating policy, bounded tap changes and storage scheduling under identical profiles."
+    },
+    {
+      "id": "GH-008",
+      "wave": 3,
+      "title": "Add feasibility-first ranking",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-004",
+        "GH-005",
+        "GH-006",
+        "GH-007"
+      ],
+      "ownedPaths": [
+        "src/evaluation/"
+      ],
+      "acceptance": "Any candidate violating voltage, loading or storage constraints is excluded with an inspectable reason."
+    },
+    {
+      "id": "GH-009",
+      "wave": 3,
+      "title": "Generate the energy comparison report",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-004",
+        "GH-005",
+        "GH-006",
+        "GH-008"
+      ],
+      "ownedPaths": [
+        "src/reports/"
+      ],
+      "acceptance": "Show losses, served energy, limit violations, cost assumptions and full reproduction inputs for every arm."
+    },
+    {
+      "id": "GH-010",
+      "wave": 4,
+      "title": "Create load and weather holdouts",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-007",
+        "GH-008",
+        "GH-009"
+      ],
+      "ownedPaths": [
+        "benchmarks/"
+      ],
+      "acceptance": "Separate selection and confirmation periods; report performance over heat and peak-demand conditions."
+    },
+    {
+      "id": "GH-011",
+      "wave": 4,
+      "title": "Test outages and degraded components",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-007",
+        "GH-008",
+        "GH-009"
+      ],
+      "ownedPaths": [
+        "scenarios/resilience/"
+      ],
+      "acceptance": "Evaluate explicitly enumerated contingencies and unserved energy without live infrastructure access."
+    },
+    {
+      "id": "GH-012",
+      "wave": 4,
+      "title": "Cross-check numerical assumptions",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-007",
+        "GH-008",
+        "GH-009"
+      ],
+      "ownedPaths": [
+        "tests/validation/"
+      ],
+      "acceptance": "Detect nonconvergence, unit mistakes and misleading aggregate efficiency; compare a second reference where available."
+    },
+    {
+      "id": "GH-013",
+      "wave": 5,
+      "title": "Add generation-storage planning",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-010",
+        "GH-011",
+        "GH-012"
+      ],
+      "ownedPaths": [
+        "adapters/planning/"
+      ],
+      "acceptance": "Compare scenarios with explicit capacity, degradation, weather and resource assumptions and feasible energy balances."
+    },
+    {
+      "id": "GH-014",
+      "wave": 5,
+      "title": "Specify and validate higher-fidelity transformer models",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-010",
+        "GH-011",
+        "GH-012"
+      ],
+      "ownedPaths": [
+        "adapters/component/"
+      ],
+      "acceptance": "Require reusable material data, mesh/timestep convergence and a reduced-order comparison before claiming component gains."
+    },
+    {
+      "id": "GH-015",
+      "wave": 5,
+      "title": "Add lifecycle and novel-concept comparisons",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-010",
+        "GH-011",
+        "GH-012"
+      ],
+      "ownedPaths": [
+        "src/lifecycle/"
+      ],
+      "acceptance": "Expose construction/operation/end-of-life assumptions; speculative designs remain hypotheses and cannot violate conservation."
+    },
+    {
+      "id": "GH-016",
+      "wave": 6,
+      "title": "Build evidence-grounded design proposals",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-013",
+        "GH-014",
+        "GH-015"
+      ],
+      "ownedPaths": [
+        "src/agents/"
+      ],
+      "acceptance": "Every proposed change lists source assumptions, bounds and a measurable engineering hypothesis."
+    },
+    {
+      "id": "GH-017",
+      "wave": 6,
+      "title": "Run equal-budget optimization baselines",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-013",
+        "GH-014",
+        "GH-015"
+      ],
+      "ownedPaths": [
+        "src/search/"
+      ],
+      "acceptance": "Compare agent-guided search with grid/random baselines; enforce the same solver and resource budget."
+    },
+    {
+      "id": "GH-018",
+      "wave": 6,
+      "title": "Confirm robust Pareto candidates",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-013",
+        "GH-014",
+        "GH-015"
+      ],
+      "ownedPaths": [
+        "src/evaluation/"
+      ],
+      "acceptance": "Retest selected designs on untouched scenarios and report tradeoffs, failures and uncertainty."
+    },
+    {
+      "id": "GH-019",
+      "wave": 7,
+      "title": "Build a local network comparison view",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-016",
+        "GH-017",
+        "GH-018"
+      ],
+      "ownedPaths": [
+        "apps/workbench/"
+      ],
+      "acceptance": "Show units, constraints and failures with keyboard access; a network drawing is labeled as a simulated model."
+    },
+    {
+      "id": "GH-020",
+      "wave": 7,
+      "title": "Add isolated batch execution",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-016",
+        "GH-017",
+        "GH-018"
+      ],
+      "ownedPaths": [
+        "src/workers/"
+      ],
+      "acceptance": "Enforce resource limits, cancellation and restart recovery without duplicate run publication."
+    },
+    {
+      "id": "GH-021",
+      "wave": 7,
+      "title": "Export portable energy studies",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-016",
+        "GH-017",
+        "GH-018"
+      ],
+      "ownedPaths": [
+        "src/export/"
+      ],
+      "acceptance": "A fresh machine reconstructs inputs and results from a bundle without private provider access."
+    },
+    {
+      "id": "GH-022",
+      "wave": 8,
+      "title": "Replicate a second network",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-019",
+        "GH-020",
+        "GH-021"
+      ],
+      "ownedPaths": [
+        "benchmarks/replication/"
+      ],
+      "acceptance": "A new topology exercises the same pipeline; document which assumptions fail to transfer."
+    },
+    {
+      "id": "GH-023",
+      "wave": 8,
+      "title": "Conduct an engineering review",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-019",
+        "GH-020",
+        "GH-021"
+      ],
+      "ownedPaths": [
+        "docs/review/"
+      ],
+      "acceptance": "A qualified reviewer checks feasibility, model scope and the claimed operating/design improvements."
+    },
+    {
+      "id": "GH-024",
+      "wave": 8,
+      "title": "Prepare the research preview",
+      "status": "PLANNED",
+      "dependsOn": [
+        "GH-019",
+        "GH-020",
+        "GH-021"
+      ],
+      "ownedPaths": [
+        "docs/releases/"
+      ],
+      "acceptance": "Include reproducible cases, known limits and maintainer-approved release notes without real-grid deployment claims."
+    }
+  ]
+}
