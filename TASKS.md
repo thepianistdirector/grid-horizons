@@ -1,15 +1,46 @@
 # Grid Horizons contributor tasks
 
-All 24 tasks start **PLANNED**. [STATUS.md](STATUS.md) is the mutable progress authority; this file is the initial task contract. [plan/tasks.json](plan/tasks.json) is the machine-readable copy of that initial contract. Update both task descriptions together when scope changes. Tanduna publication/review and task execution are separate operations.
+Exactly three Wave 0 foundation tasks are **DONE**, accepted by the authorized root reviewer. All 24 original tasks remain **PLANNED**. [STATUS.md](STATUS.md) is the mutable progress authority; this file and [plan/tasks.json](plan/tasks.json) carry the task contracts and must be updated together when a reviewed scope change is accepted. Tanduna publication/review and task execution are separate operations.
 
 Before an implementation task starts, bind it to an actual repository branch/commit, inspect existing paths and dependencies, identify one primary owner and record the exact verification commands available in that checkout. Proposed directory names below are ownership boundaries to establish, not claims of existing modules. Later outcome packages may need decomposition at their wave gate; do not treat all 24 as one autonomous job.
 
 Protected across every task: evaluator/holdouts outside the task's authority, accepted evidence, unrelated source, credentials, data rights, domain safety rules and resource ceilings. No production deploy, physical system connection, external outreach or paid compute is authorized by a task description. Do not commit, push or publish unless the specific contribution task authorizes it. The maintainer reviews source contributions and scientific claims separately.
 
+Foundation tasks may move from `READY_FOR_REVIEW` to `DONE` after the authorized root reviewer reviews the complete diff, reproduces the named checks and records matching evidence in [STATUS.md](STATUS.md). No separate personal approval is required for this already-authorized foundation review. `READY_FOR_REVIEW` means the author believes the artifact meets the written acceptance; it is not independent acceptance.
+## GH-F01 — Establish the architecture contract
+
+- Wave: 0; status: **DONE**; owner: architecture foundation workstream, accepted by the authorized root on 2026-09-07.
+- Dependencies: none.
+- Owned scope: `ARCHITECTURE.md`, `EXPERIMENTS.md`, `SOURCES.md`.
+- Acceptance: Define domain/model boundaries, operational versus design horizons, unit/time/energy-conservation semantics across heterogeneous solvers, one canonical scenario/run/result family, provenance and data rights, feasibility-first Pareto objectives with uncertainty, protected evaluator separation with enforceable isolation before untrusted or protected-confirmation work, calibration versus validation, explicit terminal failures, cancellation/recovery/resource caps, and measured triggers for scaling beyond a local modular implementation.
+- Verification: `python3 tools/validate_plan.py` and `python3 -m unittest tools/test_validate_plan.py`; root review checks that no candidate engine, model, rights decision, tolerance, hardware support, scientific result, isolation control, or qualified review is represented as resolved without evidence.
+- Evidence offered for review: [architecture](ARCHITECTURE.md), [experiment contract](EXPERIMENTS.md), and [source ledger](SOURCES.md).
+- Delivery limit: documentation and plan validation only; no numerical runtime, dependency install, dataset download, or external action.
+
+## GH-F02 — Establish the outcome and dependency roadmap
+
+- Wave: 0; status: **DONE**; owner: architecture foundation workstream, accepted by the authorized root on 2026-09-07.
+- Dependencies: GH-F01.
+- Owned scope: `README.md`, `ROADMAP.md`, `TASKS.md`, `plan/tasks.json`.
+- Acceptance: Prepend Wave 0 while preserving all original Waves 1–8, 24 task IDs, acceptance criteria, original dependency edges and scientific gates; state outcome gates, critical/resource/decision dependencies, uncertainty, cut order, replan triggers, throughput checkpoint and an ambitious evidence-bounded endgame.
+- Verification: `python3 tools/validate_plan.py` checks the DAG, markdown/JSON mirror, Wave 0 chain, navigation, statuses and state-evidence rule. Compare GH-001–GH-024 with revision `7256b05c0ea6e37578b93a84292d4d9bb2f7b49d` to verify historical preservation.
+- Evidence offered for review: [outcome roadmap](ROADMAP.md), this task contract, and [machine-readable plan](plan/tasks.json).
+- Delivery limit: no dates or resource capacity are invented; implementation tasks remain `PLANNED`.
+
+## GH-F03 — Establish the executable next-work packet and repository-plan validation
+
+- Wave: 0; status: **DONE**; owner: architecture foundation workstream, accepted by the authorized root on 2026-09-07.
+- Dependencies: GH-F02.
+- Owned scope: `docs/work-packets/GH-001.md`, `tools/validate_plan.py`, `tools/test_validate_plan.py`, `STATUS.md`.
+- Acceptance: Define the next GH-001 benchmark packet so work can begin without guessing: exact baseline, inputs, candidate decision matrix, owned/protected paths, outputs, checks, representative failure cases, stop/escalation conditions, handoff fields and unresolved authority decisions; provide dependency-free validation and malformed-input regression checks for DAG, contract, navigation and evidence consistency.
+- Verification: from repository root run `python3 tools/validate_plan.py` and `python3 -m unittest tools/test_validate_plan.py`; the first command reports `PASS` with the current dynamic task count and the regression suite proves malformed roots, types and dependencies fail cleanly. Original-contract preservation is checked against the repository's initial revision during this foundation review, not permanently frozen into the general validator.
+- Evidence offered for review: [GH-001 work packet](docs/work-packets/GH-001.md), validator/regression outputs and [current state](STATUS.md).
+- Delivery limit: the packet selects no feeder/engine and authorizes no download, dependency, spend, publication, or physical action.
+
 ## GH-001 — Choose a public feeder and metrics
 
 - Wave: 1; status: **PLANNED**; owner: unassigned until accepted by Lucas Santana.
-- Dependencies: none.
+- Dependencies: GH-F03. (The original task had no dependency; Wave 0 adds only this foundation gate.)
 - Owned scope: `docs/benchmarks/`.
 - Acceptance: Record source, license, units, topology and reference outputs; justify voltage/loading bounds and numerical tolerances.
 - Verification: reproduce the stated observable outcome; include one representative invalid/failure case when implementing behavior. Record exact commands and source revision after the harness exists; this plan makes no claim that those commands or tests currently exist.

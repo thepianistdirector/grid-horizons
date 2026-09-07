@@ -1,15 +1,62 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "project": "grid-horizons",
-  "contractVersion": "initial-2026-09-07",
+  "contractVersion": "architecture-foundation-2026-09-07",
   "stateAuthority": "../STATUS.md",
   "tasks": [
+    {
+      "id": "GH-F01",
+      "wave": 0,
+      "title": "Establish the architecture contract",
+      "status": "DONE",
+      "dependsOn": [],
+      "ownedPaths": [
+        "ARCHITECTURE.md",
+        "EXPERIMENTS.md",
+        "SOURCES.md"
+      ],
+      "acceptance": "Define domain/model boundaries, operational versus design horizons, unit/time/energy-conservation semantics across heterogeneous solvers, one canonical scenario/run/result family, provenance and data rights, feasibility-first Pareto objectives with uncertainty, protected evaluator separation with enforceable isolation before untrusted or protected-confirmation work, calibration versus validation, explicit terminal failures, cancellation/recovery/resource caps, and measured triggers for scaling beyond a local modular implementation."
+    },
+    {
+      "id": "GH-F02",
+      "wave": 0,
+      "title": "Establish the outcome and dependency roadmap",
+      "status": "DONE",
+      "dependsOn": [
+        "GH-F01"
+      ],
+      "ownedPaths": [
+        "README.md",
+        "ROADMAP.md",
+        "TASKS.md",
+        "plan/tasks.json"
+      ],
+      "acceptance": "Prepend Wave 0 while preserving all original Waves 1\u20138, 24 task IDs, acceptance criteria, original dependency edges and scientific gates; state outcome gates, critical/resource/decision dependencies, uncertainty, cut order, replan triggers, throughput checkpoint and an ambitious evidence-bounded endgame."
+    },
+    {
+      "id": "GH-F03",
+      "wave": 0,
+      "title": "Establish the executable next-work packet and repository-plan validation",
+      "status": "DONE",
+      "dependsOn": [
+        "GH-F02"
+      ],
+      "ownedPaths": [
+        "docs/work-packets/GH-001.md",
+        "tools/validate_plan.py",
+        "tools/test_validate_plan.py",
+        "STATUS.md"
+      ],
+      "acceptance": "Define the next GH-001 benchmark packet so work can begin without guessing: exact baseline, inputs, candidate decision matrix, owned/protected paths, outputs, checks, representative failure cases, stop/escalation conditions, handoff fields and unresolved authority decisions; provide dependency-free validation and malformed-input regression checks for DAG, contract, navigation and evidence consistency."
+    },
     {
       "id": "GH-001",
       "wave": 1,
       "title": "Choose a public feeder and metrics",
       "status": "PLANNED",
-      "dependsOn": [],
+      "dependsOn": [
+        "GH-F03"
+      ],
       "ownedPaths": [
         "docs/benchmarks/"
       ],
