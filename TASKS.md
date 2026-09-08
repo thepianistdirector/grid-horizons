@@ -3317,6 +3317,6 @@ A status change requires actual evidence, not the existence of a row. Exact path
 - Outcome: After explicit owner approval and applicable review, publish exact artifacts and Tanduna plan, verify unauthenticated downloads and native readback.
 - Feature area: v1-delivery
 - Source/decision references: OWNER-V1-2026-09-08, docs/v1/CONTRACT.md
-- Risk/evidence needs: Only declared synthetic computational claims; no human, field, publication or novelty claim without corresponding evidence.
+- Risk/evidence needs: Only declared synthetic computational claims; no human, field, publication or novelty claim without corresponding evidence. GitHub prerelease substep is publicly verified; full task remains PLANNED because actual human review and native Tanduna publication/readback are outstanding.
 - Textual-only prerequisites: none recorded.
-- Evidence: not yet recorded.
+- Evidence: docs/v1/PUBLICATION-APPROVAL.md; docs/v1/PUBLICATION-RECEIPT.md.

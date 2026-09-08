@@ -6,7 +6,7 @@
   "native_goal_state": "ACTIVE",
   "previous_goal_task": "01a07e1c-85eb-7f73-914b-141a759e234e",
   "previous_goal_treatment": "unfinished preserved; old task not loaded",
-  "delivery_state": "APPROVED_RC_PUBLICATION_IN_PROGRESS",
+  "delivery_state": "PUBLIC_RC4_VERIFIED_FULL_V1_GATES_PENDING",
   "version": "1.0.0rc4",
   "implementation_sha256": "b2eeb117a34ea3423136a0082442d1b93f01b0c6e13dab429772a0d2c3a8f8e3",
   "package_sha256": "15aaa7913e4069b9483fcb721032c812a8babc865968d652bb681f031abc7c6e",
@@ -18,15 +18,15 @@
   "skeptical_review": "research/reproduction/report.md",
   "model": "gpt-6-astra",
   "release_review_directory": "releases/v1.0.0rc4-review-r2",
-  "public_release": "AUTHORIZED_PRERELEASE_PENDING_UPLOAD",
-  "tanduna_plan": "AUTHORIZED_NATIVE_PUBLICATION_PENDING_CONNECTION_AND_GOVERNANCE",
+  "public_release": "PUBLIC_PRERELEASE_DOWNLOADS_AND_RUNTIME_VERIFIED",
+  "tanduna_plan": "AUTHORIZED_PENDING_AUTHENTICATED_CONNECTION_AND_GOVERNANCE",
   "human_first_use": "NOT_OBSERVED",
   "qualified_model_review": "NOT_OBTAINED",
   "next_actions": [
-    "Publish approved RC4 GitHub prerelease and verify fresh public downloads",
-    "Use an authenticated supported Tanduna connection to reconcile/save/submit the approved native plan and follow actual governance review",
-    "Obtain actual external first-use and qualified model review; public candidate does not substitute for them",
-    "Close goal only after all applicable criteria are satisfied"
+    "Connect owner existing Tanduna account through supported MCP login; read authenticated native state before approved plan writes",
+    "Reconcile/save/submit approved 255-task/31-wave plan and follow real platform governance, then verify publication/readback",
+    "Owner identifies and authorizes external first-use participant and qualified model reviewer, or provides their completed scoped evidence",
+    "Resolve actual reviewer findings in a newly checked candidate if needed; close goal only after all applicable criteria pass"
   ],
   "packaging_revision": 2,
   "completion_audit": "docs/v1/COMPLETION-AUDIT.json",
@@ -36,12 +36,22 @@
     "state": "PASS",
     "evidence": "releases/v1.0.0rc4-review-r2/PACKAGING-REPLAY.json"
   },
-  "pending_external_gate_observations": 0,
+  "pending_external_gate_observations": 1,
   "blocked_audit": "docs/v1/BLOCKED-GATE-AUDIT.json",
   "publication_approval": {
     "owner": "Lucas Santana",
     "instruction": "procced, aproved.",
     "scope": "Publish exact proposed RC4 prerelease/assets and prepared Tanduna plan; keep missing human/qualified review explicit, do not claim full v1.0 qualification",
     "recorded_at_utc": "2026-09-08T18:12:03.868057+00:00"
+  },
+  "public_release_receipt": {
+    "url": "https://github.com/thepianistdirector/grid-horizons/releases/tag/v1.0.0rc4",
+    "tag": "v1.0.0rc4",
+    "source_commit": "ab9d4c8b4f753abc0ea21456e4186dcc54901d9d",
+    "published_at": "2026-09-08T18:16:11Z",
+    "assets": 14,
+    "anonymous_downloads": "ALL_SHA256_MATCH",
+    "downloaded_application_checks": 22,
+    "evidence": "docs/v1/PUBLICATION-RECEIPT.md"
   }
 }

@@ -1,0 +1,270 @@
+[
+  {
+    "args": [
+      "lab",
+      "identity"
+    ],
+    "code": 0,
+    "seconds": 0.0843399140285328,
+    "stdout": "{\n  \"build\": {\n    \"implementation_sha256\": \"b2eeb117a34ea3423136a0082442d1b93f01b0c6e13dab429772a0d2c3a8f8e3\",\n    \"kind\": \"zipapp\",\n    \"source_revision\": \"3d4a4dc7718d72e0d20785c70154c800cc849093\",\n    \"source_state\": \"implementation hash and bundled source identify the build; Git base alone does not identify uncommitted work\",\n    \"version\": \"1.0.0rc4\"\n  },\n  \"python\": \"3.12.14\",\n  \"system\": \"Linux\",\n  \"machine\": \"x86_64\",\n  \"model\": \"balanced-radial-pq/v2\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "example",
+      "--output",
+      "scenario.json"
+    ],
+    "code": 0,
+    "seconds": 0.08691741101210937,
+    "stdout": "{\n  \"state\": \"EXAMPLE_WRITTEN\",\n  \"path\": \"scenario.json\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "validate",
+      "scenario.json"
+    ],
+    "code": 0,
+    "seconds": 0.05020016303751618,
+    "stdout": "{\n  \"state\": \"VALIDATED_INPUT\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "run",
+      "scenario.json",
+      "--output",
+      "study"
+    ],
+    "code": 0,
+    "seconds": 0.1485086790053174,
+    "stdout": "{\n  \"states\": {\n    \"baseline\": \"COMPLETED_INFEASIBLE\",\n    \"storage\": \"COMPLETED_VALID\",\n    \"tap\": \"COMPLETED_INFEASIBLE\",\n    \"combined\": \"COMPLETED_VALID\"\n  },\n  \"ranking\": [],\n  \"seconds\": 0.058912603999488056\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "verify",
+      "study"
+    ],
+    "code": 0,
+    "seconds": 0.10039856401272118,
+    "stdout": "{\n  \"states\": {\n    \"baseline\": \"COMPLETED_INFEASIBLE\",\n    \"storage\": \"COMPLETED_VALID\",\n    \"tap\": \"COMPLETED_INFEASIBLE\",\n    \"combined\": \"COMPLETED_VALID\"\n  },\n  \"ranking\": [],\n  \"seconds\": 0.058912603999488056\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "export",
+      "study",
+      "--output",
+      "study.zip"
+    ],
+    "code": 0,
+    "seconds": 0.14275397098390386,
+    "stdout": "{\n  \"state\": \"EXPORTED\",\n  \"path\": \"study.zip\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "import",
+      "study.zip",
+      "--output",
+      "reopened"
+    ],
+    "code": 0,
+    "seconds": 0.13431554002454504,
+    "stdout": "{\n  \"states\": {\n    \"baseline\": \"COMPLETED_INFEASIBLE\",\n    \"storage\": \"COMPLETED_VALID\",\n    \"tap\": \"COMPLETED_INFEASIBLE\",\n    \"combined\": \"COMPLETED_VALID\"\n  },\n  \"ranking\": [],\n  \"seconds\": 0.058912603999488056\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "rerun",
+      "reopened",
+      "--output",
+      "rerun"
+    ],
+    "code": 0,
+    "seconds": 0.27567659999476746,
+    "stdout": "{\n  \"states\": {\n    \"baseline\": \"COMPLETED_INFEASIBLE\",\n    \"storage\": \"COMPLETED_VALID\",\n    \"tap\": \"COMPLETED_INFEASIBLE\",\n    \"combined\": \"COMPLETED_VALID\"\n  },\n  \"ranking\": [],\n  \"seconds\": 0.08146833203500137\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "run",
+      "scenario.json",
+      "--output",
+      "study"
+    ],
+    "code": 2,
+    "seconds": 0.14600278600119054,
+    "stdout": "{\"state\": \"REJECTED\", \"error\": \"[Errno 17] File exists: 'study'\", \"recovery\": \"Preserve existing evidence. Correct the input or use its original build, then choose a new output path.\"}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "run",
+      "scenario.json",
+      "--output",
+      "cancelled",
+      "--stop-after",
+      "5"
+    ],
+    "code": 0,
+    "seconds": 0.18544930103234947,
+    "stdout": "{\n  \"states\": {\n    \"baseline\": \"CANCELLED\",\n    \"storage\": \"CANCELLED\",\n    \"tap\": \"CANCELLED\",\n    \"combined\": \"CANCELLED\"\n  },\n  \"ranking\": [],\n  \"seconds\": 0.010012489976361394\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "resume",
+      "cancelled",
+      "--output",
+      "resumed"
+    ],
+    "code": 0,
+    "seconds": 0.3190663220011629,
+    "stdout": "{\n  \"states\": {\n    \"baseline\": \"COMPLETED_INFEASIBLE\",\n    \"storage\": \"COMPLETED_VALID\",\n    \"tap\": \"COMPLETED_INFEASIBLE\",\n    \"combined\": \"COMPLETED_VALID\"\n  },\n  \"ranking\": [],\n  \"seconds\": 0.10457035602303222\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "verify",
+      "cancelled"
+    ],
+    "code": 0,
+    "seconds": 0.17654172697803006,
+    "stdout": "{\n  \"states\": {\n    \"baseline\": \"CANCELLED\",\n    \"storage\": \"CANCELLED\",\n    \"tap\": \"CANCELLED\",\n    \"combined\": \"CANCELLED\"\n  },\n  \"ranking\": [],\n  \"seconds\": 0.010012489976361394\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "resume",
+      "interrupted",
+      "--output",
+      "recovered"
+    ],
+    "code": 0,
+    "seconds": 0.31509038497461006,
+    "stdout": "{\n  \"states\": {\n    \"baseline\": \"COMPLETED_INFEASIBLE\",\n    \"storage\": \"COMPLETED_VALID\",\n    \"tap\": \"COMPLETED_INFEASIBLE\",\n    \"combined\": \"COMPLETED_VALID\"\n  },\n  \"ranking\": [],\n  \"seconds\": 0.09695376397576183\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "run",
+      "invalid.json",
+      "--output",
+      "invalid-study"
+    ],
+    "code": 2,
+    "seconds": 0.15853007399709895,
+    "stdout": "{\"state\": \"REJECTED\", \"error\": \"scenario: unsupported or missing fields\", \"recovery\": \"Preserve existing evidence. Correct the input or use its original build, then choose a new output path.\"}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "validate",
+      "huge.json"
+    ],
+    "code": 2,
+    "seconds": 0.16052199102705345,
+    "stdout": "{\"state\": \"REJECTED\", \"error\": \"base out of domain\", \"recovery\": \"Preserve existing evidence. Correct the input or use its original build, then choose a new output path.\"}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "run",
+      "huge.json",
+      "--output",
+      "huge-study"
+    ],
+    "code": 2,
+    "seconds": 0.1292809330043383,
+    "stdout": "{\"state\": \"REJECTED\", \"error\": \"base out of domain\", \"recovery\": \"Preserve existing evidence. Correct the input or use its original build, then choose a new output path.\"}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "run",
+      "nonconverge.json",
+      "--output",
+      "failed"
+    ],
+    "code": 0,
+    "seconds": 0.1700682929949835,
+    "stdout": "{\n  \"states\": {\n    \"baseline\": \"FAILED_SOLVER\",\n    \"storage\": \"FAILED_SOLVER\",\n    \"tap\": \"FAILED_SOLVER\",\n    \"combined\": \"FAILED_SOLVER\"\n  },\n  \"ranking\": [],\n  \"seconds\": 0.007800634019076824\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "verify",
+      "reopened"
+    ],
+    "code": 2,
+    "seconds": 0.1635349069838412,
+    "stdout": "{\"state\": \"REJECTED\", \"error\": \"study integrity mismatch: baseline.json\", \"recovery\": \"Preserve existing evidence. Correct the input or use its original build, then choose a new output path.\"}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab",
+      "campaign",
+      "campaign.json",
+      "--output",
+      "campaign"
+    ],
+    "code": 0,
+    "seconds": 1.4073508910369128,
+    "stdout": "{\n  \"state\": \"CAMPAIGN_RECORDED\",\n  \"attempts\": 38,\n  \"inventory\": \"campaign/inventory.json\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "example",
+      "--output",
+      "legacy.json"
+    ],
+    "code": 0,
+    "seconds": 0.20071254001231864,
+    "stdout": "{\n  \"state\": \"EXAMPLE_WRITTEN\",\n  \"scenario_sha256\": \"5fd0ed11186d0ce2bd62c63d80d9172f6bc8d558e883e50579fbb876079f88be\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "run",
+      "legacy.json",
+      "--output",
+      "legacy"
+    ],
+    "code": 0,
+    "seconds": 0.3301916919881478,
+    "stdout": "{\n  \"state\": \"STUDY_INSPECTED\",\n  \"scenario_sha256\": \"5fd0ed11186d0ce2bd62c63d80d9172f6bc8d558e883e50579fbb876079f88be\",\n  \"policies\": {\n    \"baseline\": \"COMPLETED_VALID\",\n    \"candidate\": \"COMPLETED_VALID\"\n  },\n  \"comparison\": {\n    \"state\": \"INDETERMINATE\",\n    \"reason\": \"Model uncertainty and unmodeled costs prevent an overall winner.\"\n  },\n  \"attempt_count\": 2,\n  \"pending_count\": 0,\n  \"report\": \"legacy/report.html\",\n  \"reconciliation\": []\n}\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "verify",
+      "legacy"
+    ],
+    "code": 0,
+    "seconds": 0.13014554203255102,
+    "stdout": "{\n  \"state\": \"VERIFIED_STUDY\",\n  \"scenario_sha256\": \"5fd0ed11186d0ce2bd62c63d80d9172f6bc8d558e883e50579fbb876079f88be\",\n  \"policies\": {\n    \"baseline\": \"COMPLETED_VALID\",\n    \"candidate\": \"COMPLETED_VALID\"\n  },\n  \"comparison\": {\n    \"state\": \"INDETERMINATE\",\n    \"reason\": \"Model uncertainty and unmodeled costs prevent an overall winner.\"\n  },\n  \"attempt_count\": 2,\n  \"pending_count\": 0,\n  \"report\": \"legacy/report.html\",\n  \"reconciliation\": []\n}\n",
+    "stderr": ""
+  }
+]

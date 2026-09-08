@@ -4,9 +4,9 @@ An offline, bounded energy-system simulation laboratory. Run a synthetic feeder
 day, compare storage and ideal source-tap schedules, inspect constraints and
 energy costs, and share a complete reproducible study.
 
-**Current delivery: owner-approved 1.0.0rc4 public release candidate.**
+**Current delivery: published and verified 1.0.0rc4 prerelease.**
 [Release and complete study downloads](https://github.com/thepianistdirector/grid-horizons/releases/tag/v1.0.0rc4).
-Public upload/readback is recorded in STATUS.md; actual external/qualified review remains pending. This is computational evidence for declared synthetic models,
+All 14 public downloads and the downloaded application are verified; actual external/qualified review remains pending. This is computational evidence for declared synthetic models,
 not validated real-grid operation. [Current status](STATUS.md) ·
 [Model and limitations](docs/v1/MODEL.md) · [Research](research/README.md) ·
 [Tanduna project](https://tanduna.com/projects/grid-horizons).

@@ -1,0 +1,78 @@
+{
+  "state": "PASS",
+  "release_id": 384959704,
+  "asset_count": 14,
+  "source_commit": "ab9d4c8b4f753abc0ea21456e4186dcc54901d9d",
+  "assets": [
+    {
+      "name": "LAUNCH-COPY.md",
+      "bytes": 2257,
+      "sha256": "ce04c41eb2ded25f8bc16a845864d4fe4716cb8c9974ac7c59801c05af6bb741"
+    },
+    {
+      "name": "REVIEW-INSTRUCTIONS.md",
+      "bytes": 2955,
+      "sha256": "4909e93c02aa6221a3495030751872e0f567c814e44f613444c5e6b09890f42f"
+    },
+    {
+      "name": "grid-horizons-1.0.0rc4-complete.zip",
+      "bytes": 92105496,
+      "sha256": "1c90022a5fb981397288a54e0c75b2a7bd952065ec8d37ce85cb2e0093358c24"
+    },
+    {
+      "name": "grid-horizons-1.0.0rc4.pyz",
+      "bytes": 63193,
+      "sha256": "15aaa7913e4069b9483fcb721032c812a8babc865968d652bb681f031abc7c6e"
+    },
+    {
+      "name": "grid-horizons-reproduction-validation.zip",
+      "bytes": 8579336,
+      "sha256": "a2fccac8f496a3ca4861576bb82337a6f4387e5c331073b9c56585ad55e52b75"
+    },
+    {
+      "name": "grid-horizons-study-benchmark.zip",
+      "bytes": 10845934,
+      "sha256": "8f5d0bd43b90070620f77169825c70a3c8ede4b7a5fe58fa7658ad2186aecb27"
+    },
+    {
+      "name": "grid-horizons-study-policies.zip",
+      "bytes": 42850956,
+      "sha256": "7082725be519d4f6b55e5fe48d377d907ac6e133bb0f688e4cfb757e6961b5df"
+    },
+    {
+      "name": "grid-horizons-study-robustness.zip",
+      "bytes": 30363477,
+      "sha256": "d8f2d464a7f056e1c16ad265b8fab1ad6610ef09efe2999560a3b1ad70491cba"
+    },
+    {
+      "name": "tanduna-plan.json",
+      "bytes": 576941,
+      "sha256": "716e1d48bc23e43d000470565bdc21442e3d830ffbdbaac235c1fb6c6dec0a69"
+    },
+    {
+      "name": "PACKAGING-REPLAY.json",
+      "bytes": 1651,
+      "sha256": "48cf6b13ed0f97a00ee3b77da60ee85b56c5e42633af4847959980d1fdf95835"
+    },
+    {
+      "name": "packaging-replay-evidence.zip",
+      "bytes": 44370,
+      "sha256": "8d513336bcdad92d8e494281bc0db52383b1efe9b1360256680d2c7b6209dd8f"
+    },
+    {
+      "name": "ASSETS.json",
+      "bytes": 2653,
+      "sha256": "edaacd32a14fd57caa830cb593d7da1b5043ee07c479a72f12107a352e37c975"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 1041,
+      "sha256": "900fa93bbe5751acf90593dcc8bfe01aa080bb296f7d94d0cc2d2f431984b70b"
+    },
+    {
+      "name": "REVIEW.md",
+      "bytes": 5140,
+      "sha256": "49a7cbc20da5bba1d337be162208ae25130a71d80e8c66334db522a80de661f9"
+    }
+  ]
+}

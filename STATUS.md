@@ -1,8 +1,14 @@
-# Approved public release-candidate publication — 2026-09-08
+# Current delivery state — 2026-09-08
 
-Lucas explicitly approved proceeding with the prepared RC4 release and Tanduna plan. GitHub prerelease publication is in progress. Actual external first-use and qualified model review remain unverified; this approval authorizes the public candidate, not a claim that those reviews occurred. The native goal is ACTIVE. Current publication receipts will be recorded here after readback. Earlier dated gate records below remain historical evidence.
+**Grid Horizons 1.0.0rc4, packaging revision 2, is publicly released and verified.** [Download the prerelease](https://github.com/thepianistdirector/grid-horizons/releases/tag/v1.0.0rc4). Lucas approved the exact candidate; the tag points to `ab9d4c8b4f753abc0ea21456e4186dcc54901d9d`. All 14 release assets were downloaded without authentication and matched their approved byte counts and SHA-256 hashes. The downloaded application passed all 22 workflow/failure/recovery checks in a fresh venv and directory on the same Linux host. This is not a separate-machine or human test. [Publication receipt](docs/v1/PUBLICATION-RECEIPT.md).
 
-# Current Grid Horizons v1.0 delivery state — 2026-09-08
+Three reproducible [studies](research/README.md), the complete project archive and independent agent reproduction are public. Application bytes and numerical evidence remain unchanged from the reviewed RC4. Sealed review documents inside those archives retain their historical prepublication status; this section and the release page record the subsequent publication.
+
+**Full v1.0 acceptance remains incomplete.** Native goal: ACTIVE. Tanduna publication is authorized but this task has no authenticated Tanduna connection; no native plan write, submission, adoption or readback is claimed. The owner must connect the existing account using the supported login. Actual external first-use and qualified model review are still absent; [review instructions](docs/v1/REVIEW-INSTRUCTIONS.md) define the evidence needed. No new publication approval is needed for the already approved scope. [Current continuity](docs/v1/STATE.json) and [completion audit](docs/v1/COMPLETION-AUDIT.json).
+
+All earlier sections below are retained historical records and are superseded by this current section.
+
+# Historical preapproval v1.0 state — 2026-09-08
 
 **Locally verified release candidate 1.0.0rc4; public release and real human/qualified review pending.** Dispatch `tanduna-v1-research-20260908-grid-horizons` was accepted once. The active v1.0 native goal belongs to task `01a081ff-71cf-7e70-b363-087585f20e30`; the older 0.1 goal is preserved unfinished. [Machine-readable continuity](docs/v1/STATE.json).
 
@@ -18,7 +24,7 @@ Packaging revision 2 repairs missing standalone research dependencies. All three
 
 The native goal is **BLOCKED** pending actual external/qualified review and explicit public-release authorization. Three consecutive goal turns observed these same missing inputs; all local work and current artifact hashes have been revalidated. [Blocked-gate audit](docs/v1/BLOCKED-GATE-AUDIT.json). Next actions: obtain actual human/qualified review, resolve any findings, obtain exact publication approval, then verify authorized public downloads and Tanduna readback before completion. The historical dated status below is retained as lineage and is superseded by this section.
 
-# Current state
+# Historical state — 2026-09-07
 
 Last updated: 2026-09-07. Maintainer: Lucas Santana ([thepianistdirector](https://github.com/thepianistdirector)). This file is the mutable status authority; TASKS.md and plan/tasks.json are synchronized projections.
 

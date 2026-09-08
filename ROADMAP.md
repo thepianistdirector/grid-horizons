@@ -551,6 +551,6 @@ Native publication state: NOT_PUBLISHED. 2026-09-07: public tasks count 0; no pu
 
 The discussion proposal is not accepted delivery authority. Private drafts may exist; compare authenticated state before any write. Exact native IDs are acquired from supported publication and read-back; a local export is not publication.
 
-Current access instructions: LOCAL_RC_VERIFIED_PUBLIC_APPROVAL_PENDING. See README.md for locally tested package commands. No v1.0 public release is claimed.
+Current access instructions: PUBLIC_RC4_DOWNLOADS_AND_RUNTIME_VERIFIED. Download the exact RC4 complete ZIP or zipapp from the release page; follow README.md. All 14 anonymous downloads matched approved hashes and the downloaded app passed 22 clean-environment checks on the same Linux host.
 
 Replan when rights fail, references disagree, coupling breaks conservation, confirmation becomes tuning data, uncertainty reverses conclusions, reviewer availability changes or measured workload invalidates architecture assumptions. Preserve negative evidence and reopen only affected downstream claims.

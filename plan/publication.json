@@ -28,12 +28,12 @@
     "discussionAcceptance": "UNVERIFIED_NOT_ACCEPTED",
     "roadmapUrl": "https://tanduna.com/projects/grid-horizons/roadmap",
     "tasksUrl": "https://tanduna.com/p/grid-horizons/tasks",
-    "releaseUrl": null,
-    "accessInstructionsState": "LOCAL_RC_VERIFIED_PUBLIC_APPROVAL_PENDING",
+    "releaseUrl": "https://github.com/thepianistdirector/grid-horizons/releases/tag/v1.0.0rc4",
+    "accessInstructionsState": "PUBLIC_RC4_DOWNLOADS_AND_RUNTIME_VERIFIED",
     "accessInstructions": [
-      "See README.md for locally tested package commands. No v1.0 public release is claimed."
+      "Download the exact RC4 complete ZIP or zipapp from the release page; follow README.md. All 14 anonymous downloads matched approved hashes and the downloaded app passed 22 clean-environment checks on the same Linux host."
     ],
-    "approval": "Concrete authorization and authenticated supported publication workflow remain required.",
+    "approval": "Lucas approved exact RC4 prerelease and prepared Tanduna plan on 2026-09-08. GitHub publication verified. Tanduna connection and actual platform governance/readback remain required; no further permission for the approved scope is requested.",
     "nativeTaskIds": {},
     "nativeWaveIds": {}
   },
@@ -11136,10 +11136,14 @@
         "docs/v1/CONTRACT.md"
       ],
       "riskEvidence": [
-        "Only declared synthetic computational claims; no human, field, publication or novelty claim without corresponding evidence."
+        "Only declared synthetic computational claims; no human, field, publication or novelty claim without corresponding evidence.",
+        "GitHub prerelease substep is publicly verified; full task remains PLANNED because actual human review and native Tanduna publication/readback are outstanding."
       ],
       "platformId": null,
-      "evidence": [],
+      "evidence": [
+        "docs/v1/PUBLICATION-APPROVAL.md",
+        "docs/v1/PUBLICATION-RECEIPT.md"
+      ],
       "dependencyCoverage": {
         "GH-V10": "Assemble checked application/source/research/evidence bundles, screenshots, launch copy and exact publication destinations for owner review.",
         "GH-V11": "Observe an external supported-environment first-use and obtain qualified review of model interpretation; preserve actual reviewer/participant evidence."

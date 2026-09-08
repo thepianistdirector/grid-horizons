@@ -2,8 +2,8 @@
   "dispatch": "tanduna-v1-research-20260908-grid-horizons",
   "audit_date": "2026-09-08",
   "previous_goal_turn": "PROGRESS: implementation, three studies, skeptical correction loop and sealed local candidate",
-  "current_goal_turn": "PROGRESS: found and repaired standalone study distribution dependencies; documented replay checks",
-  "completion": "NOT_PROVEN: real human/qualified review and owner-authorized public outcomes remain absent",
+  "current_goal_turn": "PROGRESS: executed approved GitHub prerelease, verified all public downloads and packaged workflow",
+  "completion": "INCOMPLETE: Tanduna authentication/publication and actual human/qualified review remain pending",
   "requirements": [
     {
       "requirement": "Preserve prior project work and reconcile latest mandate/native goal",
@@ -122,16 +122,16 @@
     },
     {
       "requirement": "Approval for exact v1.0 candidate publication/public commits/Tanduna updates",
-      "state": "MISSING_OWNER_APPROVAL",
+      "state": "OWNER_APPROVED_EXACT_RC4_AND_PREPARED_TANDUNA_PLAN",
       "evidence": [
-        "docs/v1/STATE.json",
-        "releases/v1.0.0rc4-review-r2/REVIEW.md"
+        "docs/v1/PUBLICATION-APPROVAL.md"
       ]
     },
     {
       "requirement": "Authorized public release, fresh downloads and Tanduna native plan adoption/readback",
-      "state": "NOT_EXECUTED_PENDING_APPROVAL_AND_APPLICABLE_REVIEWS",
+      "state": "GITHUB_PUBLIC_DOWNLOADS_AND_RUNTIME_VERIFIED_TANDUNA_PENDING_CONNECTION",
       "evidence": [
+        "docs/v1/PUBLICATION-RECEIPT.md",
         "docs/v1/STATE.json",
         "plan/publication.json"
       ]
@@ -143,5 +143,5 @@
     "No local plan export is counted as submitted/adopted/public Tanduna state",
     "No bounded synthetic numerical agreement is counted as field or hardware validation"
   ],
-  "next_gate": "Owner identifies/authorizes real reviewers and approves exact publication; do not contact or publish on silence"
+  "next_gate": "Existing-account Tanduna connection plus actual external/qualified reviewer evidence; public scope already approved"
 }
