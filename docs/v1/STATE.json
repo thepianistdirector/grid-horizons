@@ -3,7 +3,7 @@
   "accepted_once": true,
   "date": "2026-09-08",
   "native_goal_task": "01a081ff-71cf-7e70-b363-087585f20e30",
-  "native_goal_state": "ACTIVE",
+  "native_goal_state": "BLOCKED",
   "previous_goal_task": "01a07e1c-85eb-7f73-914b-141a759e234e",
   "previous_goal_treatment": "unfinished preserved; old task not loaded",
   "delivery_state": "PUBLIC_RC4_VERIFIED_FULL_V1_GATES_PENDING",
@@ -36,8 +36,8 @@
     "state": "PASS",
     "evidence": "releases/v1.0.0rc4-review-r2/PACKAGING-REPLAY.json"
   },
-  "pending_external_gate_observations": 1,
-  "blocked_audit": "docs/v1/BLOCKED-GATE-AUDIT.json",
+  "pending_external_gate_observations": 3,
+  "blocked_audit": "docs/v1/POST-PUBLICATION-BLOCKED-AUDIT.json",
   "publication_approval": {
     "owner": "Lucas Santana",
     "instruction": "procced, aproved.",
@@ -53,5 +53,6 @@
     "anonymous_downloads": "ALL_SHA256_MATCH",
     "downloaded_application_checks": 22,
     "evidence": "docs/v1/PUBLICATION-RECEIPT.md"
-  }
+  },
+  "blocked_reason": "Approved GitHub RC4 is public and verified. Further progress requires existing-account Tanduna authentication and actual external first-use/qualified model review inputs."
 }

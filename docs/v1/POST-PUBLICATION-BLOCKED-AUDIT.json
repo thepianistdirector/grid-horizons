@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-09-08T18:21:07.971929+00:00",
+  "native_goal_state": "BLOCKED",
+  "previous_goal_turn": "NO_PROGRESS: revalidated missing external dependencies",
+  "consecutive_resumed_observations": 3,
+  "scope_preserved": true,
+  "approval": "Already obtained for exact RC4 GitHub release and prepared Tanduna plan; do not ask again",
+  "completed": "GitHub RC4 published; all 14 anonymous downloads match approved hashes; downloaded app passed 22 workflow checks; three studies and reproduction are public",
+  "missing": [
+    "Authenticated supported Tanduna connection for approved native plan reconciliation, submission, governance and publication/readback",
+    "Actual external first-use observation",
+    "Qualified distribution-model interpretation review"
+  ],
+  "fresh_checks": {
+    "tanduna_tool_available": false,
+    "configured_mcp_servers": [],
+    "tanduna_token_present": false,
+    "new_human_review_evidence": false,
+    "git_worktree_before_audit": "clean"
+  },
+  "not_waiting_on_a_live_job": true,
+  "next_actions": [
+    "Owner connects existing Tanduna account via supported MCP login; no passwords/tokens in chat",
+    "Owner identifies and authorizes actual participant/reviewer or supplies their completed attributable evidence",
+    "Resume approved native plan operations after authenticated readback; resolve actual review findings; retain all prior results"
+  ],
+  "resumption_rule": "Start a fresh blocked audit if resumed; old observations do not satisfy the next threshold",
+  "evidence": [
+    "docs/v1/PUBLICATION-RECEIPT.md",
+    "docs/v1/evidence/publication/public-download-verification.json",
+    "docs/v1/evidence/publication/public-package-result.json",
+    "docs/v1/REVIEW-INSTRUCTIONS.md"
+  ]
+}
