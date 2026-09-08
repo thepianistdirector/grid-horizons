@@ -1,0 +1,14 @@
+{
+  "cpu_budget_seconds": 300,
+  "measured_total_cpu_seconds": 12.704865285,
+  "measured_total_wall_seconds": 12.800862292060629,
+  "measurement_limitations": [
+    "First aborted driver orchestration overhead was not measured; its CLI command costs are included.",
+    "Authoring/research wall time and model inference costs are excluded."
+  ],
+  "peak_child_rss_kib": 47456,
+  "scenario_attempts_including_repeats_and_outage": 63,
+  "sequential_single_cpu_affinity": true,
+  "solved_interval_records": 24960,
+  "solved_policy_trajectories_including_repeats": 260
+}

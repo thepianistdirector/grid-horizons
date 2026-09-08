@@ -1,0 +1,201 @@
+{
+  "checks": [
+    {
+      "name": "expected_implementation",
+      "passed": true
+    },
+    {
+      "name": "evaluator_bytes_unchanged",
+      "passed": true
+    },
+    {
+      "name": "producer_function_unchanged",
+      "passed": true,
+      "function": "example"
+    },
+    {
+      "name": "producer_function_unchanged",
+      "passed": true,
+      "function": "solve"
+    },
+    {
+      "name": "producer_function_unchanged",
+      "passed": true,
+      "function": "produce"
+    },
+    {
+      "name": "huge_integer_structured_rejection",
+      "passed": true,
+      "actual": {
+        "state": "REJECTED",
+        "error": "base out of domain",
+        "recovery": "Preserve existing evidence. Correct the input or use its original build, then choose a new output path."
+      }
+    },
+    {
+      "name": "reserved_name_still_rejected",
+      "passed": true,
+      "policy": "scenario"
+    },
+    {
+      "name": "reserved_name_still_rejected",
+      "passed": true,
+      "policy": "manifest"
+    },
+    {
+      "name": "reserved_name_still_rejected",
+      "passed": true,
+      "policy": "summary"
+    },
+    {
+      "name": "reserved_name_still_rejected",
+      "passed": true,
+      "policy": "checksums"
+    },
+    {
+      "name": "ordinary_input_still_validates",
+      "passed": true,
+      "source": "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n24-tol1e-12/scenario.json"
+    },
+    {
+      "name": "ordinary_input_still_validates",
+      "passed": true,
+      "source": "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-00/case-000/scenario.json"
+    },
+    {
+      "name": "ordinary_input_still_validates",
+      "passed": true,
+      "source": "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/custom-control.json"
+    }
+  ],
+  "failed": [],
+  "commands": [
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc4/grid-horizons.pyz",
+        "lab",
+        "identity"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc4/grid-horizons.pyz",
+        "lab",
+        "validate",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/invalid-huge-integer.json"
+      ],
+      "returncode": 2
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc4/grid-horizons.pyz",
+        "lab",
+        "validate",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/scenario.json"
+      ],
+      "returncode": 2
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc4/grid-horizons.pyz",
+        "lab",
+        "validate",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/manifest.json"
+      ],
+      "returncode": 2
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc4/grid-horizons.pyz",
+        "lab",
+        "validate",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/summary.json"
+      ],
+      "returncode": 2
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc4/grid-horizons.pyz",
+        "lab",
+        "validate",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/checksums.json"
+      ],
+      "returncode": 2
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc4/grid-horizons.pyz",
+        "lab",
+        "validate",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n24-tol1e-12/scenario.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc4/grid-horizons.pyz",
+        "lab",
+        "validate",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-00/case-000/scenario.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc4/grid-horizons.pyz",
+        "lab",
+        "validate",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/custom-control.json"
+      ],
+      "returncode": 0
+    }
+  ],
+  "packages": {
+    "1.0.0rc3": {
+      "sha256": "64ffa6a61548d212438506747c0ad194f4d2c71ec960cf23ec30730bf5bcdee7",
+      "ac_sha256": "015266bfd560de6bb8acdef2dcd0042bb0cc9b463bc10ce4c7efc096eb99d8d9",
+      "ac_check_sha256": "3e39bc596e4895077147e397ea909150e8cca40a90a31ac1354d2648654e6330"
+    },
+    "1.0.0rc4": {
+      "sha256": "15aaa7913e4069b9483fcb721032c812a8babc865968d652bb681f031abc7c6e",
+      "ac_sha256": "e4fb75e0d352a120d0d91c48204cf749331e58eba26fad11a04318b606d03851",
+      "ac_check_sha256": "3e39bc596e4895077147e397ea909150e8cca40a90a31ac1354d2648654e6330"
+    }
+  },
+  "identity": {
+    "build": {
+      "implementation_sha256": "b2eeb117a34ea3423136a0082442d1b93f01b0c6e13dab429772a0d2c3a8f8e3",
+      "kind": "zipapp",
+      "source_revision": "3d4a4dc7718d72e0d20785c70154c800cc849093",
+      "source_state": "implementation hash and bundled source identify the build; Git base alone does not identify uncommitted work",
+      "version": "1.0.0rc4"
+    },
+    "python": "3.12.14",
+    "system": "Linux",
+    "machine": "x86_64",
+    "model": "balanced-radial-pq/v2"
+  },
+  "producer_scenarios": 0,
+  "cpu_seconds": 0.5024499999999998,
+  "wall_seconds": 0.5043940959731117,
+  "peak_child_rss_kib": 19452
+}

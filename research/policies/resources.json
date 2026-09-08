@@ -1,0 +1,27 @@
+{
+  "cli_cpu_seconds": 19.30368,
+  "cli_wall_seconds": 19.529705852793995,
+  "command_count": 77,
+  "disk_bytes_at_measurement": 191251525,
+  "failed_commands": [
+    "verify-exploration-batch-04-case-000",
+    "verify-exploration-batch-01-case-000",
+    "verify-exploration-batch-03-case-001",
+    "verify-exploration-batch-02-case-001",
+    "run-default",
+    "example-11",
+    "verify-exploration-batch-05-case-001",
+    "verify-exploration-batch-00-case-000",
+    "verify-exploration-batch-03-case-000",
+    "verify-exploration-batch-00-case-001",
+    "verify-exploration-batch-02-case-000",
+    "verify-exploration-batch-05-case-000",
+    "verify-exploration-batch-04-case-001",
+    "example-default",
+    "verify-exploration-batch-01-case-001"
+  ],
+  "intervals_per_scenario": 96,
+  "policy_trajectories": 396,
+  "process_policy": "Sequential subprocess.run; one active solver process",
+  "scenario_count": 38
+}

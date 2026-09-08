@@ -1,0 +1,10 @@
+{
+  "state": "ABORTED_DRIVER",
+  "cause": "Driver expected size/MiB phrasing but CLI reported byte limit; corrected classification only, no scenario or policy changes.",
+  "producer_error": "$: JSON exceeds the 1048576-byte limit",
+  "commands": 6,
+  "modeled_scenarios_executed": 0,
+  "measured_command_cpu_seconds": 0.25919255799999974,
+  "measured_command_wall_seconds": 0.28088550601387396,
+  "driver_overhead_cpu": "not captured on this aborted invocation"
+}

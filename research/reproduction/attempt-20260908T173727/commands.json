@@ -1,0 +1,2516 @@
+[
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/analytic-two-bus"
+    ],
+    "cpu_seconds": 0.05222399999999999,
+    "index": 0,
+    "returncode": 0,
+    "wall_seconds": 0.05233379401033744
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/campaign/case-000"
+    ],
+    "cpu_seconds": 0.04847199999999996,
+    "index": 1,
+    "returncode": 0,
+    "wall_seconds": 0.0485640789847821
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/campaign/case-001"
+    ],
+    "cpu_seconds": 0.04537900000000006,
+    "index": 2,
+    "returncode": 0,
+    "wall_seconds": 0.045471705961972475
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/failed-solver"
+    ],
+    "cpu_seconds": 0.04691400000000001,
+    "index": 3,
+    "returncode": 0,
+    "wall_seconds": 0.04702784103574231
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/no-load"
+    ],
+    "cpu_seconds": 0.05039899999999997,
+    "index": 4,
+    "returncode": 0,
+    "wall_seconds": 0.05050428997492418
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/original-four-policies"
+    ],
+    "cpu_seconds": 0.07450500000000004,
+    "index": 5,
+    "returncode": 0,
+    "wall_seconds": 0.07465446298010647
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n24-tol1e-10"
+    ],
+    "cpu_seconds": 0.04688599999999998,
+    "index": 6,
+    "returncode": 0,
+    "wall_seconds": 0.04701024800306186
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n24-tol1e-12"
+    ],
+    "cpu_seconds": 0.04542999999999997,
+    "index": 7,
+    "returncode": 0,
+    "wall_seconds": 0.04554441099753603
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n288-tol1e-06"
+    ],
+    "cpu_seconds": 0.07698300000000002,
+    "index": 8,
+    "returncode": 0,
+    "wall_seconds": 0.07717900100396946
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n288-tol1e-08"
+    ],
+    "cpu_seconds": 0.075438,
+    "index": 9,
+    "returncode": 0,
+    "wall_seconds": 0.07558834104565904
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n288-tol1e-10"
+    ],
+    "cpu_seconds": 0.07272400000000012,
+    "index": 10,
+    "returncode": 0,
+    "wall_seconds": 0.072869272029493
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n288-tol1e-12"
+    ],
+    "cpu_seconds": 0.07372899999999993,
+    "index": 11,
+    "returncode": 0,
+    "wall_seconds": 0.07385900395456702
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n48-tol1e-06"
+    ],
+    "cpu_seconds": 0.046817999999999915,
+    "index": 12,
+    "returncode": 0,
+    "wall_seconds": 0.046902376983780414
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n48-tol1e-08"
+    ],
+    "cpu_seconds": 0.047771999999999926,
+    "index": 13,
+    "returncode": 0,
+    "wall_seconds": 0.04787590802880004
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n48-tol1e-10"
+    ],
+    "cpu_seconds": 0.048681000000000196,
+    "index": 14,
+    "returncode": 0,
+    "wall_seconds": 0.048804517020471394
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n48-tol1e-12"
+    ],
+    "cpu_seconds": 0.047337000000000184,
+    "index": 15,
+    "returncode": 0,
+    "wall_seconds": 0.0475187849951908
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n96-tol1e-06"
+    ],
+    "cpu_seconds": 0.052383999999999764,
+    "index": 16,
+    "returncode": 0,
+    "wall_seconds": 0.05248800100525841
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n96-tol1e-08"
+    ],
+    "cpu_seconds": 0.05100399999999983,
+    "index": 17,
+    "returncode": 0,
+    "wall_seconds": 0.051100659009534866
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n96-tol1e-10"
+    ],
+    "cpu_seconds": 0.05370099999999978,
+    "index": 18,
+    "returncode": 0,
+    "wall_seconds": 0.053796143969520926
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n96-tol1e-12"
+    ],
+    "cpu_seconds": 0.05410499999999985,
+    "index": 19,
+    "returncode": 0,
+    "wall_seconds": 0.05421155696967617
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s23-n24-tol1e-06"
+    ],
+    "cpu_seconds": 0.04670799999999997,
+    "index": 20,
+    "returncode": 0,
+    "wall_seconds": 0.046798534982372075
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s23-n24-tol1e-08"
+    ],
+    "cpu_seconds": 0.04825199999999996,
+    "index": 21,
+    "returncode": 0,
+    "wall_seconds": 0.048340372974053025
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s23-n24-tol1e-10"
+    ],
+    "cpu_seconds": 0.04672400000000021,
+    "index": 22,
+    "returncode": 0,
+    "wall_seconds": 0.04680479597300291
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s23-n24-tol1e-12"
+    ],
+    "cpu_seconds": 0.04356899999999997,
+    "index": 23,
+    "returncode": 0,
+    "wall_seconds": 0.04363747203024104
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s23-n288-tol1e-06"
+    ],
+    "cpu_seconds": 0.07549300000000003,
+    "index": 24,
+    "returncode": 0,
+    "wall_seconds": 0.07560807804111391
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s23-n288-tol1e-08"
+    ],
+    "cpu_seconds": 0.0800209999999999,
+    "index": 25,
+    "returncode": 0,
+    "wall_seconds": 0.08012301899725571
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s23-n288-tol1e-10"
+    ],
+    "cpu_seconds": 0.103402,
+    "index": 26,
+    "returncode": 0,
+    "wall_seconds": 0.10367335699265823
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s23-n288-tol1e-12"
+    ],
+    "cpu_seconds": 0.07614799999999988,
+    "index": 27,
+    "returncode": 0,
+    "wall_seconds": 0.07624388096155599
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s23-n48-tol1e-06"
+    ],
+    "cpu_seconds": 0.04803299999999999,
+    "index": 28,
+    "returncode": 0,
+    "wall_seconds": 0.04808937601046637
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s23-n48-tol1e-08"
+    ],
+    "cpu_seconds": 0.04874099999999992,
+    "index": 29,
+    "returncode": 0,
+    "wall_seconds": 0.04878894699504599
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s23-n48-tol1e-10"
+    ],
+    "cpu_seconds": 0.051212000000000035,
+    "index": 30,
+    "returncode": 0,
+    "wall_seconds": 0.051432817010208964
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s23-n48-tol1e-12"
+    ],
+    "cpu_seconds": 0.05177899999999935,
+    "index": 31,
+    "returncode": 0,
+    "wall_seconds": 0.05189762101508677
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s23-n96-tol1e-06"
+    ],
+    "cpu_seconds": 0.05500000000000016,
+    "index": 32,
+    "returncode": 0,
+    "wall_seconds": 0.05515418102731928
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s23-n96-tol1e-08"
+    ],
+    "cpu_seconds": 0.05378600000000011,
+    "index": 33,
+    "returncode": 0,
+    "wall_seconds": 0.053886152047198266
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s23-n96-tol1e-10"
+    ],
+    "cpu_seconds": 0.05479399999999979,
+    "index": 34,
+    "returncode": 0,
+    "wall_seconds": 0.05489691300317645
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s23-n96-tol1e-12"
+    ],
+    "cpu_seconds": 0.05445800000000034,
+    "index": 35,
+    "returncode": 0,
+    "wall_seconds": 0.05456127802608535
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s31-n24-tol1e-06"
+    ],
+    "cpu_seconds": 0.04831999999999992,
+    "index": 36,
+    "returncode": 0,
+    "wall_seconds": 0.04842991003533825
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s31-n24-tol1e-08"
+    ],
+    "cpu_seconds": 0.0666629999999997,
+    "index": 37,
+    "returncode": 0,
+    "wall_seconds": 0.06699590402422473
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s31-n24-tol1e-10"
+    ],
+    "cpu_seconds": 0.04511799999999999,
+    "index": 38,
+    "returncode": 0,
+    "wall_seconds": 0.04516815097304061
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s31-n24-tol1e-12"
+    ],
+    "cpu_seconds": 0.04349599999999976,
+    "index": 39,
+    "returncode": 0,
+    "wall_seconds": 0.043604481033980846
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s31-n288-tol1e-06"
+    ],
+    "cpu_seconds": 0.07500200000000001,
+    "index": 40,
+    "returncode": 0,
+    "wall_seconds": 0.07523330103140324
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s31-n288-tol1e-08"
+    ],
+    "cpu_seconds": 0.07501800000000003,
+    "index": 41,
+    "returncode": 0,
+    "wall_seconds": 0.07517506298609078
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s31-n288-tol1e-10"
+    ],
+    "cpu_seconds": 0.07137100000000007,
+    "index": 42,
+    "returncode": 0,
+    "wall_seconds": 0.07150995300617069
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s31-n288-tol1e-12"
+    ],
+    "cpu_seconds": 0.07243600000000061,
+    "index": 43,
+    "returncode": 0,
+    "wall_seconds": 0.07258080499013886
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s31-n48-tol1e-06"
+    ],
+    "cpu_seconds": 0.051037999999999695,
+    "index": 44,
+    "returncode": 0,
+    "wall_seconds": 0.05113228800473735
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s31-n48-tol1e-08"
+    ],
+    "cpu_seconds": 0.048769000000000506,
+    "index": 45,
+    "returncode": 0,
+    "wall_seconds": 0.048880618007387966
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s31-n48-tol1e-10"
+    ],
+    "cpu_seconds": 0.04826799999999931,
+    "index": 46,
+    "returncode": 0,
+    "wall_seconds": 0.04838220099918544
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s31-n48-tol1e-12"
+    ],
+    "cpu_seconds": 0.05187600000000003,
+    "index": 47,
+    "returncode": 0,
+    "wall_seconds": 0.05196164100198075
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s31-n96-tol1e-06"
+    ],
+    "cpu_seconds": 0.08645900000000051,
+    "index": 48,
+    "returncode": 0,
+    "wall_seconds": 0.0865906429826282
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s31-n96-tol1e-08"
+    ],
+    "cpu_seconds": 0.055479000000000056,
+    "index": 49,
+    "returncode": 0,
+    "wall_seconds": 0.055588428978808224
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s31-n96-tol1e-10"
+    ],
+    "cpu_seconds": 0.055463999999999736,
+    "index": 50,
+    "returncode": 0,
+    "wall_seconds": 0.055574552970938385
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s31-n96-tol1e-12"
+    ],
+    "cpu_seconds": 0.05677500000000002,
+    "index": 51,
+    "returncode": 0,
+    "wall_seconds": 0.05694127600872889
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/bridge-rc2-001/study"
+    ],
+    "cpu_seconds": 0.08092800000000056,
+    "index": 52,
+    "returncode": 0,
+    "wall_seconds": 0.08109808299923316
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/bridge/case-00"
+    ],
+    "cpu_seconds": 0.13160599999999967,
+    "index": 53,
+    "returncode": 0,
+    "wall_seconds": 0.1318870719987899
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/bridge/case-01"
+    ],
+    "cpu_seconds": 0.1293639999999998,
+    "index": 54,
+    "returncode": 0,
+    "wall_seconds": 0.12961996399099007
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/bridge/case-02"
+    ],
+    "cpu_seconds": 0.12565599999999977,
+    "index": 55,
+    "returncode": 0,
+    "wall_seconds": 0.1260097660124302
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/bridge/case-03"
+    ],
+    "cpu_seconds": 0.12149799999999988,
+    "index": 56,
+    "returncode": 0,
+    "wall_seconds": 0.12171660899184644
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/bridge/case-04"
+    ],
+    "cpu_seconds": 0.1236120000000005,
+    "index": 57,
+    "returncode": 0,
+    "wall_seconds": 0.12387097702594474
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/bridge/case-05"
+    ],
+    "cpu_seconds": 0.12283400000000011,
+    "index": 58,
+    "returncode": 0,
+    "wall_seconds": 0.12307235097978264
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/bridge/case-06"
+    ],
+    "cpu_seconds": 0.14662699999999962,
+    "index": 59,
+    "returncode": 0,
+    "wall_seconds": 0.14692426100373268
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/bridge/case-07"
+    ],
+    "cpu_seconds": 0.12634999999999952,
+    "index": 60,
+    "returncode": 0,
+    "wall_seconds": 0.12660421297186986
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/bridge/case-08"
+    ],
+    "cpu_seconds": 0.1250240000000007,
+    "index": 61,
+    "returncode": 0,
+    "wall_seconds": 0.12533333798637614
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/bridge/case-09"
+    ],
+    "cpu_seconds": 0.13516300000000037,
+    "index": 62,
+    "returncode": 0,
+    "wall_seconds": 0.1354708700091578
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/bridge/case-10"
+    ],
+    "cpu_seconds": 0.25907199999999975,
+    "index": 63,
+    "returncode": 0,
+    "wall_seconds": 0.26412244100356475
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/bridge/case-11"
+    ],
+    "cpu_seconds": 0.3136669999999997,
+    "index": 64,
+    "returncode": 0,
+    "wall_seconds": 0.3140839410480112
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/bridge/case-12"
+    ],
+    "cpu_seconds": 0.10129300000000097,
+    "index": 65,
+    "returncode": 0,
+    "wall_seconds": 0.10149526398163289
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/confirmation/batch-00/case-000"
+    ],
+    "cpu_seconds": 0.14306200000000047,
+    "index": 66,
+    "returncode": 0,
+    "wall_seconds": 0.14354764705058187
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/confirmation/batch-00/case-001"
+    ],
+    "cpu_seconds": 0.10431100000000004,
+    "index": 67,
+    "returncode": 0,
+    "wall_seconds": 0.10451245802687481
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/confirmation/batch-01/case-000"
+    ],
+    "cpu_seconds": 0.1288740000000006,
+    "index": 68,
+    "returncode": 0,
+    "wall_seconds": 0.1291798049933277
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/confirmation/batch-01/case-001"
+    ],
+    "cpu_seconds": 0.09980100000000025,
+    "index": 69,
+    "returncode": 0,
+    "wall_seconds": 0.10003792302450165
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/confirmation/batch-02/case-000"
+    ],
+    "cpu_seconds": 0.09614500000000081,
+    "index": 70,
+    "returncode": 0,
+    "wall_seconds": 0.09637895500054583
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/confirmation/batch-02/case-001"
+    ],
+    "cpu_seconds": 0.14629200000000075,
+    "index": 71,
+    "returncode": 0,
+    "wall_seconds": 0.1477748429751955
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/confirmation/batch-03/case-000"
+    ],
+    "cpu_seconds": 0.13999199999999945,
+    "index": 72,
+    "returncode": 0,
+    "wall_seconds": 0.1403049140353687
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/confirmation/batch-03/case-001"
+    ],
+    "cpu_seconds": 0.10091500000000053,
+    "index": 73,
+    "returncode": 0,
+    "wall_seconds": 0.10113864002050832
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/confirmation/batch-04/case-000"
+    ],
+    "cpu_seconds": 0.10066599999999948,
+    "index": 74,
+    "returncode": 0,
+    "wall_seconds": 0.1008542409981601
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/confirmation/batch-04/case-001"
+    ],
+    "cpu_seconds": 0.10031900000000071,
+    "index": 75,
+    "returncode": 0,
+    "wall_seconds": 0.10050137504003942
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/confirmation/batch-05/case-000"
+    ],
+    "cpu_seconds": 0.10371099999999966,
+    "index": 76,
+    "returncode": 0,
+    "wall_seconds": 0.10393684700829908
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/confirmation/batch-05/case-001"
+    ],
+    "cpu_seconds": 0.10496000000000105,
+    "index": 77,
+    "returncode": 0,
+    "wall_seconds": 0.1051471289829351
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/default"
+    ],
+    "cpu_seconds": 0.07644799999999918,
+    "index": 78,
+    "returncode": 0,
+    "wall_seconds": 0.07657900499179959
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-00/case-000"
+    ],
+    "cpu_seconds": 0.05224699999999949,
+    "index": 79,
+    "returncode": 2,
+    "wall_seconds": 0.05234297999413684
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-00/case-001"
+    ],
+    "cpu_seconds": 0.055974000000000856,
+    "index": 80,
+    "returncode": 2,
+    "wall_seconds": 0.05610502097988501
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-01/case-000"
+    ],
+    "cpu_seconds": 0.05252500000000104,
+    "index": 81,
+    "returncode": 2,
+    "wall_seconds": 0.052595168992411345
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-01/case-001"
+    ],
+    "cpu_seconds": 0.05249100000000162,
+    "index": 82,
+    "returncode": 2,
+    "wall_seconds": 0.052613775013014674
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-02/case-000"
+    ],
+    "cpu_seconds": 0.05082999999999949,
+    "index": 83,
+    "returncode": 2,
+    "wall_seconds": 0.05094917700625956
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-02/case-001"
+    ],
+    "cpu_seconds": 0.05086999999999975,
+    "index": 84,
+    "returncode": 2,
+    "wall_seconds": 0.05097109801135957
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-03/case-000"
+    ],
+    "cpu_seconds": 0.05458699999999972,
+    "index": 85,
+    "returncode": 2,
+    "wall_seconds": 0.05470415303716436
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-03/case-001"
+    ],
+    "cpu_seconds": 0.0531839999999999,
+    "index": 86,
+    "returncode": 2,
+    "wall_seconds": 0.053297856997232884
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-04/case-000"
+    ],
+    "cpu_seconds": 0.053150999999999726,
+    "index": 87,
+    "returncode": 2,
+    "wall_seconds": 0.053252022014930844
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-04/case-001"
+    ],
+    "cpu_seconds": 0.05279000000000167,
+    "index": 88,
+    "returncode": 2,
+    "wall_seconds": 0.05288026999915019
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-05/case-000"
+    ],
+    "cpu_seconds": 0.05286499999999883,
+    "index": 89,
+    "returncode": 2,
+    "wall_seconds": 0.052916307002305984
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-05/case-001"
+    ],
+    "cpu_seconds": 0.07327599999999812,
+    "index": 90,
+    "returncode": 2,
+    "wall_seconds": 0.0740255739656277
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/appendix-attempts/20260908T173114.159117Z/bridge"
+    ],
+    "cpu_seconds": 0.08803600000000067,
+    "index": 91,
+    "returncode": 0,
+    "wall_seconds": 0.08816203597234562
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/appendix-attempts/20260908T173114.159117Z/campaign/case-000"
+    ],
+    "cpu_seconds": 0.09662199999999999,
+    "index": 92,
+    "returncode": 0,
+    "wall_seconds": 0.09725918201729655
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/appendix-attempts/20260908T173114.159117Z/campaign/case-001"
+    ],
+    "cpu_seconds": 0.08424300000000073,
+    "index": 93,
+    "returncode": 0,
+    "wall_seconds": 0.08447179000359029
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/appendix-attempts/20260908T173114.159117Z/campaign/case-002"
+    ],
+    "cpu_seconds": 0.084757999999999,
+    "index": 94,
+    "returncode": 0,
+    "wall_seconds": 0.08488937700167298
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/appendix-attempts/20260908T173114.159117Z/campaign/case-003"
+    ],
+    "cpu_seconds": 0.0865209999999994,
+    "index": 95,
+    "returncode": 0,
+    "wall_seconds": 0.08680650399765
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/appendix-attempts/20260908T173114.159117Z/campaign/case-004"
+    ],
+    "cpu_seconds": 0.08056999999999981,
+    "index": 96,
+    "returncode": 0,
+    "wall_seconds": 0.08071839599870145
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/appendix-attempts/20260908T173114.159117Z/campaign/case-005"
+    ],
+    "cpu_seconds": 0.08285700000000062,
+    "index": 97,
+    "returncode": 0,
+    "wall_seconds": 0.08306512195849791
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/appendix-attempts/20260908T173114.159117Z/campaign/case-006"
+    ],
+    "cpu_seconds": 0.07945899999999995,
+    "index": 98,
+    "returncode": 0,
+    "wall_seconds": 0.07970980001846328
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/appendix-attempts/20260908T173114.159117Z/campaign/case-007"
+    ],
+    "cpu_seconds": 0.07746099999999956,
+    "index": 99,
+    "returncode": 0,
+    "wall_seconds": 0.07759159902343526
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/appendix-attempts/20260908T173114.159117Z/campaign/case-008"
+    ],
+    "cpu_seconds": 0.08282899999999849,
+    "index": 100,
+    "returncode": 0,
+    "wall_seconds": 0.08291806897614151
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/appendix-attempts/20260908T173114.159117Z/campaign/case-009"
+    ],
+    "cpu_seconds": 0.0874600000000001,
+    "index": 101,
+    "returncode": 0,
+    "wall_seconds": 0.08778833103133366
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/appendix-attempts/20260908T173114.159117Z/campaign/case-010"
+    ],
+    "cpu_seconds": 0.0810379999999995,
+    "index": 102,
+    "returncode": 0,
+    "wall_seconds": 0.08113146503455937
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/appendix-attempts/20260908T173114.159117Z/campaign/case-011"
+    ],
+    "cpu_seconds": 0.1056879999999989,
+    "index": 103,
+    "returncode": 0,
+    "wall_seconds": 0.10591198201291263
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-101-00"
+    ],
+    "cpu_seconds": 0.07408099999999962,
+    "index": 104,
+    "returncode": 0,
+    "wall_seconds": 0.0742415149579756
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-101-01"
+    ],
+    "cpu_seconds": 0.10386000000000095,
+    "index": 105,
+    "returncode": 0,
+    "wall_seconds": 0.10586937301559374
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-101-02"
+    ],
+    "cpu_seconds": 0.0834659999999996,
+    "index": 106,
+    "returncode": 0,
+    "wall_seconds": 0.08354770095320418
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-101-03"
+    ],
+    "cpu_seconds": 0.08729100000000045,
+    "index": 107,
+    "returncode": 0,
+    "wall_seconds": 0.0874566929996945
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-101-04"
+    ],
+    "cpu_seconds": 0.07724299999999928,
+    "index": 108,
+    "returncode": 0,
+    "wall_seconds": 0.0774085380253382
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-101-05"
+    ],
+    "cpu_seconds": 0.07296699999999845,
+    "index": 109,
+    "returncode": 0,
+    "wall_seconds": 0.07310596300521865
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-101-06"
+    ],
+    "cpu_seconds": 0.0800370000000008,
+    "index": 110,
+    "returncode": 0,
+    "wall_seconds": 0.08019230799982324
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-101-07"
+    ],
+    "cpu_seconds": 0.07802899999999902,
+    "index": 111,
+    "returncode": 0,
+    "wall_seconds": 0.07827286596875638
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-101-08"
+    ],
+    "cpu_seconds": 0.07230299999999978,
+    "index": 112,
+    "returncode": 0,
+    "wall_seconds": 0.07242193003185093
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-101-09"
+    ],
+    "cpu_seconds": 0.07560900000000004,
+    "index": 113,
+    "returncode": 0,
+    "wall_seconds": 0.07576641201740131
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-101-10"
+    ],
+    "cpu_seconds": 0.07662700000000022,
+    "index": 114,
+    "returncode": 0,
+    "wall_seconds": 0.0767853879951872
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-101-11"
+    ],
+    "cpu_seconds": 0.07568999999999981,
+    "index": 115,
+    "returncode": 0,
+    "wall_seconds": 0.07581895001931116
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-103-00"
+    ],
+    "cpu_seconds": 0.07336300000000051,
+    "index": 116,
+    "returncode": 0,
+    "wall_seconds": 0.0735157550079748
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-103-01"
+    ],
+    "cpu_seconds": 0.07316099999999892,
+    "index": 117,
+    "returncode": 0,
+    "wall_seconds": 0.0732863379525952
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-103-02"
+    ],
+    "cpu_seconds": 0.07488299999999981,
+    "index": 118,
+    "returncode": 0,
+    "wall_seconds": 0.07518767495639622
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-103-03"
+    ],
+    "cpu_seconds": 0.07680599999999771,
+    "index": 119,
+    "returncode": 0,
+    "wall_seconds": 0.07693409500643611
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-103-04"
+    ],
+    "cpu_seconds": 0.07983899999999977,
+    "index": 120,
+    "returncode": 0,
+    "wall_seconds": 0.07992882700636983
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-103-05"
+    ],
+    "cpu_seconds": 0.07377899999999826,
+    "index": 121,
+    "returncode": 0,
+    "wall_seconds": 0.07393632701132447
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-103-06"
+    ],
+    "cpu_seconds": 0.07435300000000034,
+    "index": 122,
+    "returncode": 0,
+    "wall_seconds": 0.0745084109948948
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-103-07"
+    ],
+    "cpu_seconds": 0.10657100000000064,
+    "index": 123,
+    "returncode": 0,
+    "wall_seconds": 0.10811530100181699
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-103-08"
+    ],
+    "cpu_seconds": 0.11089699999999958,
+    "index": 124,
+    "returncode": 0,
+    "wall_seconds": 0.11116070800926536
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-103-09"
+    ],
+    "cpu_seconds": 0.09951000000000043,
+    "index": 125,
+    "returncode": 0,
+    "wall_seconds": 0.09971438103821129
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-103-10"
+    ],
+    "cpu_seconds": 0.07899500000000081,
+    "index": 126,
+    "returncode": 0,
+    "wall_seconds": 0.0792708529625088
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-103-11"
+    ],
+    "cpu_seconds": 0.07849299999999815,
+    "index": 127,
+    "returncode": 0,
+    "wall_seconds": 0.07864124199841172
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-107-00"
+    ],
+    "cpu_seconds": 0.1026720000000001,
+    "index": 128,
+    "returncode": 0,
+    "wall_seconds": 0.10308787802932784
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-107-01"
+    ],
+    "cpu_seconds": 0.10369500000000009,
+    "index": 129,
+    "returncode": 0,
+    "wall_seconds": 0.10392461396986619
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-107-02"
+    ],
+    "cpu_seconds": 0.10321900000000106,
+    "index": 130,
+    "returncode": 0,
+    "wall_seconds": 0.10348613897804171
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-107-03"
+    ],
+    "cpu_seconds": 0.10191900000000054,
+    "index": 131,
+    "returncode": 0,
+    "wall_seconds": 0.10221554397139698
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-107-04"
+    ],
+    "cpu_seconds": 0.0778010000000009,
+    "index": 132,
+    "returncode": 0,
+    "wall_seconds": 0.07797910901717842
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-107-05"
+    ],
+    "cpu_seconds": 0.07421899999999937,
+    "index": 133,
+    "returncode": 0,
+    "wall_seconds": 0.07435473595978692
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-107-06"
+    ],
+    "cpu_seconds": 0.07456099999999921,
+    "index": 134,
+    "returncode": 0,
+    "wall_seconds": 0.07470543897943571
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-107-07"
+    ],
+    "cpu_seconds": 0.07782599999999817,
+    "index": 135,
+    "returncode": 0,
+    "wall_seconds": 0.07797645503887907
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-107-08"
+    ],
+    "cpu_seconds": 0.07686799999999927,
+    "index": 136,
+    "returncode": 0,
+    "wall_seconds": 0.07707889500306919
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-107-09"
+    ],
+    "cpu_seconds": 0.10502999999999929,
+    "index": 137,
+    "returncode": 0,
+    "wall_seconds": 0.10518964799121022
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-107-10"
+    ],
+    "cpu_seconds": 0.07788400000000095,
+    "index": 138,
+    "returncode": 0,
+    "wall_seconds": 0.0779744409956038
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-107-11"
+    ],
+    "cpu_seconds": 0.10555500000000073,
+    "index": 139,
+    "returncode": 0,
+    "wall_seconds": 0.10571800102479756
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-109-00"
+    ],
+    "cpu_seconds": 0.07796000000000092,
+    "index": 140,
+    "returncode": 0,
+    "wall_seconds": 0.07817436300683767
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-109-01"
+    ],
+    "cpu_seconds": 0.07717599999999969,
+    "index": 141,
+    "returncode": 0,
+    "wall_seconds": 0.07726464001461864
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-109-02"
+    ],
+    "cpu_seconds": 0.07917899999999989,
+    "index": 142,
+    "returncode": 0,
+    "wall_seconds": 0.07941320800455287
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-109-03"
+    ],
+    "cpu_seconds": 0.07191199999999931,
+    "index": 143,
+    "returncode": 0,
+    "wall_seconds": 0.07203640299849212
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-109-04"
+    ],
+    "cpu_seconds": 0.07425700000000113,
+    "index": 144,
+    "returncode": 0,
+    "wall_seconds": 0.0744844670407474
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-109-05"
+    ],
+    "cpu_seconds": 0.07374999999999865,
+    "index": 145,
+    "returncode": 0,
+    "wall_seconds": 0.07388431101571769
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-109-06"
+    ],
+    "cpu_seconds": 0.07411600000000185,
+    "index": 146,
+    "returncode": 0,
+    "wall_seconds": 0.07425631303340197
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-109-07"
+    ],
+    "cpu_seconds": 0.07290699999999894,
+    "index": 147,
+    "returncode": 0,
+    "wall_seconds": 0.07305517798522487
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-109-08"
+    ],
+    "cpu_seconds": 0.07259299999999769,
+    "index": 148,
+    "returncode": 0,
+    "wall_seconds": 0.0727115889894776
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-109-09"
+    ],
+    "cpu_seconds": 0.07296600000000097,
+    "index": 149,
+    "returncode": 0,
+    "wall_seconds": 0.07308098598150536
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-109-10"
+    ],
+    "cpu_seconds": 0.10747600000000013,
+    "index": 150,
+    "returncode": 0,
+    "wall_seconds": 0.10987977497279644
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-109-11"
+    ],
+    "cpu_seconds": 0.0759749999999979,
+    "index": 151,
+    "returncode": 0,
+    "wall_seconds": 0.0761448570410721
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/standalone"
+    ],
+    "cpu_seconds": 0.07597600000000071,
+    "index": 152,
+    "returncode": 0,
+    "wall_seconds": 0.0761112539912574
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "run",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/campaign/case-000/scenario.json",
+      "--output",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-00"
+    ],
+    "cpu_seconds": 0.05209900000000012,
+    "index": 153,
+    "returncode": 0,
+    "wall_seconds": 0.05217611900297925
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-00"
+    ],
+    "cpu_seconds": 0.049321000000000836,
+    "index": 154,
+    "returncode": 0,
+    "wall_seconds": 0.04944237304152921
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "run",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n24-tol1e-12/scenario.json",
+      "--output",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-01"
+    ],
+    "cpu_seconds": 0.05515100000000217,
+    "index": 155,
+    "returncode": 0,
+    "wall_seconds": 0.055259426997508854
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-01"
+    ],
+    "cpu_seconds": 0.05041299999999893,
+    "index": 156,
+    "returncode": 0,
+    "wall_seconds": 0.05050211597699672
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "run",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/analytic-two-bus/scenario.json",
+      "--output",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-02"
+    ],
+    "cpu_seconds": 0.049618000000000606,
+    "index": 157,
+    "returncode": 0,
+    "wall_seconds": 0.049750315956771374
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-02"
+    ],
+    "cpu_seconds": 0.051065999999998724,
+    "index": 158,
+    "returncode": 0,
+    "wall_seconds": 0.0511834230273962
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "run",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/no-load/scenario.json",
+      "--output",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-03"
+    ],
+    "cpu_seconds": 0.05321900000000035,
+    "index": 159,
+    "returncode": 0,
+    "wall_seconds": 0.053312975040171295
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-03"
+    ],
+    "cpu_seconds": 0.04863599999999835,
+    "index": 160,
+    "returncode": 0,
+    "wall_seconds": 0.048677239974495023
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "run",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/failed-solver/scenario.json",
+      "--output",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-04"
+    ],
+    "cpu_seconds": 0.06889200000000173,
+    "index": 161,
+    "returncode": 0,
+    "wall_seconds": 0.06950932100880891
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-04"
+    ],
+    "cpu_seconds": 0.05556500000000142,
+    "index": 162,
+    "returncode": 0,
+    "wall_seconds": 0.05561744299484417
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "run",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-00/case-000/scenario.json",
+      "--output",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-05"
+    ],
+    "cpu_seconds": 0.36082899999999896,
+    "index": 163,
+    "returncode": 0,
+    "wall_seconds": 0.36510630400152877
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-05"
+    ],
+    "cpu_seconds": 0.12779899999999955,
+    "index": 164,
+    "returncode": 0,
+    "wall_seconds": 0.1280526570044458
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "run",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/confirmation/batch-00/case-000/scenario.json",
+      "--output",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-06"
+    ],
+    "cpu_seconds": 0.17953600000000236,
+    "index": 165,
+    "returncode": 0,
+    "wall_seconds": 0.17995926598086953
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-06"
+    ],
+    "cpu_seconds": 0.10023800000000094,
+    "index": 166,
+    "returncode": 0,
+    "wall_seconds": 0.10046575800515711
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "run",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-101-00/scenario.json",
+      "--output",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-07"
+    ],
+    "cpu_seconds": 0.11790000000000234,
+    "index": 167,
+    "returncode": 0,
+    "wall_seconds": 0.11835593602154404
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-07"
+    ],
+    "cpu_seconds": 0.07314099999999613,
+    "index": 168,
+    "returncode": 0,
+    "wall_seconds": 0.07324589195195585
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "run",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-101-11/scenario.json",
+      "--output",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-08"
+    ],
+    "cpu_seconds": 0.11863899999999816,
+    "index": 169,
+    "returncode": 0,
+    "wall_seconds": 0.11878557497402653
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-08"
+    ],
+    "cpu_seconds": 0.07671700000000214,
+    "index": 170,
+    "returncode": 0,
+    "wall_seconds": 0.07687793101649731
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "run",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/appendix-attempts/20260908T173114.159117Z/campaign/case-001/scenario.json",
+      "--output",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-09"
+    ],
+    "cpu_seconds": 0.12935199999999725,
+    "index": 171,
+    "returncode": 0,
+    "wall_seconds": 0.1295995149994269
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/rerun-09"
+    ],
+    "cpu_seconds": 0.07976600000000289,
+    "index": 172,
+    "returncode": 0,
+    "wall_seconds": 0.07990472199162468
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "run",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/invalid-outage.json",
+      "--output",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/invalid-outage"
+    ],
+    "cpu_seconds": 0.043448000000001485,
+    "index": 173,
+    "returncode": 2,
+    "wall_seconds": 0.04354709398467094
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "validate",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/reserved-summary.json"
+    ],
+    "cpu_seconds": 0.04294500000000312,
+    "index": 174,
+    "returncode": 0,
+    "wall_seconds": 0.043007680971641093
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "validate",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/reserved-scenario.json"
+    ],
+    "cpu_seconds": 0.042909999999999116,
+    "index": 175,
+    "returncode": 0,
+    "wall_seconds": 0.042976011987775564
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "validate",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/reserved-manifest.json"
+    ],
+    "cpu_seconds": 0.044903999999998945,
+    "index": 176,
+    "returncode": 0,
+    "wall_seconds": 0.04498089203843847
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python",
+      "-I",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "validate",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/attempt-20260908T173727/reserved-checksums.json"
+    ],
+    "cpu_seconds": 0.04482100000000244,
+    "index": 177,
+    "returncode": 0,
+    "wall_seconds": 0.04490567301400006
+  }
+]

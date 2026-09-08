@@ -1,0 +1,59 @@
+{
+  "schema": "grid-horizons.research-finding/v1",
+  "study": "benchmark",
+  "claim": "For the finite original Canopy13 cases, tight-tolerance sweep results agree with independent nodal Newton; convergence at 1e-6 does not ensure evaluator validity, and original baseline current feasibility fails at every sampled resolution.",
+  "status": "SUPPORTED_WITH_BOUNDED_SCOPE",
+  "actual_model": "gpt-6-astra",
+  "preregistration_sha256": "7c9e882939e4de701412da8894113d3d6fc7db92d687f184b7d450c3d0d5f60b",
+  "original_implementation_sha256": "cdf8e0b82397cbad5e9f5979fd01d98fd931a7c772c5dcd1c8b42a35ac90a4a4",
+  "rc2_implementation_sha256": "3f46ec88b717c2811186fe2c4c7f2c926a37e110281c115798720bd87e143023",
+  "core_cases": 48,
+  "original_scenarios": 52,
+  "original_policy_combinations": 55,
+  "total_scenarios_including_bridge": 53,
+  "total_policy_combinations_including_bridge": 59,
+  "original_states": {
+    "INVALID_RESULT": 12,
+    "COMPLETED_INFEASIBLE": 38,
+    "COMPLETED_VALID": 4,
+    "FAILED_SOLVER": 1
+  },
+  "independently_compared_intervals": 5904,
+  "tight_tolerance_comparison_maxima": {
+    "voltage_abs_pu": 9.868386172125458e-13,
+    "source_abs_kva": 6.525693080782825e-11,
+    "loss_abs_kw": 9.595690908525967e-11
+  },
+  "preregistered_comparison_bounds": {
+    "voltage_abs_pu": 1e-08,
+    "source_abs_kva": 1e-06,
+    "loss_abs_kw": 1e-06
+  },
+  "tight_tolerance_comparison_pass": true,
+  "loose_tolerance_invalid_cases": 12,
+  "numerically_valid_but_infeasible_core_cases": 36,
+  "analytic_control": {
+    "expected_voltage_pu": 0.9898979485566356,
+    "expected_loss_kw": 0.10205144336438038,
+    "producer_voltage_error_pu": 1.1102230246251565e-16,
+    "producer_loss_error_kw": 1.8318679906315083e-15,
+    "newton_voltage_error_pu": 0.0
+  },
+  "bridge_pass": true,
+  "cpu_seconds": 22.154139,
+  "uncertainty": "Finite deterministic ranges over seeds 17/23/31, steps 24/48/96/288; not population confidence intervals.",
+  "limits": [
+    "Original synthetic AGPL case, not a public or physical feeder benchmark.",
+    "Time-resolution comparison changes midpoint-sampled inputs; 288 steps is not exact temporal truth.",
+    "No loading/impedance stress sweep, unbalanced model, field validation, human study or peer review.",
+    "Second method uses same physical equations and inputs; independent implementation is workflow separation, not external human independence."
+  ],
+  "artifacts": {
+    "report": "report.md",
+    "feasibility": "attempt-001/all-scenario-feasibility.csv",
+    "results": "attempt-001/results.json",
+    "reference": "attempt-001/reference",
+    "rerun": "rerun.py",
+    "bridge": "bridge_rc2.py"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "/home/codex/.local/bin/python3",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+    "lab",
+    "verify",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/bridge/case-04"
+  ],
+  "cpu_seconds": 0.29785799999999985,
+  "label": "verify-bridge-case-04",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\n  \"states\": {\n    \"baseline\": \"COMPLETED_INFEASIBLE\",\n    \"tap_m2\": \"COMPLETED_INFEASIBLE\",\n    \"tap_p2\": \"COMPLETED_INFEASIBLE\",\n    \"tap_p4\": \"COMPLETED_INFEASIBLE\",\n    \"storage_0\": \"COMPLETED_INFEASIBLE\",\n    \"storage_1\": \"COMPLETED_INFEASIBLE\",\n    \"storage_2\": \"COMPLETED_INFEASIBLE\",\n    \"storage_3\": \"COMPLETED_INFEASIBLE\",\n    \"storage_4\": \"COMPLETED_VALID\",\n    \"storage_5\": \"COMPLETED_VALID\",\n    \"storage_6\": \"COMPLETED_INFEASIBLE\",\n    \"storage_7\": \"COMPLETED_INFEASIBLE\"\n  },\n  \"ranking\": [],\n  \"seconds\": 0.267283666995354\n}\n",
+  "wall_seconds": 0.29941606597276405
+}

@@ -1,0 +1,1 @@
+First audit_claims.py attempt failed with KeyError: study while reading appendix rows, which omit study paths. No producer executed, no numerical outputs changed. Original script retained audit_claims-attempt1.py. Corrected to declared seed/treatment campaign index. CPU not measured for failed attempt; <5 seconds observed wall.

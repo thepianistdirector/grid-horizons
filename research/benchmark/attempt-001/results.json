@@ -1,0 +1,2421 @@
+[
+  {
+    "id": "s17-n24-tol1e-06",
+    "group": "core",
+    "seed": 17,
+    "steps": 24,
+    "tolerance": 1e-06,
+    "policy": "baseline",
+    "study": "campaign/case-000",
+    "state": "INVALID_RESULT",
+    "violations": 2,
+    "invalid": 9,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [
+      "complex nodal power residual exceeds 1e-7 pu"
+    ],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 3.5896849492900174e-07,
+      "export_kwh": 209.18841479848265,
+      "import_kwh": 833.9867722159586,
+      "load_kwh": 1276.7852789,
+      "max_loading": 1.0244763992836619,
+      "max_power_residual_pu": 4.4933746120003305e-07,
+      "max_voltage_pu": 1.0077507178719958,
+      "min_voltage_pu": 0.9864867797026657,
+      "network_loss_kwh": 7.649892958507476,
+      "peak_import_kw": 89.37555129684928,
+      "solar_kwh": 659.6368148,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.649892958507476
+    },
+    "reference": {
+      "voltage_abs_pu": 9.162893327783301e-09,
+      "source_abs_kva": 4.34683990824676e-07,
+      "loss_abs_kw": 5.995489208432403e-07,
+      "max_residual_pu": 1.1502306623141475e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 3,
+      "max": 4
+    }
+  },
+  {
+    "id": "s17-n24-tol1e-08",
+    "group": "core",
+    "seed": 17,
+    "steps": 24,
+    "tolerance": 1e-08,
+    "policy": "baseline",
+    "study": "campaign/case-001",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.842644170579888e-08,
+      "export_kwh": 209.18841610617244,
+      "import_kwh": 833.9867733694358,
+      "load_kwh": 1276.7852789,
+      "max_loading": 1.0244764227002356,
+      "max_power_residual_pu": 4.379594596542623e-09,
+      "max_voltage_pu": 1.0077507086528101,
+      "min_voltage_pu": 0.9864867793735522,
+      "network_loss_kwh": 7.649893144836972,
+      "peak_import_kw": 89.37555131952423,
+      "solar_kwh": 659.6368148,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.649893144836972
+    },
+    "reference": {
+      "voltage_abs_pu": 8.953481088898854e-11,
+      "source_abs_kva": 4.239658728833384e-09,
+      "loss_abs_kw": 7.558064063495351e-09,
+      "max_residual_pu": 1.1502306623141475e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 5
+    }
+  },
+  {
+    "id": "s17-n24-tol1e-10",
+    "group": "core",
+    "seed": 17,
+    "steps": 24,
+    "tolerance": 1e-10,
+    "policy": "baseline",
+    "study": "s17-n24-tol1e-10",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.6844303729612875e-11,
+      "export_kwh": 209.18841609539928,
+      "import_kwh": 833.9867733774173,
+      "load_kwh": 1276.7852789,
+      "max_loading": 1.024476422980542,
+      "max_power_residual_pu": 4.268326164929074e-11,
+      "max_voltage_pu": 1.007750708726327,
+      "min_voltage_pu": 0.9864867793692729,
+      "network_loss_kwh": 7.64989318200126,
+      "peak_import_kw": 89.37555131984108,
+      "solar_kwh": 659.6368148,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.64989318200126
+    },
+    "reference": {
+      "voltage_abs_pu": 8.743028143270359e-13,
+      "source_abs_kva": 4.50036229918252e-11,
+      "loss_abs_kw": 5.692307736282487e-11,
+      "max_residual_pu": 1.1502306623141475e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": "s17-n24-tol1e-12",
+    "group": "core",
+    "seed": 17,
+    "steps": 24,
+    "tolerance": 1e-12,
+    "policy": "baseline",
+    "study": "s17-n24-tol1e-12",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.4095391520640987e-12,
+      "export_kwh": 209.1884160955049,
+      "import_kwh": 833.9867733774917,
+      "load_kwh": 1276.7852789,
+      "max_loading": 1.0244764229841714,
+      "max_power_residual_pu": 4.0761330553554815e-13,
+      "max_voltage_pu": 1.0077507087254476,
+      "min_voltage_pu": 0.9864867793692217,
+      "network_loss_kwh": 7.649893181985317,
+      "peak_import_kw": 89.37555131984458,
+      "solar_kwh": 659.6368148,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.649893181985317
+    },
+    "reference": {
+      "voltage_abs_pu": 9.143565067221065e-15,
+      "source_abs_kva": 2.5333358724057435e-11,
+      "loss_abs_kw": 7.812084312774914e-13,
+      "max_residual_pu": 1.1502306623141475e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 5,
+      "max": 7
+    }
+  },
+  {
+    "id": "s17-n48-tol1e-06",
+    "group": "core",
+    "seed": 17,
+    "steps": 48,
+    "tolerance": 1e-06,
+    "policy": "baseline",
+    "study": "s17-n48-tol1e-06",
+    "state": "INVALID_RESULT",
+    "violations": 2,
+    "invalid": 18,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [
+      "complex nodal power residual exceeds 1e-7 pu"
+    ],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.816166790291618e-07,
+      "export_kwh": 207.47621355320055,
+      "import_kwh": 833.6692240412074,
+      "load_kwh": 1276.7430816000003,
+      "max_loading": 1.0412655576322107,
+      "max_power_residual_pu": 4.6566884554547604e-07,
+      "max_voltage_pu": 1.0078295027940172,
+      "min_voltage_pu": 0.9862650977103083,
+      "network_loss_kwh": 7.674410906390085,
+      "peak_import_kw": 90.83899365719836,
+      "solar_kwh": 658.2244822000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.674410906390085
+    },
+    "reference": {
+      "voltage_abs_pu": 9.488396131902819e-09,
+      "source_abs_kva": 4.5433083324740914e-07,
+      "loss_abs_kw": 6.382977710273074e-07,
+      "max_residual_pu": 1.1301764255185142e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 3,
+      "max": 4
+    }
+  },
+  {
+    "id": "s17-n48-tol1e-08",
+    "group": "core",
+    "seed": 17,
+    "steps": 48,
+    "tolerance": 1e-08,
+    "policy": "baseline",
+    "study": "s17-n48-tol1e-08",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.663787685401985e-08,
+      "export_kwh": 207.47621486755597,
+      "import_kwh": 833.6692249598059,
+      "load_kwh": 1276.7430816000003,
+      "max_loading": 1.0412655830422095,
+      "max_power_residual_pu": 4.5778760130535295e-09,
+      "max_voltage_pu": 1.00782949324647,
+      "min_voltage_pu": 0.9862650973531715,
+      "network_loss_kwh": 7.6744106756120445,
+      "peak_import_kw": 90.83899368221125,
+      "solar_kwh": 658.2244822000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.6744106756120445
+    },
+    "reference": {
+      "voltage_abs_pu": 9.351349334763336e-11,
+      "source_abs_kva": 4.468851234799478e-09,
+      "loss_abs_kw": 7.96795035507003e-09,
+      "max_residual_pu": 1.1301764255185142e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 5
+    }
+  },
+  {
+    "id": "s17-n48-tol1e-10",
+    "group": "core",
+    "seed": 17,
+    "steps": 48,
+    "tolerance": 1e-10,
+    "policy": "baseline",
+    "study": "s17-n48-tol1e-10",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 3.659295089164516e-13,
+      "export_kwh": 207.47621485670194,
+      "import_kwh": 833.669224965915,
+      "load_kwh": 1276.7430816000003,
+      "max_loading": 1.0412655833514255,
+      "max_power_residual_pu": 4.501739928912187e-11,
+      "max_voltage_pu": 1.0078294933233234,
+      "min_voltage_pu": 0.9862650973484507,
+      "network_loss_kwh": 7.674410709212541,
+      "peak_import_kw": 90.83899368256655,
+      "solar_kwh": 658.2244822000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.674410709212541
+    },
+    "reference": {
+      "voltage_abs_pu": 9.20582691446074e-13,
+      "source_abs_kva": 5.177888787720489e-11,
+      "loss_abs_kw": 6.057915280521797e-11,
+      "max_residual_pu": 1.1301764255185142e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": "s17-n48-tol1e-12",
+    "group": "core",
+    "seed": 17,
+    "steps": 48,
+    "tolerance": 1e-12,
+    "policy": "baseline",
+    "study": "s17-n48-tol1e-12",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.3633538742396922e-12,
+      "export_kwh": 207.47621485680867,
+      "import_kwh": 833.6692249659687,
+      "load_kwh": 1276.7430816000003,
+      "max_loading": 1.0412655833554905,
+      "max_power_residual_pu": 4.4920379728986926e-13,
+      "max_voltage_pu": 1.0078294933223966,
+      "min_voltage_pu": 0.9862650973483934,
+      "network_loss_kwh": 7.674410709158566,
+      "peak_import_kw": 90.83899368257057,
+      "solar_kwh": 658.2244822000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.674410709158566
+    },
+    "reference": {
+      "voltage_abs_pu": 1.0599404638192359e-14,
+      "source_abs_kva": 2.4410131051875066e-11,
+      "loss_abs_kw": 8.633094239485217e-13,
+      "max_residual_pu": 1.1301764255185142e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 5,
+      "max": 7
+    }
+  },
+  {
+    "id": "s17-n96-tol1e-06",
+    "group": "core",
+    "seed": 17,
+    "steps": 96,
+    "tolerance": 1e-06,
+    "policy": "baseline",
+    "study": "s17-n96-tol1e-06",
+    "state": "INVALID_RESULT",
+    "violations": 6,
+    "invalid": 35,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [
+      "complex nodal power residual exceeds 1e-7 pu"
+    ],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 2.847291167284993e-07,
+      "export_kwh": 207.44367097366919,
+      "import_kwh": 833.9841617996933,
+      "load_kwh": 1276.7320419500008,
+      "max_loading": 1.0455431815948917,
+      "max_power_residual_pu": 5.635084995699452e-07,
+      "max_voltage_pu": 1.0078438708393236,
+      "min_voltage_pu": 0.9862086153123109,
+      "network_loss_kwh": 7.680508491293972,
+      "peak_import_kw": 91.21185016719869,
+      "solar_kwh": 657.8720598999998,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.680508491293972
+    },
+    "reference": {
+      "voltage_abs_pu": 9.554752257272158e-09,
+      "source_abs_kva": 5.333269515549428e-07,
+      "loss_abs_kw": 8.862640266116273e-07,
+      "max_residual_pu": 1.2504806247052646e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 3,
+      "max": 4
+    }
+  },
+  {
+    "id": "s17-n96-tol1e-08",
+    "group": "core",
+    "seed": 17,
+    "steps": 96,
+    "tolerance": 1e-08,
+    "policy": "baseline",
+    "study": "s17-n96-tol1e-08",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 6,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.785379755148142e-08,
+      "export_kwh": 207.44367228942852,
+      "import_kwh": 833.9841628600016,
+      "load_kwh": 1276.7320419500008,
+      "max_loading": 1.0455432075339137,
+      "max_power_residual_pu": 5.284818559662042e-09,
+      "max_voltage_pu": 1.007843861224864,
+      "min_voltage_pu": 0.9862086149477368,
+      "network_loss_kwh": 7.680508502718378,
+      "peak_import_kw": 91.21185019283838,
+      "solar_kwh": 657.8720598999998,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.680508502718378
+    },
+    "reference": {
+      "voltage_abs_pu": 9.433076516811857e-11,
+      "source_abs_kva": 4.99802735047966e-09,
+      "loss_abs_kw": 8.56878479282841e-09,
+      "max_residual_pu": 1.2504806247052646e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 5
+    }
+  },
+  {
+    "id": "s17-n96-tol1e-10",
+    "group": "core",
+    "seed": 17,
+    "steps": 96,
+    "tolerance": 1e-10,
+    "policy": "baseline",
+    "study": "s17-n96-tol1e-10",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 6,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.9252155425419915e-11,
+      "export_kwh": 207.44367227855673,
+      "import_kwh": 833.984162867301,
+      "load_kwh": 1276.7320419500008,
+      "max_loading": 1.045543207850872,
+      "max_power_residual_pu": 5.933655404496739e-11,
+      "max_voltage_pu": 1.007843861302394,
+      "min_voltage_pu": 0.9862086149428978,
+      "network_loss_kwh": 7.6805085387241725,
+      "peak_import_kw": 91.21185019320413,
+      "solar_kwh": 657.8720598999998,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.6805085387241725
+    },
+    "reference": {
+      "voltage_abs_pu": 9.76579988951208e-13,
+      "source_abs_kva": 6.152090573279011e-11,
+      "loss_abs_kw": 9.595690908525967e-11,
+      "max_residual_pu": 1.2504806247052646e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": "s17-n96-tol1e-12",
+    "group": "core",
+    "seed": 17,
+    "steps": 96,
+    "tolerance": 1e-12,
+    "policy": "baseline",
+    "study": "s17-n96-tol1e-12",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 6,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 4.18332035678759e-13,
+      "export_kwh": 207.44367227866383,
+      "import_kwh": 833.9841628673819,
+      "load_kwh": 1276.7320419500008,
+      "max_loading": 1.045543207855063,
+      "max_power_residual_pu": 5.739432786750492e-13,
+      "max_voltage_pu": 1.0078438613014573,
+      "min_voltage_pu": 0.9862086149428388,
+      "network_loss_kwh": 7.680508538716631,
+      "peak_import_kw": 91.21185019320825,
+      "solar_kwh": 657.8720598999998,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.680508538716631
+    },
+    "reference": {
+      "voltage_abs_pu": 1.1364192556913332e-14,
+      "source_abs_kva": 2.393117453985735e-11,
+      "loss_abs_kw": 9.484635299372712e-13,
+      "max_residual_pu": 1.2504806247052646e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 5,
+      "max": 7
+    }
+  },
+  {
+    "id": "s17-n288-tol1e-06",
+    "group": "core",
+    "seed": 17,
+    "steps": 288,
+    "tolerance": 1e-06,
+    "policy": "baseline",
+    "study": "s17-n288-tol1e-06",
+    "state": "INVALID_RESULT",
+    "violations": 18,
+    "invalid": 107,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [
+      "complex nodal power residual exceeds 1e-7 pu"
+    ],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 2.8126375894999e-07,
+      "export_kwh": 207.4073972329618,
+      "import_kwh": 834.0507543001111,
+      "load_kwh": 1276.728733408333,
+      "max_loading": 1.0468168777333764,
+      "max_power_residual_pu": 5.802512696344698e-07,
+      "max_voltage_pu": 1.0078439575437932,
+      "min_voltage_pu": 0.9861917971360684,
+      "network_loss_kwh": 7.682312744218713,
+      "peak_import_kw": 91.32287058525333,
+      "solar_kwh": 657.7676893666661,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.682312744218713
+    },
+    "reference": {
+      "voltage_abs_pu": 9.656428713148287e-09,
+      "source_abs_kva": 5.568061287010665e-07,
+      "loss_abs_kw": 9.195999600697391e-07,
+      "max_residual_pu": 1.2900437235998596e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 3,
+      "max": 4
+    }
+  },
+  {
+    "id": "s17-n288-tol1e-08",
+    "group": "core",
+    "seed": 17,
+    "steps": 288,
+    "tolerance": 1e-08,
+    "policy": "baseline",
+    "study": "s17-n288-tol1e-08",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 18,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.782756076096348e-08,
+      "export_kwh": 207.40739854926906,
+      "import_kwh": 834.0507553574607,
+      "load_kwh": 1276.728733408333,
+      "max_loading": 1.0468169038316046,
+      "max_power_residual_pu": 5.517227154098549e-09,
+      "max_voltage_pu": 1.0078439479224122,
+      "min_voltage_pu": 0.9861917967692564,
+      "network_loss_kwh": 7.682312748697213,
+      "peak_import_kw": 91.32287061108215,
+      "solar_kwh": 657.7676893666661,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.682312748697213
+    },
+    "reference": {
+      "voltage_abs_pu": 9.565987305553961e-11,
+      "source_abs_kva": 5.285698519077007e-09,
+      "loss_abs_kw": 9.085671770492354e-09,
+      "max_residual_pu": 1.2900437235998596e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 5
+    }
+  },
+  {
+    "id": "s17-n288-tol1e-10",
+    "group": "core",
+    "seed": 17,
+    "steps": 288,
+    "tolerance": 1e-10,
+    "policy": "baseline",
+    "study": "s17-n288-tol1e-10",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 18,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.2644107982850983e-11,
+      "export_kwh": 207.40739853839108,
+      "import_kwh": 834.0507553647353,
+      "load_kwh": 1276.728733408333,
+      "max_loading": 1.0468169041509183,
+      "max_power_residual_pu": 5.933655404496739e-11,
+      "max_voltage_pu": 1.007843948000005,
+      "min_voltage_pu": 0.9861917967643815,
+      "network_loss_kwh": 7.6823127846647346,
+      "peak_import_kw": 91.32287061145104,
+      "solar_kwh": 657.7676893666661,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.6823127846647346
+    },
+    "reference": {
+      "voltage_abs_pu": 9.76579988951208e-13,
+      "source_abs_kva": 6.152090573279011e-11,
+      "loss_abs_kw": 9.595690908525967e-11,
+      "max_residual_pu": 1.2900437235998596e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": "s17-n288-tol1e-12",
+    "group": "core",
+    "seed": 17,
+    "steps": 288,
+    "tolerance": 1e-12,
+    "policy": "baseline",
+    "study": "s17-n288-tol1e-12",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 18,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 4.583000645652646e-13,
+      "export_kwh": 207.4073985384982,
+      "import_kwh": 834.050755364806,
+      "load_kwh": 1276.728733408333,
+      "max_loading": 1.0468169041551458,
+      "max_power_residual_pu": 5.739432786750492e-13,
+      "max_voltage_pu": 1.0078439479990677,
+      "min_voltage_pu": 0.986191796764322,
+      "network_loss_kwh": 7.682312784640541,
+      "peak_import_kw": 91.32287061145523,
+      "solar_kwh": 657.7676893666661,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.682312784640541
+    },
+    "reference": {
+      "voltage_abs_pu": 1.1881509519116236e-14,
+      "source_abs_kva": 2.481050512931314e-11,
+      "loss_abs_kw": 1.003752636563604e-12,
+      "max_residual_pu": 1.2900437235998596e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 5,
+      "max": 7
+    }
+  },
+  {
+    "id": "s23-n24-tol1e-06",
+    "group": "core",
+    "seed": 23,
+    "steps": 24,
+    "tolerance": 1e-06,
+    "policy": "baseline",
+    "study": "s23-n24-tol1e-06",
+    "state": "INVALID_RESULT",
+    "violations": 2,
+    "invalid": 9,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [
+      "complex nodal power residual exceeds 1e-7 pu"
+    ],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 5.409981058690505e-07,
+      "export_kwh": 183.54042448289292,
+      "import_kwh": 832.092959806052,
+      "load_kwh": 1276.7852789,
+      "max_loading": 1.0244763992836619,
+      "max_power_residual_pu": 4.230998721074594e-07,
+      "max_voltage_pu": 1.0075095461732764,
+      "min_voltage_pu": 0.9864867797026657,
+      "network_loss_kwh": 7.377893082160919,
+      "peak_import_kw": 89.37555129684928,
+      "solar_kwh": 635.6106372000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.377893082160919
+    },
+    "reference": {
+      "voltage_abs_pu": 8.337067934827312e-09,
+      "source_abs_kva": 3.85018386885177e-07,
+      "loss_abs_kw": 6.190855959542496e-07,
+      "max_residual_pu": 1.0415864432533703e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 3,
+      "max": 4
+    }
+  },
+  {
+    "id": "s23-n24-tol1e-08",
+    "group": "core",
+    "seed": 23,
+    "steps": 24,
+    "tolerance": 1e-08,
+    "policy": "baseline",
+    "study": "s23-n24-tol1e-08",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.4912091117480486e-08,
+      "export_kwh": 183.54042538407262,
+      "import_kwh": 832.0929609798646,
+      "load_kwh": 1276.7852789,
+      "max_loading": 1.0244764227002356,
+      "max_power_residual_pu": 3.8782982498022625e-09,
+      "max_voltage_pu": 1.0075095377876433,
+      "min_voltage_pu": 0.9864867793735522,
+      "network_loss_kwh": 7.377893880880022,
+      "peak_import_kw": 89.37555131952423,
+      "solar_kwh": 635.6106372000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.377893880880022
+    },
+    "reference": {
+      "voltage_abs_pu": 7.963465593720462e-11,
+      "source_abs_kva": 3.6636465552699507e-09,
+      "loss_abs_kw": 6.543510955303589e-09,
+      "max_residual_pu": 1.0415864432533703e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 5
+    }
+  },
+  {
+    "id": "s23-n24-tol1e-10",
+    "group": "core",
+    "seed": 23,
+    "steps": 24,
+    "tolerance": 1e-10,
+    "policy": "baseline",
+    "study": "s23-n24-tol1e-10",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 3.490541189421492e-11,
+      "export_kwh": 183.54042537701906,
+      "import_kwh": 832.0929609880359,
+      "load_kwh": 1276.7852789,
+      "max_loading": 1.024476422980542,
+      "max_power_residual_pu": 3.6952358578077837e-11,
+      "max_voltage_pu": 1.007509537852698,
+      "min_voltage_pu": 0.9864867793692729,
+      "network_loss_kwh": 7.377893910981921,
+      "peak_import_kw": 89.37555131984108,
+      "solar_kwh": 635.6106372000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.377893910981921
+    },
+    "reference": {
+      "voltage_abs_pu": 7.591999420089051e-13,
+      "source_abs_kva": 4.264089163330698e-11,
+      "loss_abs_kw": 4.777095385932739e-11,
+      "max_residual_pu": 1.0415864432533703e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": "s23-n24-tol1e-12",
+    "group": "core",
+    "seed": 23,
+    "steps": 24,
+    "tolerance": 1e-12,
+    "policy": "baseline",
+    "study": "s23-n24-tol1e-12",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.0969003483296547e-12,
+      "export_kwh": 183.5404253770844,
+      "import_kwh": 832.0929609881126,
+      "load_kwh": 1276.7852789,
+      "max_loading": 1.0244764229841714,
+      "max_power_residual_pu": 3.423813727531751e-13,
+      "max_voltage_pu": 1.0075095378519332,
+      "min_voltage_pu": 0.9864867793692217,
+      "network_loss_kwh": 7.3778939110270985,
+      "peak_import_kw": 89.37555131984458,
+      "solar_kwh": 635.6106372000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.3778939110270985
+    },
+    "reference": {
+      "voltage_abs_pu": 8.83033143555754e-15,
+      "source_abs_kva": 2.5333358724057435e-11,
+      "loss_abs_kw": 6.956102360788918e-13,
+      "max_residual_pu": 1.0415864432533703e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 5,
+      "max": 7
+    }
+  },
+  {
+    "id": "s23-n48-tol1e-06",
+    "group": "core",
+    "seed": 23,
+    "steps": 48,
+    "tolerance": 1e-06,
+    "policy": "baseline",
+    "study": "s23-n48-tol1e-06",
+    "state": "INVALID_RESULT",
+    "violations": 2,
+    "invalid": 18,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [
+      "complex nodal power residual exceeds 1e-7 pu"
+    ],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 3.55635605409077e-07,
+      "export_kwh": 183.54043459750991,
+      "import_kwh": 833.4367173019116,
+      "load_kwh": 1276.7430816000003,
+      "max_loading": 1.0412655576322107,
+      "max_power_residual_pu": 4.334631977828547e-07,
+      "max_voltage_pu": 1.0076412574382436,
+      "min_voltage_pu": 0.9862650977103083,
+      "network_loss_kwh": 7.402946348765696,
+      "peak_import_kw": 90.83899365719836,
+      "solar_kwh": 634.2497456,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.402946348765696
+    },
+    "reference": {
+      "voltage_abs_pu": 8.790331460559627e-09,
+      "source_abs_kva": 4.120596484190775e-07,
+      "loss_abs_kw": 6.382977710273074e-07,
+      "max_residual_pu": 1.1301764255185142e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 3,
+      "max": 4
+    }
+  },
+  {
+    "id": "s23-n48-tol1e-08",
+    "group": "core",
+    "seed": 23,
+    "steps": 48,
+    "tolerance": 1e-08,
+    "policy": "baseline",
+    "study": "s23-n48-tol1e-08",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.2951616668033239e-08,
+      "export_kwh": 183.54043550271237,
+      "import_kwh": 833.4367182271371,
+      "load_kwh": 1276.7430816000003,
+      "max_loading": 1.0412655830422095,
+      "max_power_residual_pu": 4.1511020297313284e-09,
+      "max_voltage_pu": 1.0076412485951916,
+      "min_voltage_pu": 0.9862650973531715,
+      "network_loss_kwh": 7.402946711472666,
+      "peak_import_kw": 90.83899368221125,
+      "solar_kwh": 634.2497456,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.402946711472666
+    },
+    "reference": {
+      "voltage_abs_pu": 8.504425169294251e-11,
+      "source_abs_kva": 3.96251318700221e-09,
+      "loss_abs_kw": 7.093361065191317e-09,
+      "max_residual_pu": 1.1301764255185142e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 5
+    }
+  },
+  {
+    "id": "s23-n48-tol1e-10",
+    "group": "core",
+    "seed": 23,
+    "steps": 48,
+    "tolerance": 1e-10,
+    "policy": "baseline",
+    "study": "s23-n48-tol1e-10",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 2.156674838715844e-11,
+      "export_kwh": 183.54043549561862,
+      "import_kwh": 833.4367182332996,
+      "load_kwh": 1276.7430816000003,
+      "max_loading": 1.0412655833514255,
+      "max_power_residual_pu": 4.00680540408182e-11,
+      "max_voltage_pu": 1.00764124866485,
+      "min_voltage_pu": 0.9862650973484507,
+      "network_loss_kwh": 7.402946737659056,
+      "peak_import_kw": 90.83899368256655,
+      "solar_kwh": 634.2497456,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.402946737659056
+    },
+    "reference": {
+      "voltage_abs_pu": 8.20734907713818e-13,
+      "source_abs_kva": 5.817983279338274e-11,
+      "loss_abs_kw": 5.2633619684883115e-11,
+      "max_residual_pu": 1.1301764255185142e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": "s23-n48-tol1e-12",
+    "group": "core",
+    "seed": 23,
+    "steps": 48,
+    "tolerance": 1e-12,
+    "policy": "baseline",
+    "study": "s23-n48-tol1e-12",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 7.86926079854311e-13,
+      "export_kwh": 183.54043549568442,
+      "import_kwh": 833.4367182333585,
+      "load_kwh": 1276.7430816000003,
+      "max_loading": 1.0412655833554905,
+      "max_power_residual_pu": 3.8669088039442554e-13,
+      "max_voltage_pu": 1.007641248664023,
+      "min_voltage_pu": 0.9862650973483934,
+      "network_loss_kwh": 7.402946737673014,
+      "peak_import_kw": 90.83899368257057,
+      "solar_kwh": 634.2497456,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.402946737673014
+    },
+    "reference": {
+      "voltage_abs_pu": 9.852478161324623e-15,
+      "source_abs_kva": 2.7951803201307648e-11,
+      "loss_abs_kw": 7.919220834651242e-13,
+      "max_residual_pu": 1.1301764255185142e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 5,
+      "max": 7
+    }
+  },
+  {
+    "id": "s23-n96-tol1e-06",
+    "group": "core",
+    "seed": 23,
+    "steps": 96,
+    "tolerance": 1e-06,
+    "policy": "baseline",
+    "study": "s23-n96-tol1e-06",
+    "state": "INVALID_RESULT",
+    "violations": 6,
+    "invalid": 34,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [
+      "complex nodal power residual exceeds 1e-7 pu"
+    ],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 4.625353540177457e-07,
+      "export_kwh": 183.18979747380516,
+      "import_kwh": 833.4208501439898,
+      "load_kwh": 1276.7320419500008,
+      "max_loading": 1.0455431815948917,
+      "max_power_residual_pu": 5.816124584557446e-07,
+      "max_voltage_pu": 1.0076793194602993,
+      "min_voltage_pu": 0.9862086153123109,
+      "network_loss_kwh": 7.409171057648791,
+      "peak_import_kw": 91.21185016719869,
+      "solar_kwh": 633.9101608000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.409171057648791
+    },
+    "reference": {
+      "voltage_abs_pu": 9.375270616352475e-09,
+      "source_abs_kva": 5.550957604851639e-07,
+      "loss_abs_kw": 9.220617368521644e-07,
+      "max_residual_pu": 1.4737914227839882e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 3,
+      "max": 4
+    }
+  },
+  {
+    "id": "s23-n96-tol1e-08",
+    "group": "core",
+    "seed": 23,
+    "steps": 96,
+    "tolerance": 1e-08,
+    "policy": "baseline",
+    "study": "s23-n96-tol1e-08",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 6,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.4211416932141674e-08,
+      "export_kwh": 183.18979838013485,
+      "import_kwh": 833.4208512162563,
+      "load_kwh": 1276.7320419500008,
+      "max_loading": 1.0455432075339137,
+      "max_power_residual_pu": 5.500130946556298e-09,
+      "max_voltage_pu": 1.0076793104847925,
+      "min_voltage_pu": 0.9862086149477368,
+      "network_loss_kwh": 7.409171671909582,
+      "peak_import_kw": 91.21185019283838,
+      "solar_kwh": 633.9101608000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.409171671909582
+    },
+    "reference": {
+      "voltage_abs_pu": 8.879229547505569e-11,
+      "source_abs_kva": 5.24454996468364e-09,
+      "loss_abs_kw": 8.99317853519932e-09,
+      "max_residual_pu": 1.4737914227839882e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 5
+    }
+  },
+  {
+    "id": "s23-n96-tol1e-10",
+    "group": "core",
+    "seed": 23,
+    "steps": 96,
+    "tolerance": 1e-10,
+    "policy": "baseline",
+    "study": "s23-n96-tol1e-10",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 6,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 3.6203928743816505e-11,
+      "export_kwh": 183.18979837302965,
+      "import_kwh": 833.4208512236645,
+      "load_kwh": 1276.7320419500008,
+      "max_loading": 1.045543207850872,
+      "max_power_residual_pu": 5.933655404496739e-11,
+      "max_voltage_pu": 1.0076793105558004,
+      "min_voltage_pu": 0.9862086149428978,
+      "network_loss_kwh": 7.409171700598057,
+      "peak_import_kw": 91.21185019320413,
+      "solar_kwh": 633.9101608000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.409171700598057
+    },
+    "reference": {
+      "voltage_abs_pu": 9.76579988951208e-13,
+      "source_abs_kva": 5.7414798142739174e-11,
+      "loss_abs_kw": 9.595690908525967e-11,
+      "max_residual_pu": 1.4737914227839882e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": "s23-n96-tol1e-12",
+    "group": "core",
+    "seed": 23,
+    "steps": 96,
+    "tolerance": 1e-12,
+    "policy": "baseline",
+    "study": "s23-n96-tol1e-12",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 6,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 3.9879211044535623e-13,
+      "export_kwh": 183.18979837309558,
+      "import_kwh": 833.4208512237458,
+      "load_kwh": 1276.7320419500008,
+      "max_loading": 1.045543207855063,
+      "max_power_residual_pu": 5.739432786750492e-13,
+      "max_voltage_pu": 1.0076793105549549,
+      "min_voltage_pu": 0.9862086149428388,
+      "network_loss_kwh": 7.409171700649323,
+      "peak_import_kw": 91.21185019320825,
+      "solar_kwh": 633.9101608000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.409171700649323
+    },
+    "reference": {
+      "voltage_abs_pu": 1.0211056905038607e-14,
+      "source_abs_kva": 2.393117453985735e-11,
+      "loss_abs_kw": 9.160450176182167e-13,
+      "max_residual_pu": 1.4737914227839882e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 5,
+      "max": 7
+    }
+  },
+  {
+    "id": "s23-n288-tol1e-06",
+    "group": "core",
+    "seed": 23,
+    "steps": 288,
+    "tolerance": 1e-06,
+    "policy": "baseline",
+    "study": "s23-n288-tol1e-06",
+    "state": "INVALID_RESULT",
+    "violations": 18,
+    "invalid": 105,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [
+      "complex nodal power residual exceeds 1e-7 pu"
+    ],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 4.578967711665882e-07,
+      "export_kwh": 183.25429016274958,
+      "import_kwh": 833.584445127236,
+      "load_kwh": 1276.728733408333,
+      "max_loading": 1.0468168777333764,
+      "max_power_residual_pu": 5.816124584557446e-07,
+      "max_voltage_pu": 1.0076947534369005,
+      "min_voltage_pu": 0.9861917971360684,
+      "network_loss_kwh": 7.411012498256856,
+      "peak_import_kw": 91.32287058525333,
+      "solar_kwh": 633.8095914000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.411012498256856
+    },
+    "reference": {
+      "voltage_abs_pu": 9.525673741743846e-09,
+      "source_abs_kva": 5.568061287010665e-07,
+      "loss_abs_kw": 9.220617368521644e-07,
+      "max_residual_pu": 1.4737914227839882e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 3,
+      "max": 4
+    }
+  },
+  {
+    "id": "s23-n288-tol1e-08",
+    "group": "core",
+    "seed": 23,
+    "steps": 288,
+    "tolerance": 1e-08,
+    "policy": "baseline",
+    "study": "s23-n288-tol1e-08",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 18,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.4164263539839794e-08,
+      "export_kwh": 183.25429106932236,
+      "import_kwh": 833.5844461945719,
+      "load_kwh": 1276.728733408333,
+      "max_loading": 1.0468169038316046,
+      "max_power_residual_pu": 5.517227154098549e-09,
+      "max_voltage_pu": 1.0076947444095645,
+      "min_voltage_pu": 0.9861917967692564,
+      "network_loss_kwh": 7.411013102752556,
+      "peak_import_kw": 91.32287061108215,
+      "solar_kwh": 633.8095914000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.411013102752556
+    },
+    "reference": {
+      "voltage_abs_pu": 9.070467510581944e-11,
+      "source_abs_kva": 5.285698519077007e-09,
+      "loss_abs_kw": 9.085671770492354e-09,
+      "max_residual_pu": 1.4737914227839882e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 5
+    }
+  },
+  {
+    "id": "s23-n288-tol1e-10",
+    "group": "core",
+    "seed": 23,
+    "steps": 288,
+    "tolerance": 1e-10,
+    "policy": "baseline",
+    "study": "s23-n288-tol1e-10",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 18,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 3.064748455017252e-11,
+      "export_kwh": 183.25429106221458,
+      "import_kwh": 833.5844462019362,
+      "load_kwh": 1276.728733408333,
+      "max_loading": 1.0468169041509183,
+      "max_power_residual_pu": 5.933655404496739e-11,
+      "max_voltage_pu": 1.007694744481105,
+      "min_voltage_pu": 0.9861917967643815,
+      "network_loss_kwh": 7.411013131358052,
+      "peak_import_kw": 91.32287061145104,
+      "solar_kwh": 633.8095914000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.411013131358052
+    },
+    "reference": {
+      "voltage_abs_pu": 9.76579988951208e-13,
+      "source_abs_kva": 5.7414798142739174e-11,
+      "loss_abs_kw": 9.595690908525967e-11,
+      "max_residual_pu": 1.4737914227839882e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": "s23-n288-tol1e-12",
+    "group": "core",
+    "seed": 23,
+    "steps": 288,
+    "tolerance": 1e-12,
+    "policy": "baseline",
+    "study": "s23-n288-tol1e-12",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 18,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.227462576025573e-12,
+      "export_kwh": 183.2542910622806,
+      "import_kwh": 833.5844462020091,
+      "load_kwh": 1276.728733408333,
+      "max_loading": 1.0468169041551458,
+      "max_power_residual_pu": 5.739432786750492e-13,
+      "max_voltage_pu": 1.0076947444802524,
+      "min_voltage_pu": 0.986191796764322,
+      "network_loss_kwh": 7.411013131394293,
+      "peak_import_kw": 91.32287061145523,
+      "solar_kwh": 633.8095914000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.411013131394293
+    },
+    "reference": {
+      "voltage_abs_pu": 1.0688740820949696e-14,
+      "source_abs_kva": 2.481050512931314e-11,
+      "loss_abs_kw": 9.160450176182167e-13,
+      "max_residual_pu": 1.4737914227839882e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 5,
+      "max": 7
+    }
+  },
+  {
+    "id": "s31-n24-tol1e-06",
+    "group": "core",
+    "seed": 31,
+    "steps": 24,
+    "tolerance": 1e-06,
+    "policy": "baseline",
+    "study": "s31-n24-tol1e-06",
+    "state": "INVALID_RESULT",
+    "violations": 2,
+    "invalid": 8,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [
+      "complex nodal power residual exceeds 1e-7 pu"
+    ],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 4.413014922377556e-07,
+      "export_kwh": 207.90310220121438,
+      "import_kwh": 833.6539787037241,
+      "load_kwh": 1276.7852789,
+      "max_loading": 1.0244763992836619,
+      "max_power_residual_pu": 4.768790539453574e-07,
+      "max_voltage_pu": 1.007853363847478,
+      "min_voltage_pu": 0.9864867797026657,
+      "network_loss_kwh": 7.655339961208145,
+      "peak_import_kw": 89.37555129684928,
+      "solar_kwh": 658.6897428,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.655339961208145
+    },
+    "reference": {
+      "voltage_abs_pu": 9.57675213107422e-09,
+      "source_abs_kva": 4.5977411619420607e-07,
+      "loss_abs_kw": 7.191245415816283e-07,
+      "max_residual_pu": 8.784199009053238e-14,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 3,
+      "max": 4
+    }
+  },
+  {
+    "id": "s31-n24-tol1e-08",
+    "group": "core",
+    "seed": 31,
+    "steps": 24,
+    "tolerance": 1e-08,
+    "policy": "baseline",
+    "study": "s31-n24-tol1e-08",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.86858972739401e-08,
+      "export_kwh": 207.90310345131772,
+      "import_kwh": 833.653979939165,
+      "load_kwh": 1276.7852789,
+      "max_loading": 1.0244764227002356,
+      "max_power_residual_pu": 4.632723442154535e-09,
+      "max_voltage_pu": 1.0078533542107315,
+      "min_voltage_pu": 0.9864867793735522,
+      "network_loss_kwh": 7.655340369161321,
+      "peak_import_kw": 89.37555131952423,
+      "solar_kwh": 658.6897428,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.655340369161321
+    },
+    "reference": {
+      "voltage_abs_pu": 9.459582129396385e-11,
+      "source_abs_kva": 4.518431299656647e-09,
+      "loss_abs_kw": 8.08142458508243e-09,
+      "max_residual_pu": 8.784199009053238e-14,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 5
+    }
+  },
+  {
+    "id": "s31-n24-tol1e-10",
+    "group": "core",
+    "seed": 31,
+    "steps": 24,
+    "tolerance": 1e-10,
+    "policy": "baseline",
+    "study": "s31-n24-tol1e-10",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 2.509548124862704e-11,
+      "export_kwh": 207.9031034410462,
+      "import_kwh": 833.6539799479114,
+      "load_kwh": 1276.7852789,
+      "max_loading": 1.024476422980542,
+      "max_power_residual_pu": 4.563985606388418e-11,
+      "max_voltage_pu": 1.0078533542885098,
+      "min_voltage_pu": 0.9864867793692729,
+      "network_loss_kwh": 7.655340406839884,
+      "peak_import_kw": 89.37555131984108,
+      "solar_kwh": 658.6897428,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.655340406839884
+    },
+    "reference": {
+      "voltage_abs_pu": 9.318770263347433e-13,
+      "source_abs_kva": 5.7729846285353484e-11,
+      "loss_abs_kw": 6.154809994995958e-11,
+      "max_residual_pu": 8.784199009053238e-14,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": "s31-n24-tol1e-12",
+    "group": "core",
+    "seed": 31,
+    "steps": 24,
+    "tolerance": 1e-12,
+    "policy": "baseline",
+    "study": "s31-n24-tol1e-12",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.2860823517257813e-12,
+      "export_kwh": 207.90310344114675,
+      "import_kwh": 833.6539799479946,
+      "load_kwh": 1276.7852789,
+      "max_loading": 1.0244764229841714,
+      "max_power_residual_pu": 4.5469089948067484e-13,
+      "max_voltage_pu": 1.0078533542875703,
+      "min_voltage_pu": 0.9864867793692217,
+      "network_loss_kwh": 7.655340406846413,
+      "peak_import_kw": 89.37555131984458,
+      "solar_kwh": 658.6897428,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.655340406846413
+    },
+    "reference": {
+      "voltage_abs_pu": 1.1244519621253356e-14,
+      "source_abs_kva": 2.5333358724057435e-11,
+      "loss_abs_kw": 9.455769500732458e-13,
+      "max_residual_pu": 8.784199009053238e-14,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 5,
+      "max": 7
+    }
+  },
+  {
+    "id": "s31-n48-tol1e-06",
+    "group": "core",
+    "seed": 31,
+    "steps": 48,
+    "tolerance": 1e-06,
+    "policy": "baseline",
+    "study": "s31-n48-tol1e-06",
+    "state": "INVALID_RESULT",
+    "violations": 2,
+    "invalid": 18,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [
+      "complex nodal power residual exceeds 1e-7 pu"
+    ],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 3.2924949611157217e-07,
+      "export_kwh": 206.19330153879991,
+      "import_kwh": 833.3336810014032,
+      "load_kwh": 1276.7430816000003,
+      "max_loading": 1.0412655576322107,
+      "max_power_residual_pu": 4.4087271729530736e-07,
+      "max_voltage_pu": 1.0079327850172801,
+      "min_voltage_pu": 0.9862650977103083,
+      "network_loss_kwh": 7.676735133353623,
+      "peak_import_kw": 90.83899365719836,
+      "solar_kwh": 657.2794376000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.676735133353623
+    },
+    "reference": {
+      "voltage_abs_pu": 8.994486167383377e-09,
+      "source_abs_kva": 4.2458384190115e-07,
+      "loss_abs_kw": 6.382977710273074e-07,
+      "max_residual_pu": 1.1301764255185142e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 3,
+      "max": 4
+    }
+  },
+  {
+    "id": "s31-n48-tol1e-08",
+    "group": "core",
+    "seed": 31,
+    "steps": 48,
+    "tolerance": 1e-08,
+    "policy": "baseline",
+    "study": "s31-n48-tol1e-08",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.6381584089231183e-08,
+      "export_kwh": 206.1933025587328,
+      "import_kwh": 833.3336819520948,
+      "load_kwh": 1276.7430816000003,
+      "max_loading": 1.0412655830422095,
+      "max_power_residual_pu": 4.8418524877125105e-09,
+      "max_voltage_pu": 1.0079327850172801,
+      "min_voltage_pu": 0.9862650973531715,
+      "network_loss_kwh": 7.676735376980339,
+      "peak_import_kw": 90.83899368221125,
+      "solar_kwh": 657.2794376000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.676735376980339
+    },
+    "reference": {
+      "voltage_abs_pu": 9.878667361477308e-11,
+      "source_abs_kva": 4.771759939575584e-09,
+      "loss_abs_kw": 8.518395100409748e-09,
+      "max_residual_pu": 1.1301764255185142e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 5
+    }
+  },
+  {
+    "id": "s31-n48-tol1e-10",
+    "group": "core",
+    "seed": 31,
+    "steps": 48,
+    "tolerance": 1e-10,
+    "policy": "baseline",
+    "study": "s31-n48-tol1e-10",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 4.193978497823991e-12,
+      "export_kwh": 206.19330254838886,
+      "import_kwh": 833.3336819584583,
+      "load_kwh": 1276.7430816000003,
+      "max_loading": 1.0412655833514255,
+      "max_power_residual_pu": 4.813125871881315e-11,
+      "max_voltage_pu": 1.0079327850985773,
+      "min_voltage_pu": 0.9862650973484507,
+      "network_loss_kwh": 7.676735410065147,
+      "peak_import_kw": 90.83899368256655,
+      "solar_kwh": 657.2794376000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.676735410065147
+    },
+    "reference": {
+      "voltage_abs_pu": 9.82628054025845e-13,
+      "source_abs_kva": 5.9923782436908e-11,
+      "loss_abs_kw": 6.554495834976137e-11,
+      "max_residual_pu": 1.1301764255185142e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": "s31-n48-tol1e-12",
+    "group": "core",
+    "seed": 31,
+    "steps": 48,
+    "tolerance": 1e-12,
+    "policy": "baseline",
+    "study": "s31-n48-tol1e-12",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 2,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.247890679678676e-12,
+      "export_kwh": 206.19330254849027,
+      "import_kwh": 833.333681958515,
+      "load_kwh": 1276.7430816000003,
+      "max_loading": 1.0412655833554905,
+      "max_power_residual_pu": 4.748781820330773e-13,
+      "max_voltage_pu": 1.0079327850975874,
+      "min_voltage_pu": 0.9862650973483934,
+      "network_loss_kwh": 7.6767354100233005,
+      "peak_import_kw": 90.83899368257057,
+      "solar_kwh": 657.2794376000002,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.6767354100233005
+    },
+    "reference": {
+      "voltage_abs_pu": 1.2138456155815055e-14,
+      "source_abs_kva": 2.4410131051875066e-11,
+      "loss_abs_kw": 9.869882688917642e-13,
+      "max_residual_pu": 1.1301764255185142e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 5,
+      "max": 7
+    }
+  },
+  {
+    "id": "s31-n96-tol1e-06",
+    "group": "core",
+    "seed": 31,
+    "steps": 96,
+    "tolerance": 1e-06,
+    "policy": "baseline",
+    "study": "s31-n96-tol1e-06",
+    "state": "INVALID_RESULT",
+    "violations": 6,
+    "invalid": 33,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [
+      "complex nodal power residual exceeds 1e-7 pu"
+    ],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 2.903911369145362e-07,
+      "export_kwh": 206.032005962674,
+      "import_kwh": 833.5185906645515,
+      "load_kwh": 1276.7320419500008,
+      "max_loading": 1.0455431815948917,
+      "max_power_residual_pu": 4.913968801507007e-07,
+      "max_voltage_pu": 1.0079473158006613,
+      "min_voltage_pu": 0.9862086153123109,
+      "network_loss_kwh": 7.682064461485487,
+      "peak_import_kw": 91.21185016719869,
+      "solar_kwh": 656.927522,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.682064461485487
+    },
+    "reference": {
+      "voltage_abs_pu": 9.77879866770797e-09,
+      "source_abs_kva": 4.720997761255923e-07,
+      "loss_abs_kw": 7.468389896514438e-07,
+      "max_residual_pu": 1.2504806247052646e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 3,
+      "max": 4
+    }
+  },
+  {
+    "id": "s31-n96-tol1e-08",
+    "group": "core",
+    "seed": 31,
+    "steps": 96,
+    "tolerance": 1e-08,
+    "policy": "baseline",
+    "study": "s31-n96-tol1e-08",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 6,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.5461458779952864e-08,
+      "export_kwh": 206.03200710045834,
+      "import_kwh": 833.5185916308392,
+      "load_kwh": 1276.7320419500008,
+      "max_loading": 1.0455432075339137,
+      "max_power_residual_pu": 4.7571560582621605e-09,
+      "max_voltage_pu": 1.007947315882673,
+      "min_voltage_pu": 0.9862086149477368,
+      "network_loss_kwh": 7.682064564918343,
+      "peak_import_kw": 91.21185019283838,
+      "solar_kwh": 656.927522,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.682064564918343
+    },
+    "reference": {
+      "voltage_abs_pu": 9.708610524691282e-11,
+      "source_abs_kva": 4.670223318974466e-09,
+      "loss_abs_kw": 8.340841239906638e-09,
+      "max_residual_pu": 1.2504806247052646e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 5
+    }
+  },
+  {
+    "id": "s31-n96-tol1e-10",
+    "group": "core",
+    "seed": 31,
+    "steps": 96,
+    "tolerance": 1e-10,
+    "policy": "baseline",
+    "study": "s31-n96-tol1e-10",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 6,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 2.8910207561239076e-11,
+      "export_kwh": 206.0320070911946,
+      "import_kwh": 833.5185916373268,
+      "load_kwh": 1276.7320419500008,
+      "max_loading": 1.045543207850872,
+      "max_power_residual_pu": 5.933655404496739e-11,
+      "max_voltage_pu": 1.007947315881673,
+      "min_voltage_pu": 0.9862086149428978,
+      "network_loss_kwh": 7.68206459610243,
+      "peak_import_kw": 91.21185019320413,
+      "solar_kwh": 656.927522,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.68206459610243
+    },
+    "reference": {
+      "voltage_abs_pu": 9.76579988951208e-13,
+      "source_abs_kva": 5.7414798142739174e-11,
+      "loss_abs_kw": 9.595690908525967e-11,
+      "max_residual_pu": 1.2504806247052646e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": "s31-n96-tol1e-12",
+    "group": "core",
+    "seed": 31,
+    "steps": 96,
+    "tolerance": 1e-12,
+    "policy": "baseline",
+    "study": "s31-n96-tol1e-12",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 6,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 2.566835632933362e-13,
+      "export_kwh": 206.03200709128424,
+      "import_kwh": 833.5185916374115,
+      "load_kwh": 1276.7320419500008,
+      "max_loading": 1.045543207855063,
+      "max_power_residual_pu": 5.76606130542326e-13,
+      "max_voltage_pu": 1.0079473158816812,
+      "min_voltage_pu": 0.9862086149428388,
+      "network_loss_kwh": 7.682064596126081,
+      "peak_import_kw": 91.21185019320825,
+      "solar_kwh": 656.927522,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.682064596126081
+    },
+    "reference": {
+      "voltage_abs_pu": 1.09475946674318e-14,
+      "source_abs_kva": 2.393117453985735e-11,
+      "loss_abs_kw": 9.276468482255495e-13,
+      "max_residual_pu": 1.2504806247052646e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 5,
+      "max": 7
+    }
+  },
+  {
+    "id": "s31-n288-tol1e-06",
+    "group": "core",
+    "seed": 31,
+    "steps": 288,
+    "tolerance": 1e-06,
+    "policy": "baseline",
+    "study": "s31-n288-tol1e-06",
+    "state": "INVALID_RESULT",
+    "violations": 18,
+    "invalid": 104,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [
+      "complex nodal power residual exceeds 1e-7 pu"
+    ],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 3.530239656157619e-07,
+      "export_kwh": 206.0405191810779,
+      "import_kwh": 833.6295934069701,
+      "load_kwh": 1276.728733408333,
+      "max_loading": 1.0468168777333764,
+      "max_power_residual_pu": 5.802512696344698e-07,
+      "max_voltage_pu": 1.0079474515708493,
+      "min_voltage_pu": 0.9861917971360684,
+      "network_loss_kwh": 7.683641697868593,
+      "peak_import_kw": 91.32287058525333,
+      "solar_kwh": 656.8233012333334,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.683641697868593
+    },
+    "reference": {
+      "voltage_abs_pu": 9.87768363439406e-09,
+      "source_abs_kva": 5.568061287010665e-07,
+      "loss_abs_kw": 9.195999600697391e-07,
+      "max_residual_pu": 1.2504806247052646e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 3,
+      "max": 4
+    }
+  },
+  {
+    "id": "s31-n288-tol1e-08",
+    "group": "core",
+    "seed": 31,
+    "steps": 288,
+    "tolerance": 1e-08,
+    "policy": "baseline",
+    "study": "s31-n288-tol1e-08",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 18,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.620372902522149e-08,
+      "export_kwh": 206.04052031960487,
+      "import_kwh": 833.6295944607755,
+      "load_kwh": 1276.728733408333,
+      "max_loading": 1.0468169038316046,
+      "max_power_residual_pu": 5.517227154098549e-09,
+      "max_voltage_pu": 1.0079474516529288,
+      "min_voltage_pu": 0.9861917967692564,
+      "network_loss_kwh": 7.683641949967124,
+      "peak_import_kw": 91.32287061108215,
+      "solar_kwh": 656.8233012333334,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.683641949967124
+    },
+    "reference": {
+      "voltage_abs_pu": 9.8311008413603e-11,
+      "source_abs_kva": 5.285698519077007e-09,
+      "loss_abs_kw": 9.085671770492354e-09,
+      "max_residual_pu": 1.2504806247052646e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 5
+    }
+  },
+  {
+    "id": "s31-n288-tol1e-10",
+    "group": "core",
+    "seed": 31,
+    "steps": 288,
+    "tolerance": 1e-10,
+    "policy": "baseline",
+    "study": "s31-n288-tol1e-10",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 18,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 2.1577406528194842e-11,
+      "export_kwh": 206.0405203103296,
+      "import_kwh": 833.6295944680165,
+      "load_kwh": 1276.728733408333,
+      "max_loading": 1.0468169041509183,
+      "max_power_residual_pu": 5.933655404496739e-11,
+      "max_voltage_pu": 1.0079474516519278,
+      "min_voltage_pu": 0.9861917967643815,
+      "network_loss_kwh": 7.6836419826657,
+      "peak_import_kw": 91.32287061145104,
+      "solar_kwh": 656.8233012333334,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.6836419826657
+    },
+    "reference": {
+      "voltage_abs_pu": 9.868386172125458e-13,
+      "source_abs_kva": 6.525693080782825e-11,
+      "loss_abs_kw": 9.595690908525967e-11,
+      "max_residual_pu": 1.2504806247052646e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": "s31-n288-tol1e-12",
+    "group": "core",
+    "seed": 31,
+    "steps": 288,
+    "tolerance": 1e-12,
+    "policy": "baseline",
+    "study": "s31-n288-tol1e-12",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 18,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.27720056752878e-12,
+      "export_kwh": 206.04052031042335,
+      "import_kwh": 833.6295944680917,
+      "load_kwh": 1276.728733408333,
+      "max_loading": 1.0468169041551458,
+      "max_power_residual_pu": 5.76606130542326e-13,
+      "max_voltage_pu": 1.0079474516519358,
+      "min_voltage_pu": 0.986191796764322,
+      "network_loss_kwh": 7.683641982667355,
+      "peak_import_kw": 91.32287061145523,
+      "solar_kwh": 656.8233012333334,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.683641982667355
+    },
+    "reference": {
+      "voltage_abs_pu": 1.2232718921944236e-14,
+      "source_abs_kva": 2.481050512931314e-11,
+      "loss_abs_kw": 1.042721464727947e-12,
+      "max_residual_pu": 1.2504806247052646e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 5,
+      "max": 7
+    }
+  },
+  {
+    "id": "original-four-policies",
+    "group": "original",
+    "seed": 17,
+    "steps": 96,
+    "tolerance": 1e-10,
+    "policy": "baseline",
+    "study": "original-four-policies",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 6,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.9252155425419915e-11,
+      "export_kwh": 207.44367227855673,
+      "import_kwh": 833.984162867301,
+      "load_kwh": 1276.7320419500008,
+      "max_loading": 1.045543207850872,
+      "max_power_residual_pu": 5.933655404496739e-11,
+      "max_voltage_pu": 1.007843861302394,
+      "min_voltage_pu": 0.9862086149428978,
+      "network_loss_kwh": 7.6805085387241725,
+      "peak_import_kw": 91.21185019320413,
+      "solar_kwh": 657.8720598999998,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.6805085387241725
+    },
+    "reference": {
+      "voltage_abs_pu": 9.76579988951208e-13,
+      "source_abs_kva": 6.152090573279011e-11,
+      "loss_abs_kw": 9.595690908525967e-11,
+      "max_residual_pu": 1.2504806247052646e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": "original-four-policies",
+    "group": "original",
+    "seed": 17,
+    "steps": 96,
+    "tolerance": 1e-10,
+    "policy": "storage",
+    "study": "original-four-policies",
+    "state": "COMPLETED_VALID",
+    "violations": 0,
+    "invalid": 0,
+    "violation_reasons": [],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 3.0947688856031164e-11,
+      "export_kwh": 175.78883700642547,
+      "import_kwh": 804.5721289483313,
+      "load_kwh": 1276.7320419500008,
+      "max_loading": 0.9660130459627737,
+      "max_power_residual_pu": 4.390074245665099e-11,
+      "max_voltage_pu": 1.007374055855131,
+      "min_voltage_pu": 0.9872962913181771,
+      "network_loss_kwh": 6.803309891873911,
+      "peak_import_kw": 83.83433641656191,
+      "solar_kwh": 657.8720598999998,
+      "storage_delta_kwh": 7.105427357601002e-15,
+      "storage_loss_kwh": 3.1199999999999983,
+      "total_loss_kwh": 9.92330989187391
+    },
+    "reference": {
+      "voltage_abs_pu": 7.216879059665029e-13,
+      "source_abs_kva": 3.780316541570153e-11,
+      "loss_abs_kw": 6.814782071984382e-11,
+      "max_residual_pu": 1.37664299155515e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": "original-four-policies",
+    "group": "original",
+    "seed": 17,
+    "steps": 96,
+    "tolerance": 1e-10,
+    "policy": "tap",
+    "study": "original-four-policies",
+    "state": "COMPLETED_INFEASIBLE",
+    "violations": 4,
+    "invalid": 0,
+    "violation_reasons": [
+      "branch 0-1 current loading"
+    ],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 1.603783772452516e-11,
+      "export_kwh": 207.488585425528,
+      "import_kwh": 833.83871336529,
+      "load_kwh": 1276.7320419500008,
+      "max_loading": 1.0323293902911428,
+      "max_power_residual_pu": 5.2286893541002265e-11,
+      "max_voltage_pu": 1.0202489862349395,
+      "min_voltage_pu": 0.9988832613513277,
+      "network_loss_kwh": 7.490145889744887,
+      "peak_import_kw": 91.18676886671186,
+      "solar_kwh": 657.8720598999998,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 7.490145889744887
+    },
+    "reference": {
+      "voltage_abs_pu": 8.48901033047299e-13,
+      "source_abs_kva": 5.6347244553881104e-11,
+      "loss_abs_kw": 8.236178405951478e-11,
+      "max_residual_pu": 1.2933699459547957e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": "original-four-policies",
+    "group": "original",
+    "seed": 17,
+    "steps": 96,
+    "tolerance": 1e-10,
+    "policy": "combined",
+    "study": "original-four-policies",
+    "state": "COMPLETED_VALID",
+    "violations": 0,
+    "invalid": 0,
+    "violation_reasons": [],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {
+      "energy_residual_kwh": 4.53770354624794e-11,
+      "export_kwh": 175.82543066636657,
+      "import_kwh": 804.4401402625363,
+      "load_kwh": 1276.7320419500008,
+      "max_loading": 0.9538288440837052,
+      "max_power_residual_pu": 5.7141374092722424e-11,
+      "max_voltage_pu": 1.01978474006259,
+      "min_voltage_pu": 0.9999568070417506,
+      "network_loss_kwh": 6.634727546123242,
+      "peak_import_kw": 83.81325579622953,
+      "solar_kwh": 657.8720598999998,
+      "storage_delta_kwh": 7.105427357601002e-15,
+      "storage_loss_kwh": 3.1199999999999983,
+      "total_loss_kwh": 9.75472754612324
+    },
+    "reference": {
+      "voltage_abs_pu": 9.116294832195545e-13,
+      "source_abs_kva": 5.2721087500326934e-11,
+      "loss_abs_kw": 9.246203802604214e-11,
+      "max_residual_pu": 1.2933699459547957e-13,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": "no-load",
+    "group": "control",
+    "seed": 17,
+    "steps": 24,
+    "tolerance": 1e-12,
+    "policy": "baseline",
+    "study": "no-load",
+    "state": "COMPLETED_VALID",
+    "violations": 0,
+    "invalid": 0,
+    "violation_reasons": [],
+    "invalid_reasons": [],
+    "ranking": [
+      "baseline"
+    ],
+    "metrics": {
+      "energy_residual_kwh": 0.0,
+      "export_kwh": 0.0,
+      "import_kwh": 0.0,
+      "load_kwh": 0.0,
+      "max_loading": 0.0,
+      "max_power_residual_pu": 0.0,
+      "max_voltage_pu": 1.0,
+      "min_voltage_pu": 1.0,
+      "network_loss_kwh": 0.0,
+      "peak_import_kw": 0.0,
+      "solar_kwh": 0.0,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 0.0
+    },
+    "reference": {
+      "voltage_abs_pu": 0.0,
+      "source_abs_kva": 0.0,
+      "loss_abs_kw": 0.0,
+      "max_residual_pu": 5.684341886080802e-14,
+      "max_iterations": 0
+    },
+    "solver_iterations": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "id": "analytic-two-bus",
+    "group": "control",
+    "seed": 17,
+    "steps": 24,
+    "tolerance": 1e-12,
+    "policy": "baseline",
+    "study": "analytic-two-bus",
+    "state": "COMPLETED_VALID",
+    "violations": 0,
+    "invalid": 0,
+    "violation_reasons": [],
+    "invalid_reasons": [],
+    "ranking": [
+      "baseline"
+    ],
+    "metrics": {
+      "energy_residual_kwh": 9.103828801926284e-14,
+      "export_kwh": 0.0,
+      "import_kwh": 242.44923464074517,
+      "load_kwh": 240.0,
+      "max_loading": 0.112245016037381,
+      "max_power_residual_pu": 8.881784197001252e-16,
+      "max_voltage_pu": 1.0,
+      "min_voltage_pu": 0.9898979485566357,
+      "network_loss_kwh": 2.449234640745084,
+      "peak_import_kw": 10.10205144336438,
+      "solar_kwh": 0.0,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 2.449234640745084
+    },
+    "reference": {
+      "voltage_abs_pu": 1.1102230246251565e-16,
+      "source_abs_kva": 4.440892098500626e-14,
+      "loss_abs_kw": 1.609823385706477e-15,
+      "max_residual_pu": 4.163336342344337e-16,
+      "max_iterations": 3
+    },
+    "solver_iterations": {
+      "min": 7,
+      "max": 7
+    },
+    "analytic": {
+      "expected_voltage_pu": 0.9898979485566356,
+      "expected_loss_kw": 0.10205144336438038,
+      "producer_voltage_error_pu": 1.1102230246251565e-16,
+      "producer_loss_error_kw": 1.8318679906315083e-15,
+      "newton_voltage_error_pu": 0.0
+    }
+  },
+  {
+    "id": "failed-solver",
+    "group": "control",
+    "seed": 17,
+    "steps": 24,
+    "tolerance": 1e-12,
+    "policy": "baseline",
+    "study": "failed-solver",
+    "state": "FAILED_SOLVER",
+    "violations": 0,
+    "invalid": 0,
+    "violation_reasons": [],
+    "invalid_reasons": [],
+    "ranking": [],
+    "metrics": {}
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "/home/codex/.local/bin/python3",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+    "lab",
+    "identity"
+  ],
+  "cpu_seconds": 0.18112199999999998,
+  "label": "identity",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\n  \"build\": {\n    \"implementation_sha256\": \"cdf8e0b82397cbad5e9f5979fd01d98fd931a7c772c5dcd1c8b42a35ac90a4a4\",\n    \"kind\": \"zipapp\",\n    \"source_revision\": \"3d4a4dc7718d72e0d20785c70154c800cc849093\",\n    \"source_state\": \"includes preserved uncommitted implementation; implementation hash is authoritative\",\n    \"version\": \"1.0.0rc1\"\n  },\n  \"python\": \"3.12.14\",\n  \"system\": \"Linux\",\n  \"machine\": \"x86_64\",\n  \"model\": \"balanced-radial-pq/v2\"\n}\n",
+  "wall_seconds": 0.18270938302157447
+}

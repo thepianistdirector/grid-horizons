@@ -1,0 +1,29 @@
+{
+  "states": {
+    "baseline": "COMPLETED_VALID",
+    "tap_m2": "COMPLETED_VALID",
+    "tap_p2": "COMPLETED_VALID",
+    "tap_p4": "COMPLETED_VALID",
+    "storage_0": "COMPLETED_VALID",
+    "storage_1": "COMPLETED_VALID",
+    "storage_2": "COMPLETED_VALID",
+    "storage_3": "COMPLETED_VALID",
+    "storage_4": "COMPLETED_VALID",
+    "storage_5": "COMPLETED_VALID",
+    "storage_6": "COMPLETED_INFEASIBLE",
+    "storage_7": "COMPLETED_INFEASIBLE"
+  },
+  "ranking": [
+    "tap_p4",
+    "tap_p2",
+    "baseline",
+    "tap_m2",
+    "storage_1",
+    "storage_0",
+    "storage_3",
+    "storage_2",
+    "storage_5",
+    "storage_4"
+  ],
+  "seconds": 0.22401672002160922
+}

@@ -1,0 +1,4 @@
+{
+  "state": "EXAMPLE_WRITTEN",
+  "path": "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/example-109.json"
+}

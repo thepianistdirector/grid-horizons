@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "/home/codex/.local/bin/python3",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+    "lab",
+    "run",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-04/case-000/scenario.json",
+    "--output",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/bridge/case-08"
+  ],
+  "cpu_seconds": 0.297921,
+  "label": "bridge-run-08",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\n  \"states\": {\n    \"baseline\": \"COMPLETED_VALID\",\n    \"tap_m2\": \"COMPLETED_VALID\",\n    \"tap_p2\": \"COMPLETED_VALID\",\n    \"tap_p4\": \"COMPLETED_VALID\",\n    \"storage_0\": \"COMPLETED_VALID\",\n    \"storage_1\": \"COMPLETED_VALID\",\n    \"storage_2\": \"COMPLETED_VALID\",\n    \"storage_3\": \"COMPLETED_VALID\",\n    \"storage_4\": \"COMPLETED_VALID\",\n    \"storage_5\": \"COMPLETED_VALID\",\n    \"storage_6\": \"COMPLETED_INFEASIBLE\",\n    \"storage_7\": \"COMPLETED_INFEASIBLE\"\n  },\n  \"ranking\": [\n    \"tap_p4\",\n    \"tap_p2\",\n    \"baseline\",\n    \"tap_m2\",\n    \"storage_1\",\n    \"storage_0\",\n    \"storage_3\",\n    \"storage_2\",\n    \"storage_5\",\n    \"storage_4\"\n  ],\n  \"seconds\": 0.1910931519814767\n}\n",
+  "wall_seconds": 0.29893578100018203
+}

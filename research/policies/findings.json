@@ -1,0 +1,370 @@
+{
+  "bridge_build": {
+    "identity": {
+      "build": {
+        "implementation_sha256": "3f46ec88b717c2811186fe2c4c7f2c926a37e110281c115798720bd87e143023",
+        "kind": "zipapp",
+        "source_revision": "3d4a4dc7718d72e0d20785c70154c800cc849093",
+        "source_state": "includes preserved uncommitted implementation; implementation hash is authoritative",
+        "version": "1.0.0rc2"
+      },
+      "machine": "x86_64",
+      "model": "balanced-radial-pq/v2",
+      "python": "3.12.14",
+      "system": "Linux"
+    },
+    "package_sha256": "325e14d7e3d3021555060dd4841f5e90df634238dd858c559a2c4ff7ee912c4e",
+    "purpose": "Additional compatibility reproductions; excluded from policy selection and confirmation inference."
+  },
+  "bridge_scenarios": 13,
+  "confirmation_baseline_feasible_scenarios": 8,
+  "confirmation_baseline_infeasible_scenarios": 4,
+  "hypothesis_outcome": "Selected active-storage schedules fail the predeclared total-loss benefit criterion on every baseline-feasible confirmation case; both active families reduce peak at conversion-loss cost.",
+  "limitations": [
+    "One original synthetic balanced constant-PQ feeder",
+    "Seeds perturb hourly solar, not demand or topology",
+    "Finite candidate set, fixed schedule families and ideal constant taps; no optimization/global claim",
+    "No tap wear, transformer losses, thermal/degradation costs, economics, uncertainty propagation or field validation",
+    "Workflow/hash source isolation only; investigator and producer in shared workspace",
+    "rc1 exploratory verification failed, retained and bridged with rc2"
+  ],
+  "lowest_total_loss_confirmed_policy": "tap_p4 (idle storage)",
+  "maximum_primary_absolute_energy_residual_kwh": 8.133671514087837e-11,
+  "maximum_primary_power_residual_pu": 6.209146892354131e-11,
+  "near_boundary_observation": {
+    "claim": "Numerically feasible with very small current margin; no physical robustness assertion.",
+    "max_loading": 0.999996808449277,
+    "policy": "combined_loss",
+    "scope": "load_scale1.0; infeasible-baseline cases excluded from ranking"
+  },
+  "paired_confirmation": [
+    {
+      "all_feasible": true,
+      "cases": 4,
+      "load_scale": 0.7,
+      "network_loss_kwh_delta_range": [
+        0.1423996866029711,
+        0.14485968821730477
+      ],
+      "peak_import_kw_delta_range": [
+        0.012584628924358299,
+        0.012584628924358299
+      ],
+      "policy": "tap_m2",
+      "total_loss_kwh_delta_range": [
+        0.1423996866029711,
+        0.14485968821730477
+      ]
+    },
+    {
+      "all_feasible": true,
+      "cases": 4,
+      "load_scale": 0.7,
+      "network_loss_kwh_delta_range": [
+        -0.13954381641129654,
+        -0.13717256648939458
+      ],
+      "peak_import_kw_delta_range": [
+        -0.012110987273551643,
+        -0.012110987273551643
+      ],
+      "policy": "tap_p2",
+      "total_loss_kwh_delta_range": [
+        -0.13954381641129654,
+        -0.13717256648939458
+      ]
+    },
+    {
+      "all_feasible": true,
+      "cases": 4,
+      "load_scale": 0.7,
+      "network_loss_kwh_delta_range": [
+        -0.2740286685256281,
+        -0.26937072190317757
+      ],
+      "peak_import_kw_delta_range": [
+        -0.023771932026434683,
+        -0.023771932026434683
+      ],
+      "policy": "tap_p4",
+      "total_loss_kwh_delta_range": [
+        -0.2740286685256281,
+        -0.26937072190317757
+      ]
+    },
+    {
+      "all_feasible": true,
+      "cases": 4,
+      "load_scale": 0.7,
+      "network_loss_kwh_delta_range": [
+        -0.238842708816132,
+        -0.23290918709036923
+      ],
+      "peak_import_kw_delta_range": [
+        -1.834471596375792,
+        -1.834471596375792
+      ],
+      "policy": "storage_loss",
+      "total_loss_kwh_delta_range": [
+        0.5411572911838674,
+        0.5470908129096301
+      ]
+    },
+    {
+      "all_feasible": true,
+      "cases": 4,
+      "load_scale": 0.7,
+      "network_loss_kwh_delta_range": [
+        -0.5014231296209646,
+        -0.49110834062560205
+      ],
+      "peak_import_kw_delta_range": [
+        -1.856788156190774,
+        -1.856788156190774
+      ],
+      "policy": "combined_loss",
+      "total_loss_kwh_delta_range": [
+        0.2785768703790348,
+        0.2888916593743973
+      ]
+    },
+    {
+      "all_feasible": true,
+      "cases": 4,
+      "load_scale": 0.7,
+      "network_loss_kwh_delta_range": [
+        -0.7947514978033325,
+        -0.7530453178091818
+      ],
+      "peak_import_kw_delta_range": [
+        -7.3232396680073535,
+        -7.3232396680073535
+      ],
+      "policy": "storage_peak",
+      "total_loss_kwh_delta_range": [
+        2.3252485021966667,
+        2.3669546821908156
+      ]
+    },
+    {
+      "all_feasible": true,
+      "cases": 4,
+      "load_scale": 0.7,
+      "network_loss_kwh_delta_range": [
+        -1.0306393065363109,
+        -0.9895623174156523
+      ],
+      "peak_import_kw_delta_range": [
+        -7.341923041432331,
+        -7.341923041432331
+      ],
+      "policy": "combined_peak",
+      "total_loss_kwh_delta_range": [
+        2.0893606934636875,
+        2.130437682584346
+      ]
+    },
+    {
+      "all_feasible": true,
+      "cases": 4,
+      "load_scale": 0.85,
+      "network_loss_kwh_delta_range": [
+        0.1657413937730139,
+        0.1679384510131836
+      ],
+      "peak_import_kw_delta_range": [
+        0.018695545859131357,
+        0.018695545859131357
+      ],
+      "policy": "tap_m2",
+      "total_loss_kwh_delta_range": [
+        0.1657413937730139,
+        0.1679384510131836
+      ]
+    },
+    {
+      "all_feasible": true,
+      "cases": 4,
+      "load_scale": 0.85,
+      "network_loss_kwh_delta_range": [
+        -0.16172373152600183,
+        -0.1596063996762478
+      ],
+      "peak_import_kw_delta_range": [
+        -0.017988464275958904,
+        -0.017988464275958904
+      ],
+      "policy": "tap_p2",
+      "total_loss_kwh_delta_range": [
+        -0.16172373152600183,
+        -0.1596063996762478
+      ]
+    },
+    {
+      "all_feasible": true,
+      "cases": 4,
+      "load_scale": 0.85,
+      "network_loss_kwh_delta_range": [
+        -0.31753620081888645,
+        -0.3133774638208964
+      ],
+      "peak_import_kw_delta_range": [
+        -0.03530528916709841,
+        -0.03530528916709841
+      ],
+      "policy": "tap_p4",
+      "total_loss_kwh_delta_range": [
+        -0.31753620081888645,
+        -0.3133774638208964
+      ]
+    },
+    {
+      "all_feasible": true,
+      "cases": 4,
+      "load_scale": 0.85,
+      "network_loss_kwh_delta_range": [
+        -0.25037168805450527,
+        -0.2444056542014259
+      ],
+      "peak_import_kw_delta_range": [
+        -1.8412537844340306,
+        -1.8412537844340306
+      ],
+      "policy": "storage_loss",
+      "total_loss_kwh_delta_range": [
+        0.5296283119454941,
+        0.5355943457985735
+      ]
+    },
+    {
+      "all_feasible": true,
+      "cases": 4,
+      "load_scale": 0.85,
+      "network_loss_kwh_delta_range": [
+        -0.5558196722965167,
+        -0.545974567882074
+      ],
+      "peak_import_kw_delta_range": [
+        -1.874758848714663,
+        -1.874758848714663
+      ],
+      "policy": "combined_loss",
+      "total_loss_kwh_delta_range": [
+        0.22418032770348262,
+        0.23402543211792537
+      ]
+    },
+    {
+      "all_feasible": true,
+      "cases": 4,
+      "load_scale": 0.85,
+      "network_loss_kwh_delta_range": [
+        -0.8366723446467912,
+        -0.7947349851706251
+      ],
+      "peak_import_kw_delta_range": [
+        -7.350219034080908,
+        -7.350219034080908
+      ],
+      "policy": "storage_peak",
+      "total_loss_kwh_delta_range": [
+        2.283327655353207,
+        2.325265014829373
+      ]
+    },
+    {
+      "all_feasible": true,
+      "cases": 4,
+      "load_scale": 0.85,
+      "network_loss_kwh_delta_range": [
+        -1.1137540159032282,
+        -1.0732105073847844
+      ],
+      "peak_import_kw_delta_range": [
+        -7.379070940834168,
+        -7.379070940834168
+      ],
+      "policy": "combined_peak",
+      "total_loss_kwh_delta_range": [
+        2.0062459840967692,
+        2.046789492615213
+      ]
+    }
+  ],
+  "primary_build": {
+    "investigator_effort": "high",
+    "investigator_model": "gpt-6-astra",
+    "model_verification": "Actual session turn_context inspected before experiments; matches requested model.",
+    "package_sha256": "57573bdb2c8bb9c983b5dcc1b0c8850ac0ae6e3c87b8e6a24d60077ca03fe2ce",
+    "packaged_cli": {
+      "build": {
+        "implementation_sha256": "cdf8e0b82397cbad5e9f5979fd01d98fd931a7c772c5dcd1c8b42a35ac90a4a4",
+        "kind": "zipapp",
+        "source_revision": "3d4a4dc7718d72e0d20785c70154c800cc849093",
+        "source_state": "includes preserved uncommitted implementation; implementation hash is authoritative",
+        "version": "1.0.0rc1"
+      },
+      "machine": "x86_64",
+      "model": "balanced-radial-pq/v2",
+      "python": "3.12.14",
+      "system": "Linux"
+    },
+    "platform": "Linux-4.18.0-553.159.1.el8_10.x86_64-x86_64-with-glibc2.28",
+    "runtime_executable": "/home/codex/.local/bin/python3",
+    "source_isolation": "Read-only workflow and package hashes; not OS-enforced isolation."
+  },
+  "primary_policy_trajectories": 244,
+  "primary_scenarios": 25,
+  "primary_states": {
+    "COMPLETED_INFEASIBLE": 70,
+    "COMPLETED_VALID": 174
+  },
+  "resource_measurement": {
+    "cli_cpu_seconds": 19.30368,
+    "cli_wall_seconds": 19.529705852793995,
+    "command_count": 77,
+    "disk_bytes_at_measurement": 191251525,
+    "failed_commands": [
+      "verify-exploration-batch-04-case-000",
+      "verify-exploration-batch-01-case-000",
+      "verify-exploration-batch-03-case-001",
+      "verify-exploration-batch-02-case-001",
+      "run-default",
+      "example-11",
+      "verify-exploration-batch-05-case-001",
+      "verify-exploration-batch-00-case-000",
+      "verify-exploration-batch-03-case-000",
+      "verify-exploration-batch-00-case-001",
+      "verify-exploration-batch-02-case-000",
+      "verify-exploration-batch-05-case-000",
+      "verify-exploration-batch-04-case-001",
+      "example-default",
+      "verify-exploration-batch-01-case-001"
+    ],
+    "intervals_per_scenario": 96,
+    "policy_trajectories": 396,
+    "process_policy": "Sequential subprocess.run; one active solver process",
+    "scenario_count": 38
+  },
+  "sources": [
+    {
+      "accessed": "2026-09-08",
+      "context": "Radial backward/forward current summation; no MATPOWER execution or validation claimed.",
+      "title": "MATPOWER manual \u00a74.3.2, Current Summation Method",
+      "url": "https://matpower.app/manual/matpower/DistributionPowerFlow.html"
+    },
+    {
+      "accessed": "2026-09-08",
+      "context": "Charging/discharging efficiency directions and cyclic terminal state; no PyPSA execution claimed.",
+      "title": "PyPSA documentation, Storage",
+      "url": "https://docs.pypsa.org/latest/user-guide/optimization/storage/"
+    }
+  ],
+  "study": "Storage/tap finite-policy negative study",
+  "verification": {
+    "raw_and_evaluation_byte_equality": true,
+    "rc1_exploration_rejected_by_reader_limit": 12,
+    "rc1_primary_successful": 13,
+    "rc2_bridge_successful": 13
+  }
+}

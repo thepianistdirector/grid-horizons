@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "/home/codex/.local/bin/python3",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+    "lab",
+    "verify",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/confirmation/batch-02/case-001"
+  ],
+  "cpu_seconds": 0.3407030000000011,
+  "label": "verify-confirmation-batch-02-case-001",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\n  \"states\": {\n    \"baseline\": \"COMPLETED_INFEASIBLE\",\n    \"tap_m2\": \"COMPLETED_INFEASIBLE\",\n    \"tap_p2\": \"COMPLETED_INFEASIBLE\",\n    \"tap_p4\": \"COMPLETED_INFEASIBLE\",\n    \"combined_loss\": \"COMPLETED_VALID\",\n    \"combined_peak\": \"COMPLETED_VALID\",\n    \"storage_loss\": \"COMPLETED_INFEASIBLE\",\n    \"storage_peak\": \"COMPLETED_VALID\"\n  },\n  \"ranking\": [],\n  \"seconds\": 0.09699148900108412\n}\n",
+  "wall_seconds": 0.34353263198863715
+}

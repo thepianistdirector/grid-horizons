@@ -1,0 +1,56 @@
+{
+  "id": "lossless-lindistflow-storage/v1",
+  "version": 1,
+  "decision": "docs/decisions/ADR-001-synthetic-tutorial.md",
+  "classification": "MODEL_ASSUMPTION",
+  "fidelity": "lossless linearized balanced radial, squared voltage; constant-efficiency storage",
+  "known_answer_kind": "original hand-derived algebraic controls, not public-feeder reference",
+  "domain": {
+    "max_nodes": 16,
+    "max_intervals": 96,
+    "max_horizon_s": 86400,
+    "voltage_magnitude_band_pu": [
+      0.9,
+      1.1
+    ]
+  },
+  "base_definitions": {
+    "power": "three-phase apparent-power base",
+    "voltage": "line-to-line RMS base",
+    "impedance": "voltage_base_V squared / apparent_power_base_VA"
+  },
+  "not_evaluated": [
+    "physical network losses",
+    "AC power flow",
+    "ampacity",
+    "transformer thermal state",
+    "cost",
+    "emissions",
+    "degradation",
+    "charge in coulombs",
+    "protection",
+    "real-network applicability"
+  ],
+  "numerical_tolerances": {
+    "balance_absolute": 1e-06,
+    "balance_relative": 1e-11,
+    "voltage_squared_absolute": 1e-10,
+    "meaning": "binary64 internal consistency only, no physical accuracy bound",
+    "scalar_limit": "1e-6 + 1e-11*(abs(value)+abs(limit)), in W/VA/J"
+  },
+  "uncertainty": "Model-form error is not quantified; no overall winner is supported.",
+  "references": [
+    {
+      "id": "GH-REF-LDF-001",
+      "url": "https://link.springer.com/article/10.1007/s11134-023-09873-z",
+      "use": "loss-term omission and approximation boundary",
+      "rights": "CLEARED_REFERENCE"
+    },
+    {
+      "id": "GH-REF-STORAGE-001",
+      "url": "https://docs.pypsa.org/v1.2.0/user-guide/optimization/storage/",
+      "use": "efficiency direction in storage state transition",
+      "rights": "CLEARED_REFERENCE"
+    }
+  ]
+}

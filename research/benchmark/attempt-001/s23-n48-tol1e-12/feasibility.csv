@@ -1,0 +1,2 @@
+policy,state,violations,invalid,total_loss_kwh,peak_import_kw,min_voltage_pu,max_loading
+baseline,COMPLETED_INFEASIBLE,2,0,7.402946737673014,90.83899368257057,0.9862650973483934,1.0412655833554905

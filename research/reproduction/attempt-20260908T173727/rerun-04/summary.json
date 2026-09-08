@@ -1,0 +1,18 @@
+{
+  "name": "failed-solver",
+  "policies": [
+    {
+      "error": "iteration budget exhausted",
+      "intervals": [],
+      "invalid": [],
+      "metrics": {},
+      "policy": "baseline",
+      "state": "FAILED_SOLVER",
+      "violations": []
+    }
+  ],
+  "ranking": [],
+  "ranking_objective": "network plus storage conversion loss kWh; only feasible candidates and feasible baseline",
+  "schema": "grid-horizons.ac-summary/v2",
+  "seconds": 0.002143699035514146
+}

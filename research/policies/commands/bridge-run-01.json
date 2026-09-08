@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "/home/codex/.local/bin/python3",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+    "lab",
+    "run",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-00/case-001/scenario.json",
+    "--output",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/bridge/case-01"
+  ],
+  "cpu_seconds": 0.2715540000000001,
+  "label": "bridge-run-01",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\n  \"states\": {\n    \"baseline\": \"COMPLETED_VALID\",\n    \"tap_m2\": \"COMPLETED_VALID\",\n    \"tap_p2\": \"COMPLETED_VALID\",\n    \"tap_p4\": \"COMPLETED_VALID\",\n    \"combined_0\": \"COMPLETED_VALID\",\n    \"combined_1\": \"COMPLETED_VALID\",\n    \"combined_2\": \"COMPLETED_VALID\",\n    \"combined_3\": \"COMPLETED_VALID\",\n    \"combined_4\": \"COMPLETED_VALID\",\n    \"combined_5\": \"COMPLETED_VALID\",\n    \"combined_6\": \"COMPLETED_INFEASIBLE\",\n    \"combined_7\": \"COMPLETED_INFEASIBLE\"\n  },\n  \"ranking\": [\n    \"tap_p4\",\n    \"tap_p2\",\n    \"baseline\",\n    \"tap_m2\",\n    \"combined_1\",\n    \"combined_0\",\n    \"combined_3\",\n    \"combined_2\",\n    \"combined_5\",\n    \"combined_4\"\n  ],\n  \"seconds\": 0.1547035530093126\n}\n",
+  "wall_seconds": 0.2725804130313918
+}

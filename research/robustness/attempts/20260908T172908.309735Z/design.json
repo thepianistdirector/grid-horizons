@@ -1,0 +1,194 @@
+[
+  {
+    "seed": 101,
+    "treatment": "nominal"
+  },
+  {
+    "seed": 101,
+    "treatment": "load_low"
+  },
+  {
+    "seed": 101,
+    "treatment": "load_high"
+  },
+  {
+    "seed": 101,
+    "treatment": "solar_low"
+  },
+  {
+    "seed": 101,
+    "treatment": "solar_high"
+  },
+  {
+    "seed": 101,
+    "treatment": "load_early"
+  },
+  {
+    "seed": 101,
+    "treatment": "load_late"
+  },
+  {
+    "seed": 101,
+    "treatment": "solar_early"
+  },
+  {
+    "seed": 101,
+    "treatment": "solar_late"
+  },
+  {
+    "seed": 101,
+    "treatment": "resistance_high"
+  },
+  {
+    "seed": 101,
+    "treatment": "derated"
+  },
+  {
+    "seed": 101,
+    "treatment": "joint_adverse"
+  },
+  {
+    "seed": 103,
+    "treatment": "nominal"
+  },
+  {
+    "seed": 103,
+    "treatment": "load_low"
+  },
+  {
+    "seed": 103,
+    "treatment": "load_high"
+  },
+  {
+    "seed": 103,
+    "treatment": "solar_low"
+  },
+  {
+    "seed": 103,
+    "treatment": "solar_high"
+  },
+  {
+    "seed": 103,
+    "treatment": "load_early"
+  },
+  {
+    "seed": 103,
+    "treatment": "load_late"
+  },
+  {
+    "seed": 103,
+    "treatment": "solar_early"
+  },
+  {
+    "seed": 103,
+    "treatment": "solar_late"
+  },
+  {
+    "seed": 103,
+    "treatment": "resistance_high"
+  },
+  {
+    "seed": 103,
+    "treatment": "derated"
+  },
+  {
+    "seed": 103,
+    "treatment": "joint_adverse"
+  },
+  {
+    "seed": 107,
+    "treatment": "nominal"
+  },
+  {
+    "seed": 107,
+    "treatment": "load_low"
+  },
+  {
+    "seed": 107,
+    "treatment": "load_high"
+  },
+  {
+    "seed": 107,
+    "treatment": "solar_low"
+  },
+  {
+    "seed": 107,
+    "treatment": "solar_high"
+  },
+  {
+    "seed": 107,
+    "treatment": "load_early"
+  },
+  {
+    "seed": 107,
+    "treatment": "load_late"
+  },
+  {
+    "seed": 107,
+    "treatment": "solar_early"
+  },
+  {
+    "seed": 107,
+    "treatment": "solar_late"
+  },
+  {
+    "seed": 107,
+    "treatment": "resistance_high"
+  },
+  {
+    "seed": 107,
+    "treatment": "derated"
+  },
+  {
+    "seed": 107,
+    "treatment": "joint_adverse"
+  },
+  {
+    "seed": 109,
+    "treatment": "nominal"
+  },
+  {
+    "seed": 109,
+    "treatment": "load_low"
+  },
+  {
+    "seed": 109,
+    "treatment": "load_high"
+  },
+  {
+    "seed": 109,
+    "treatment": "solar_low"
+  },
+  {
+    "seed": 109,
+    "treatment": "solar_high"
+  },
+  {
+    "seed": 109,
+    "treatment": "load_early"
+  },
+  {
+    "seed": 109,
+    "treatment": "load_late"
+  },
+  {
+    "seed": 109,
+    "treatment": "solar_early"
+  },
+  {
+    "seed": 109,
+    "treatment": "solar_late"
+  },
+  {
+    "seed": 109,
+    "treatment": "resistance_high"
+  },
+  {
+    "seed": 109,
+    "treatment": "derated"
+  },
+  {
+    "seed": 109,
+    "treatment": "joint_adverse"
+  }
+]

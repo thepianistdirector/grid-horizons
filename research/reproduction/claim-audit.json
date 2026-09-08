@@ -1,0 +1,5171 @@
+{
+  "checks": [
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s17-n24-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s17-n24-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s17-n24-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s17-n24-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s17-n24-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s17-n24-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s17-n24-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s17-n24-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s17-n48-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s17-n48-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s17-n48-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s17-n48-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s17-n48-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s17-n48-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s17-n48-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s17-n48-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s17-n96-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s17-n96-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s17-n96-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s17-n96-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s17-n96-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s17-n96-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s17-n96-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s17-n96-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s17-n288-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s17-n288-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s17-n288-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s17-n288-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s17-n288-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s17-n288-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s17-n288-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s17-n288-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s23-n24-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s23-n24-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s23-n24-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s23-n24-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s23-n24-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s23-n24-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s23-n24-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s23-n24-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s23-n48-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s23-n48-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s23-n48-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s23-n48-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s23-n48-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s23-n48-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s23-n48-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s23-n48-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s23-n96-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s23-n96-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s23-n96-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s23-n96-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s23-n96-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s23-n96-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s23-n96-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s23-n96-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s23-n288-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s23-n288-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s23-n288-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s23-n288-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s23-n288-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s23-n288-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s23-n288-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s23-n288-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s31-n24-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s31-n24-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s31-n24-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s31-n24-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s31-n24-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s31-n24-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s31-n24-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s31-n24-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s31-n48-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s31-n48-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s31-n48-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s31-n48-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s31-n48-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s31-n48-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s31-n48-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s31-n48-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s31-n96-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s31-n96-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s31-n96-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s31-n96-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s31-n96-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s31-n96-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s31-n96-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s31-n96-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s31-n288-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s31-n288-tol1e-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s31-n288-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s31-n288-tol1e-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s31-n288-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s31-n288-tol1e-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "s31-n288-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "s31-n288-tol1e-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "original-four-policies",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "original-four-policies",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "original-four-policies",
+      "policy": "storage"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "original-four-policies",
+      "policy": "storage"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "original-four-policies",
+      "policy": "tap"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "original-four-policies",
+      "policy": "tap"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "original-four-policies",
+      "policy": "combined"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "original-four-policies",
+      "policy": "combined"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "no-load",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "no-load",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "analytic-two-bus",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "analytic-two-bus",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_row",
+      "passed": true,
+      "case": "failed-solver",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_retained_newton_comparison",
+      "passed": true,
+      "case": "failed-solver",
+      "policy": "baseline"
+    },
+    {
+      "name": "benchmark_claim_maxima",
+      "passed": true
+    },
+    {
+      "name": "benchmark_primary_states",
+      "passed": true
+    },
+    {
+      "name": "benchmark_preregistration_hash",
+      "passed": true
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "default",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "default",
+      "policy": "storage"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "default",
+      "policy": "tap"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "default",
+      "policy": "combined"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-000",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-000",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-000",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-000",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-000",
+      "policy": "storage_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-000",
+      "policy": "storage_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-000",
+      "policy": "storage_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-000",
+      "policy": "storage_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-000",
+      "policy": "storage_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-000",
+      "policy": "storage_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-000",
+      "policy": "storage_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-000",
+      "policy": "storage_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-001",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-001",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-001",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-001",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-001",
+      "policy": "combined_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-001",
+      "policy": "combined_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-001",
+      "policy": "combined_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-001",
+      "policy": "combined_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-001",
+      "policy": "combined_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-001",
+      "policy": "combined_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-001",
+      "policy": "combined_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-00/case-001",
+      "policy": "combined_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-000",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-000",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-000",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-000",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-000",
+      "policy": "storage_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-000",
+      "policy": "storage_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-000",
+      "policy": "storage_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-000",
+      "policy": "storage_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-000",
+      "policy": "storage_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-000",
+      "policy": "storage_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-000",
+      "policy": "storage_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-000",
+      "policy": "storage_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-001",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-001",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-001",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-001",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-001",
+      "policy": "combined_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-001",
+      "policy": "combined_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-001",
+      "policy": "combined_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-001",
+      "policy": "combined_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-001",
+      "policy": "combined_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-001",
+      "policy": "combined_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-001",
+      "policy": "combined_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-01/case-001",
+      "policy": "combined_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-000",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-000",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-000",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-000",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-000",
+      "policy": "storage_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-000",
+      "policy": "storage_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-000",
+      "policy": "storage_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-000",
+      "policy": "storage_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-000",
+      "policy": "storage_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-000",
+      "policy": "storage_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-000",
+      "policy": "storage_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-000",
+      "policy": "storage_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-001",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-001",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-001",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-001",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-001",
+      "policy": "combined_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-001",
+      "policy": "combined_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-001",
+      "policy": "combined_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-001",
+      "policy": "combined_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-001",
+      "policy": "combined_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-001",
+      "policy": "combined_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-001",
+      "policy": "combined_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-02/case-001",
+      "policy": "combined_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-000",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-000",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-000",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-000",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-000",
+      "policy": "storage_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-000",
+      "policy": "storage_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-000",
+      "policy": "storage_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-000",
+      "policy": "storage_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-000",
+      "policy": "storage_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-000",
+      "policy": "storage_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-000",
+      "policy": "storage_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-000",
+      "policy": "storage_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-001",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-001",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-001",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-001",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-001",
+      "policy": "combined_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-001",
+      "policy": "combined_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-001",
+      "policy": "combined_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-001",
+      "policy": "combined_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-001",
+      "policy": "combined_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-001",
+      "policy": "combined_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-001",
+      "policy": "combined_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-03/case-001",
+      "policy": "combined_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-000",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-000",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-000",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-000",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-000",
+      "policy": "storage_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-000",
+      "policy": "storage_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-000",
+      "policy": "storage_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-000",
+      "policy": "storage_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-000",
+      "policy": "storage_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-000",
+      "policy": "storage_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-000",
+      "policy": "storage_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-000",
+      "policy": "storage_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-001",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-001",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-001",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-001",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-001",
+      "policy": "combined_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-001",
+      "policy": "combined_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-001",
+      "policy": "combined_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-001",
+      "policy": "combined_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-001",
+      "policy": "combined_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-001",
+      "policy": "combined_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-001",
+      "policy": "combined_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-04/case-001",
+      "policy": "combined_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-000",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-000",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-000",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-000",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-000",
+      "policy": "storage_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-000",
+      "policy": "storage_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-000",
+      "policy": "storage_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-000",
+      "policy": "storage_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-000",
+      "policy": "storage_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-000",
+      "policy": "storage_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-000",
+      "policy": "storage_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-000",
+      "policy": "storage_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-001",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-001",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-001",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-001",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-001",
+      "policy": "combined_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-001",
+      "policy": "combined_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-001",
+      "policy": "combined_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-001",
+      "policy": "combined_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-001",
+      "policy": "combined_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-001",
+      "policy": "combined_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-001",
+      "policy": "combined_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "exploration/batch-05/case-001",
+      "policy": "combined_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-00/case-000",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-00/case-000",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-00/case-000",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-00/case-000",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-00/case-000",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-00/case-000",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-00/case-000",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-00/case-000",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-00/case-001",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-00/case-001",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-00/case-001",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-00/case-001",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-00/case-001",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-00/case-001",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-00/case-001",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-00/case-001",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-01/case-000",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-01/case-000",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-01/case-000",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-01/case-000",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-01/case-000",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-01/case-000",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-01/case-000",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-01/case-000",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-01/case-001",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-01/case-001",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-01/case-001",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-01/case-001",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-01/case-001",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-01/case-001",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-01/case-001",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-01/case-001",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-02/case-000",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-02/case-000",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-02/case-000",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-02/case-000",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-02/case-000",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-02/case-000",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-02/case-000",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-02/case-000",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-02/case-001",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-02/case-001",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-02/case-001",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-02/case-001",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-02/case-001",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-02/case-001",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-02/case-001",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-02/case-001",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-03/case-000",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-03/case-000",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-03/case-000",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-03/case-000",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-03/case-000",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-03/case-000",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-03/case-000",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-03/case-000",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-03/case-001",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-03/case-001",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-03/case-001",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-03/case-001",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-03/case-001",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-03/case-001",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-03/case-001",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-03/case-001",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-04/case-000",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-04/case-000",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-04/case-000",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-04/case-000",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-04/case-000",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-04/case-000",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-04/case-000",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-04/case-000",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-04/case-001",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-04/case-001",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-04/case-001",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-04/case-001",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-04/case-001",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-04/case-001",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-04/case-001",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-04/case-001",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-05/case-000",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-05/case-000",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-05/case-000",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-05/case-000",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-05/case-000",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-05/case-000",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-05/case-000",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-05/case-000",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-05/case-001",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-05/case-001",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-05/case-001",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-05/case-001",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-05/case-001",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-05/case-001",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-05/case-001",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "confirmation/batch-05/case-001",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-00",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-00",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-00",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-00",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-00",
+      "policy": "storage_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-00",
+      "policy": "storage_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-00",
+      "policy": "storage_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-00",
+      "policy": "storage_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-00",
+      "policy": "storage_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-00",
+      "policy": "storage_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-00",
+      "policy": "storage_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-00",
+      "policy": "storage_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-01",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-01",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-01",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-01",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-01",
+      "policy": "combined_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-01",
+      "policy": "combined_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-01",
+      "policy": "combined_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-01",
+      "policy": "combined_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-01",
+      "policy": "combined_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-01",
+      "policy": "combined_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-01",
+      "policy": "combined_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-01",
+      "policy": "combined_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-02",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-02",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-02",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-02",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-02",
+      "policy": "storage_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-02",
+      "policy": "storage_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-02",
+      "policy": "storage_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-02",
+      "policy": "storage_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-02",
+      "policy": "storage_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-02",
+      "policy": "storage_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-02",
+      "policy": "storage_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-02",
+      "policy": "storage_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-03",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-03",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-03",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-03",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-03",
+      "policy": "combined_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-03",
+      "policy": "combined_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-03",
+      "policy": "combined_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-03",
+      "policy": "combined_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-03",
+      "policy": "combined_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-03",
+      "policy": "combined_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-03",
+      "policy": "combined_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-03",
+      "policy": "combined_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-04",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-04",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-04",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-04",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-04",
+      "policy": "storage_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-04",
+      "policy": "storage_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-04",
+      "policy": "storage_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-04",
+      "policy": "storage_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-04",
+      "policy": "storage_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-04",
+      "policy": "storage_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-04",
+      "policy": "storage_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-04",
+      "policy": "storage_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-05",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-05",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-05",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-05",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-05",
+      "policy": "combined_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-05",
+      "policy": "combined_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-05",
+      "policy": "combined_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-05",
+      "policy": "combined_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-05",
+      "policy": "combined_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-05",
+      "policy": "combined_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-05",
+      "policy": "combined_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-05",
+      "policy": "combined_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-06",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-06",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-06",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-06",
+      "policy": "storage_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-06",
+      "policy": "storage_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-06",
+      "policy": "storage_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-06",
+      "policy": "storage_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-06",
+      "policy": "storage_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-06",
+      "policy": "storage_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-06",
+      "policy": "storage_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-06",
+      "policy": "storage_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-07",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-07",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-07",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-07",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-07",
+      "policy": "combined_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-07",
+      "policy": "combined_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-07",
+      "policy": "combined_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-07",
+      "policy": "combined_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-07",
+      "policy": "combined_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-07",
+      "policy": "combined_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-07",
+      "policy": "combined_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-07",
+      "policy": "combined_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-08",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-08",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-08",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-08",
+      "policy": "storage_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-08",
+      "policy": "storage_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-08",
+      "policy": "storage_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-08",
+      "policy": "storage_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-08",
+      "policy": "storage_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-08",
+      "policy": "storage_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-08",
+      "policy": "storage_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-08",
+      "policy": "storage_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-09",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-09",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-09",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-09",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-09",
+      "policy": "combined_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-09",
+      "policy": "combined_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-09",
+      "policy": "combined_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-09",
+      "policy": "combined_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-09",
+      "policy": "combined_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-09",
+      "policy": "combined_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-09",
+      "policy": "combined_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-09",
+      "policy": "combined_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-10",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-10",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-10",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-10",
+      "policy": "storage_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-10",
+      "policy": "storage_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-10",
+      "policy": "storage_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-10",
+      "policy": "storage_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-10",
+      "policy": "storage_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-10",
+      "policy": "storage_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-10",
+      "policy": "storage_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-10",
+      "policy": "storage_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-11",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-11",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-11",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-11",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-11",
+      "policy": "combined_0"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-11",
+      "policy": "combined_1"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-11",
+      "policy": "combined_2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-11",
+      "policy": "combined_3"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-11",
+      "policy": "combined_4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-11",
+      "policy": "combined_5"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-11",
+      "policy": "combined_6"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-11",
+      "policy": "combined_7"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-12",
+      "policy": "baseline"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-12",
+      "policy": "tap_m2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-12",
+      "policy": "tap_p2"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-12",
+      "policy": "tap_p4"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-12",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-12",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-12",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "policy_all_rows",
+      "passed": true,
+      "directory": "bridge/case-12",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "policy_preregistration_hash",
+      "passed": true
+    },
+    {
+      "name": "policy_selection_hash",
+      "passed": true
+    },
+    {
+      "name": "protocol_frozen_hash",
+      "passed": true
+    },
+    {
+      "name": "frozen_before_confirmation",
+      "passed": true
+    },
+    {
+      "name": "training_seed_disjoint",
+      "passed": true
+    },
+    {
+      "name": "training_seed_disjoint",
+      "passed": true
+    },
+    {
+      "name": "training_seed_disjoint",
+      "passed": true
+    },
+    {
+      "name": "training_seed_disjoint",
+      "passed": true
+    },
+    {
+      "name": "training_seed_disjoint",
+      "passed": true
+    },
+    {
+      "name": "training_seed_disjoint",
+      "passed": true
+    },
+    {
+      "name": "training_seed_disjoint",
+      "passed": true
+    },
+    {
+      "name": "training_seed_disjoint",
+      "passed": true
+    },
+    {
+      "name": "training_seed_disjoint",
+      "passed": true
+    },
+    {
+      "name": "training_seed_disjoint",
+      "passed": true
+    },
+    {
+      "name": "training_seed_disjoint",
+      "passed": true
+    },
+    {
+      "name": "training_seed_disjoint",
+      "passed": true
+    },
+    {
+      "name": "equal_exploration_budget",
+      "passed": true,
+      "counts": {
+        "storage": 48,
+        "combined": 48
+      }
+    },
+    {
+      "name": "independent_selection",
+      "passed": true,
+      "alias": "combined_loss",
+      "winner": "combined_1"
+    },
+    {
+      "name": "independent_selection",
+      "passed": true,
+      "alias": "combined_peak",
+      "winner": "combined_4"
+    },
+    {
+      "name": "independent_selection",
+      "passed": true,
+      "alias": "storage_loss",
+      "winner": "storage_1"
+    },
+    {
+      "name": "independent_selection",
+      "passed": true,
+      "alias": "storage_peak",
+      "winner": "storage_4"
+    },
+    {
+      "name": "confirmation_paired_range",
+      "passed": true,
+      "policy": "tap_m2",
+      "load": 0.7
+    },
+    {
+      "name": "confirmation_paired_range",
+      "passed": true,
+      "policy": "tap_p2",
+      "load": 0.7
+    },
+    {
+      "name": "confirmation_paired_range",
+      "passed": true,
+      "policy": "tap_p4",
+      "load": 0.7
+    },
+    {
+      "name": "confirmation_paired_range",
+      "passed": true,
+      "policy": "storage_loss",
+      "load": 0.7
+    },
+    {
+      "name": "confirmation_paired_range",
+      "passed": true,
+      "policy": "combined_loss",
+      "load": 0.7
+    },
+    {
+      "name": "confirmation_paired_range",
+      "passed": true,
+      "policy": "storage_peak",
+      "load": 0.7
+    },
+    {
+      "name": "confirmation_paired_range",
+      "passed": true,
+      "policy": "combined_peak",
+      "load": 0.7
+    },
+    {
+      "name": "confirmation_paired_range",
+      "passed": true,
+      "policy": "tap_m2",
+      "load": 0.85
+    },
+    {
+      "name": "confirmation_paired_range",
+      "passed": true,
+      "policy": "tap_p2",
+      "load": 0.85
+    },
+    {
+      "name": "confirmation_paired_range",
+      "passed": true,
+      "policy": "tap_p4",
+      "load": 0.85
+    },
+    {
+      "name": "confirmation_paired_range",
+      "passed": true,
+      "policy": "storage_loss",
+      "load": 0.85
+    },
+    {
+      "name": "confirmation_paired_range",
+      "passed": true,
+      "policy": "combined_loss",
+      "load": 0.85
+    },
+    {
+      "name": "confirmation_paired_range",
+      "passed": true,
+      "policy": "storage_peak",
+      "load": 0.85
+    },
+    {
+      "name": "confirmation_paired_range",
+      "passed": true,
+      "policy": "combined_peak",
+      "load": 0.85
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-00",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-00",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-00",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-00",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-01",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-01",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-01",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-01",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-02",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-02",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-02",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-02",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-03",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-03",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-03",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-03",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-04",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-04",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-04",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-04",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-05",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-05",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-05",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-05",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-06",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-06",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-06",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-07",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-07",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-07",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-07",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-08",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-08",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-08",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-09",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-09",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-09",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-09",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-10",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-10",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-10",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-11",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-11",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-11",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-101-11",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-00",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-00",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-00",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-00",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-01",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-01",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-01",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-01",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-02",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-02",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-02",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-02",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-03",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-03",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-03",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-03",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-04",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-04",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-04",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-04",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-05",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-05",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-05",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-05",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-06",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-06",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-06",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-07",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-07",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-07",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-07",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-08",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-08",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-08",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-09",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-09",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-09",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-09",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-10",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-10",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-10",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-11",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-11",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-11",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-103-11",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-00",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-00",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-00",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-00",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-01",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-01",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-01",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-01",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-02",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-02",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-02",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-02",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-03",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-03",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-03",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-03",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-04",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-04",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-04",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-04",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-05",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-05",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-05",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-05",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-06",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-06",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-06",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-07",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-07",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-07",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-07",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-08",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-08",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-08",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-09",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-09",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-09",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-09",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-10",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-10",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-10",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-11",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-11",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-11",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-107-11",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-00",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-00",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-00",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-00",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-01",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-01",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-01",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-01",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-02",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-02",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-02",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-02",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-03",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-03",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-03",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-03",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-04",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-04",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-04",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-04",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-05",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-05",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-05",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-05",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-06",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-06",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-06",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-06",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-07",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-07",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-07",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-07",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-08",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-08",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-08",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-08",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-09",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-09",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-09",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-09",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-10",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-10",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-10",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-10",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-11",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-11",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-11",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "main",
+      "study": "run-109-11",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_states",
+      "passed": true,
+      "group": "main",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_eligible",
+      "passed": true,
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_all_ranges",
+      "passed": true,
+      "policy": "baseline",
+      "group": "all_scenario_ranges"
+    },
+    {
+      "name": "robustness_all_ranges",
+      "passed": true,
+      "policy": "baseline",
+      "group": "eligible_ranges"
+    },
+    {
+      "name": "robustness_states",
+      "passed": true,
+      "group": "main",
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_eligible",
+      "passed": true,
+      "policy": "combined"
+    },
+    {
+      "name": "robustness_all_ranges",
+      "passed": true,
+      "policy": "combined",
+      "group": "all_scenario_ranges"
+    },
+    {
+      "name": "robustness_all_ranges",
+      "passed": true,
+      "policy": "combined",
+      "group": "eligible_ranges"
+    },
+    {
+      "name": "robustness_states",
+      "passed": true,
+      "group": "main",
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_eligible",
+      "passed": true,
+      "policy": "storage"
+    },
+    {
+      "name": "robustness_all_ranges",
+      "passed": true,
+      "policy": "storage",
+      "group": "all_scenario_ranges"
+    },
+    {
+      "name": "robustness_all_ranges",
+      "passed": true,
+      "policy": "storage",
+      "group": "eligible_ranges"
+    },
+    {
+      "name": "robustness_states",
+      "passed": true,
+      "group": "main",
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_eligible",
+      "passed": true,
+      "policy": "tap"
+    },
+    {
+      "name": "robustness_all_ranges",
+      "passed": true,
+      "policy": "tap",
+      "group": "all_scenario_ranges"
+    },
+    {
+      "name": "robustness_all_ranges",
+      "passed": true,
+      "policy": "tap",
+      "group": "eligible_ranges"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-000",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-000",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-000",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-000",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-000",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-001",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-001",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-001",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-001",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-001",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-002",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-002",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-002",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-002",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-002",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-003",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-003",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-003",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-003",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-003",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-004",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-004",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-004",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-004",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-004",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-005",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-005",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-005",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-005",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-005",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-006",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-006",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-006",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-006",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-006",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-007",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-007",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-007",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-007",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-007",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-008",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-008",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-008",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-008",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-008",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-009",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-009",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-009",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-009",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-009",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-010",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-010",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-010",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-010",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-010",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-011",
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-011",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-011",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-011",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "robustness_row",
+      "passed": true,
+      "group": "appendix",
+      "study": "campaign/case-011",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "robustness_states",
+      "passed": true,
+      "group": "appendix",
+      "policy": "baseline"
+    },
+    {
+      "name": "appendix_loss_range",
+      "passed": true,
+      "policy": "baseline"
+    },
+    {
+      "name": "appendix_peak_range",
+      "passed": true,
+      "policy": "baseline"
+    },
+    {
+      "name": "robustness_states",
+      "passed": true,
+      "group": "appendix",
+      "policy": "combined_loss"
+    },
+    {
+      "name": "appendix_loss_range",
+      "passed": true,
+      "policy": "combined_loss"
+    },
+    {
+      "name": "appendix_peak_range",
+      "passed": true,
+      "policy": "combined_loss"
+    },
+    {
+      "name": "robustness_states",
+      "passed": true,
+      "group": "appendix",
+      "policy": "combined_peak"
+    },
+    {
+      "name": "appendix_loss_range",
+      "passed": true,
+      "policy": "combined_peak"
+    },
+    {
+      "name": "appendix_peak_range",
+      "passed": true,
+      "policy": "combined_peak"
+    },
+    {
+      "name": "robustness_states",
+      "passed": true,
+      "group": "appendix",
+      "policy": "storage_loss"
+    },
+    {
+      "name": "appendix_loss_range",
+      "passed": true,
+      "policy": "storage_loss"
+    },
+    {
+      "name": "appendix_peak_range",
+      "passed": true,
+      "policy": "storage_loss"
+    },
+    {
+      "name": "robustness_states",
+      "passed": true,
+      "group": "appendix",
+      "policy": "storage_peak"
+    },
+    {
+      "name": "appendix_loss_range",
+      "passed": true,
+      "policy": "storage_peak"
+    },
+    {
+      "name": "appendix_peak_range",
+      "passed": true,
+      "policy": "storage_peak"
+    }
+  ],
+  "failed": [],
+  "cpu_seconds": 4.68432862,
+  "wall_seconds": 4.694936923973728
+}

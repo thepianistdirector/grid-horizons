@@ -1,0 +1,39 @@
+[
+  {
+    "argv": [
+      "/home/codex/.local/bin/python3",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "identity"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.11086919100489467,
+    "cpu_seconds": 0.10658499999999999
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python3",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "run",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/original-four-policies/scenario.json",
+      "--output",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/bridge-rc2-001/study"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.16078144201310351,
+    "cpu_seconds": 0.159041
+  },
+  {
+    "argv": [
+      "/home/codex/.local/bin/python3",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+      "lab",
+      "verify",
+      "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/bridge-rc2-001/study"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.11042413301765919,
+    "cpu_seconds": 0.10528599999999998
+  }
+]

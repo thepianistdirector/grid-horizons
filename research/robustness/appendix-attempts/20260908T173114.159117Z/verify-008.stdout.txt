@@ -1,0 +1,11 @@
+{
+  "states": {
+    "baseline": "COMPLETED_INFEASIBLE",
+    "combined_loss": "COMPLETED_INFEASIBLE",
+    "combined_peak": "COMPLETED_INFEASIBLE",
+    "storage_loss": "COMPLETED_INFEASIBLE",
+    "storage_peak": "COMPLETED_INFEASIBLE"
+  },
+  "ranking": [],
+  "seconds": 0.05509454302955419
+}

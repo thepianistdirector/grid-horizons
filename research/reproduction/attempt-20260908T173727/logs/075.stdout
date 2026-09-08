@@ -1,0 +1,23 @@
+{
+  "states": {
+    "baseline": "COMPLETED_VALID",
+    "tap_m2": "COMPLETED_VALID",
+    "tap_p2": "COMPLETED_VALID",
+    "tap_p4": "COMPLETED_VALID",
+    "combined_loss": "COMPLETED_VALID",
+    "combined_peak": "COMPLETED_VALID",
+    "storage_loss": "COMPLETED_VALID",
+    "storage_peak": "COMPLETED_VALID"
+  },
+  "ranking": [
+    "tap_p4",
+    "tap_p2",
+    "baseline",
+    "tap_m2",
+    "combined_loss",
+    "storage_loss",
+    "combined_peak",
+    "storage_peak"
+  ],
+  "seconds": 0.14813126402441412
+}

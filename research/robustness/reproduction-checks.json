@@ -1,0 +1,9 @@
+{
+  "main_preregistration_hash_matches": true,
+  "appendix_preregistration_hash_matches": true,
+  "script_hashes_match": true,
+  "attempt_manifest_files_checked": 957,
+  "package_verified_studies": 62,
+  "report_caveats_reviewed": true,
+  "scope": "Reversible read-only artifact review; no extra solver executions"
+}

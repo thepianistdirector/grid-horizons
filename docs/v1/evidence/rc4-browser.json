@@ -1,0 +1,122 @@
+{
+  "source": "/home/codex/projects/tanduna-open-source/grid-horizons/runs/clean-rc4/study/report.html",
+  "sourceSha256": "350837cf29ad0de09a19cebcdb0362fdf187a75a47912cf58294162121f52b27",
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "HeadlessChrome/140.0.7339.186",
+    "revision": "@c643dfff61ee0c447b89c05001216825c74120ff",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.186 Safari/537.36",
+    "jsVersion": "14.0.1500365"
+  },
+  "date": "2026-09-08T17:44:35.975Z",
+  "checks": [
+    {
+      "name": "Report renders actual four-policy table",
+      "pass": true
+    },
+    {
+      "name": "desktop no horizontal page overflow",
+      "pass": true,
+      "evidence": {
+        "width": 1440,
+        "document": 1425
+      }
+    },
+    {
+      "name": "phone no horizontal page overflow",
+      "pass": true,
+      "evidence": {
+        "width": 390,
+        "document": 375
+      }
+    },
+    {
+      "name": "narrow no horizontal page overflow",
+      "pass": true,
+      "evidence": {
+        "width": 320,
+        "document": 305
+      }
+    },
+    {
+      "name": "reflow200-proxy no horizontal page overflow",
+      "pass": true,
+      "evidence": {
+        "width": 720,
+        "document": 705
+      }
+    },
+    {
+      "name": "Visible keyboard skip link",
+      "pass": true
+    },
+    {
+      "name": "Skip reaches main",
+      "pass": true
+    },
+    {
+      "name": "Policy changes using real keyboard",
+      "pass": true
+    },
+    {
+      "name": "Interval changes evaluated metrics",
+      "pass": true,
+      "evidence": {
+        "interval": "45",
+        "detail": "Source power\n-29.80 kW\n\nLine loss\n0.252 kW\n\nStored energy\n51.40 kWh\n\nPower residual\n1.13e-11 pu"
+      }
+    },
+    {
+      "name": "Failure details keyboard disclosure",
+      "pass": true
+    },
+    {
+      "name": "Evidence export Scenario",
+      "pass": true
+    },
+    {
+      "name": "Evidence export Build manifest",
+      "pass": true
+    },
+    {
+      "name": "Evidence export Complete evaluation",
+      "pass": true
+    },
+    {
+      "name": "Evidence export Feasibility CSV",
+      "pass": true
+    },
+    {
+      "name": "Evidence export File checksums",
+      "pass": true
+    },
+    {
+      "name": "Evidence export baseline raw + checks",
+      "pass": true
+    },
+    {
+      "name": "Evidence export storage raw + checks",
+      "pass": true
+    },
+    {
+      "name": "Evidence export tap raw + checks",
+      "pass": true
+    },
+    {
+      "name": "Evidence export combined raw + checks",
+      "pass": true
+    },
+    {
+      "name": "Keyboard export opens exact scenario JSON",
+      "pass": true
+    },
+    {
+      "name": "Cancellation shows unavailable interval, no invented metrics",
+      "pass": true
+    },
+    {
+      "name": "No runtime or console errors",
+      "pass": true
+    }
+  ]
+}

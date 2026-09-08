@@ -1,0 +1,22 @@
+{
+  "investigator_effort": "high",
+  "investigator_model": "gpt-6-astra",
+  "model_verification": "Actual session turn_context inspected before experiments; matches requested model.",
+  "package_sha256": "57573bdb2c8bb9c983b5dcc1b0c8850ac0ae6e3c87b8e6a24d60077ca03fe2ce",
+  "packaged_cli": {
+    "build": {
+      "implementation_sha256": "cdf8e0b82397cbad5e9f5979fd01d98fd931a7c772c5dcd1c8b42a35ac90a4a4",
+      "kind": "zipapp",
+      "source_revision": "3d4a4dc7718d72e0d20785c70154c800cc849093",
+      "source_state": "includes preserved uncommitted implementation; implementation hash is authoritative",
+      "version": "1.0.0rc1"
+    },
+    "machine": "x86_64",
+    "model": "balanced-radial-pq/v2",
+    "python": "3.12.14",
+    "system": "Linux"
+  },
+  "platform": "Linux-4.18.0-553.159.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "runtime_executable": "/home/codex/.local/bin/python3",
+  "source_isolation": "Read-only workflow and package hashes; not OS-enforced isolation."
+}

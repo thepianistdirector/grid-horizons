@@ -1,0 +1,9 @@
+{
+  "verified_utc": "2026-09-08T17:23:30.330798+00:00",
+  "evidence": "actual runtime turn_context",
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "turn_id": "01a08208-31fd-7430-91e0-5414bad27c0e",
+  "root_turn_id": "01a081ff-7b76-7fe1-ba85-0a612c399207",
+  "isolation": "directory discipline and frozen package hashes; not OS sandbox"
+}

@@ -6,3 +6,18 @@ __pycache__/
 !.env.example
 runs/
 .cache/
+
+# Distribution archives are GitHub release assets; keep historical replay tools.
+releases/*
+!releases/1.0.0rc1/
+releases/1.0.0rc1/*
+!releases/1.0.0rc1/grid-horizons.pyz
+!releases/1.0.0rc2/
+releases/1.0.0rc2/*
+!releases/1.0.0rc2/grid-horizons.pyz
+!releases/1.0.0rc3/
+releases/1.0.0rc3/*
+!releases/1.0.0rc3/grid-horizons.pyz
+!releases/1.0.0rc4/
+releases/1.0.0rc4/*
+!releases/1.0.0rc4/grid-horizons.pyz

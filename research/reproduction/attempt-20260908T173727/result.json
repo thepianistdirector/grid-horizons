@@ -1,0 +1,66 @@
+{
+  "candidate": "1.0.0rc2",
+  "checks": 1255,
+  "cost_scope": "Self and sequential child CPU for review script; excludes authoring/model inference and earlier manual namespace repro.",
+  "cpu_seconds": 19.513928,
+  "failed_checks": [
+    {
+      "candidate": "1.0.0rc2",
+      "name": "reserved_policy_rejected",
+      "passed": false,
+      "policy": "summary"
+    },
+    {
+      "candidate": "1.0.0rc2",
+      "name": "reserved_policy_rejected",
+      "passed": false,
+      "policy": "scenario"
+    },
+    {
+      "candidate": "1.0.0rc2",
+      "name": "reserved_policy_rejected",
+      "passed": false,
+      "policy": "manifest"
+    },
+    {
+      "candidate": "1.0.0rc2",
+      "name": "reserved_policy_rejected",
+      "passed": false,
+      "policy": "checksums"
+    }
+  ],
+  "inventory_file_bytes": 387784959,
+  "peak_child_rss_kib": 28300,
+  "scenario_interval_limit": 480,
+  "scenario_runs": 11,
+  "solver_processes_parallel": 1,
+  "states": {
+    "benchmark": {
+      "bundles": 53,
+      "solved_intervals": 6288,
+      "states": {
+        "COMPLETED_INFEASIBLE": 40,
+        "COMPLETED_VALID": 6,
+        "FAILED_SOLVER": 1,
+        "INVALID_RESULT": 12
+      }
+    },
+    "policies": {
+      "bundles": 38,
+      "solved_intervals": 38016,
+      "states": {
+        "COMPLETED_INFEASIBLE": 118,
+        "COMPLETED_VALID": 278
+      }
+    },
+    "robustness": {
+      "bundles": 62,
+      "solved_intervals": 24960,
+      "states": {
+        "COMPLETED_INFEASIBLE": 156,
+        "COMPLETED_VALID": 104
+      }
+    }
+  },
+  "wall_seconds": 19.582600453984924
+}

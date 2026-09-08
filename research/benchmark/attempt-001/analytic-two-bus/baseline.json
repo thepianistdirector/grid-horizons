@@ -1,0 +1,1015 @@
+{
+  "evaluation": {
+    "intervals": [
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 0,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 1,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 2,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 3,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 4,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 5,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 6,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 7,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 8,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 9,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 10,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 11,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 12,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 13,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 14,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 15,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 16,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 17,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 18,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 19,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 20,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 21,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 22,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      },
+      {
+        "branch_loading": [
+          0.112245016037381
+        ],
+        "dt_hours": 1.0,
+        "energy_kwh": 40.0,
+        "interval": 23,
+        "max_loading": 0.112245016037381,
+        "max_voltage_pu": 1.0,
+        "min_voltage_pu": 0.9898979485566357,
+        "network_loss_kw": 0.10205144336437855,
+        "residual_pu": 8.881784197001252e-16,
+        "source_kw": 10.10205144336438,
+        "voltage_pu": [
+          1.0,
+          0.9898979485566357
+        ]
+      }
+    ],
+    "invalid": [],
+    "metrics": {
+      "energy_residual_kwh": 9.103828801926284e-14,
+      "export_kwh": 0.0,
+      "import_kwh": 242.44923464074517,
+      "load_kwh": 240.0,
+      "max_loading": 0.112245016037381,
+      "max_power_residual_pu": 8.881784197001252e-16,
+      "max_voltage_pu": 1.0,
+      "min_voltage_pu": 0.9898979485566357,
+      "network_loss_kwh": 2.449234640745084,
+      "peak_import_kw": 10.10205144336438,
+      "solar_kwh": 0.0,
+      "storage_delta_kwh": 0.0,
+      "storage_loss_kwh": 0.0,
+      "total_loss_kwh": 2.449234640745084
+    },
+    "state": "COMPLETED_VALID",
+    "violations": []
+  },
+  "policy": "baseline",
+  "raw": {
+    "rows": [
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 0,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 1,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 2,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 3,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 4,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 5,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 6,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 7,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 8,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 9,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 10,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 11,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 12,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 13,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 14,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 15,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 16,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 17,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 18,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 19,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 20,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 21,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 22,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      },
+      {
+        "dispatch_kw": 0.0,
+        "energy_end_kwh": 40.0,
+        "energy_start_kwh": 40.0,
+        "interval": 23,
+        "iterations": 7,
+        "source_kva": [
+          10.10205144336438,
+          0.0
+        ],
+        "tap": 0,
+        "update_pu": 1.1213252548714081e-14,
+        "voltage": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.9898979485566357,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "state": "SOLVED"
+  }
+}

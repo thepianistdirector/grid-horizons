@@ -1,0 +1,355 @@
+{
+  "schema_version": "grid-horizons.scenario/v1",
+  "scenario_id": "orchard-storage",
+  "title": "An afternoon on a fictional feeder",
+  "provenance": {
+    "kind": "ORIGINAL_SYNTHETIC",
+    "license": "AGPL-3.0-only",
+    "record_id": "GH-SYNTHETIC-001"
+  },
+  "model_id": "lossless-lindistflow-storage/v1",
+  "timeline": {
+    "unit": "s",
+    "origin": "fictional_study_start",
+    "support": "half_open"
+  },
+  "intervals": [
+    {
+      "id": "i0",
+      "start_s": 0,
+      "end_s": 3600
+    },
+    {
+      "id": "i1",
+      "start_s": 3600,
+      "end_s": 7200
+    },
+    {
+      "id": "i2",
+      "start_s": 7200,
+      "end_s": 10800
+    },
+    {
+      "id": "i3",
+      "start_s": 10800,
+      "end_s": 14400
+    }
+  ],
+  "base": {
+    "apparent_power": {
+      "value": 100000,
+      "unit": "VA",
+      "basis": "three_phase_total",
+      "sign": "positive",
+      "location": "network",
+      "support": "constant"
+    },
+    "voltage_line_to_line": {
+      "value": 400,
+      "unit": "V",
+      "basis": "line_to_line_rms",
+      "sign": "positive",
+      "location": "network",
+      "support": "constant"
+    }
+  },
+  "network": {
+    "nodes": [
+      "grid",
+      "orchard",
+      "workshop"
+    ],
+    "root": "grid",
+    "root_voltage": {
+      "value": 1.0,
+      "unit": "pu",
+      "basis": "voltage_base",
+      "sign": "positive",
+      "location": "grid",
+      "support": "constant"
+    },
+    "branches": [
+      {
+        "id": "grid-orchard",
+        "parent": "grid",
+        "child": "orchard",
+        "resistance": {
+          "value": 0.015,
+          "unit": "pu",
+          "basis": "impedance_base",
+          "sign": "nonnegative",
+          "location": "grid-orchard",
+          "support": "constant"
+        },
+        "reactance": {
+          "value": 0.01,
+          "unit": "pu",
+          "basis": "impedance_base",
+          "sign": "nonnegative",
+          "location": "grid-orchard",
+          "support": "constant"
+        },
+        "rating": {
+          "value": 60000,
+          "unit": "VA",
+          "basis": "three_phase_total",
+          "sign": "positive",
+          "location": "grid-orchard",
+          "support": "constant"
+        }
+      },
+      {
+        "id": "orchard-workshop",
+        "parent": "orchard",
+        "child": "workshop",
+        "resistance": {
+          "value": 0.02,
+          "unit": "pu",
+          "basis": "impedance_base",
+          "sign": "nonnegative",
+          "location": "orchard-workshop",
+          "support": "constant"
+        },
+        "reactance": {
+          "value": 0.01,
+          "unit": "pu",
+          "basis": "impedance_base",
+          "sign": "nonnegative",
+          "location": "orchard-workshop",
+          "support": "constant"
+        },
+        "rating": {
+          "value": 40000,
+          "unit": "VA",
+          "basis": "three_phase_total",
+          "sign": "positive",
+          "location": "orchard-workshop",
+          "support": "constant"
+        }
+      }
+    ]
+  },
+  "profiles": [
+    {
+      "node_id": "orchard",
+      "load": {
+        "values": [
+          18000,
+          22000,
+          32000,
+          24000
+        ],
+        "unit": "W",
+        "basis": "three_phase_total",
+        "sign": "consumption_positive",
+        "location": "orchard",
+        "support": "scenario_intervals"
+      },
+      "reactive_load": {
+        "values": [
+          3600.0,
+          4400.0,
+          6400.0,
+          4800.0
+        ],
+        "unit": "var",
+        "basis": "three_phase_total",
+        "sign": "consumption_positive",
+        "location": "orchard",
+        "support": "scenario_intervals"
+      },
+      "generation_available": {
+        "values": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "unit": "W",
+        "basis": "three_phase_total",
+        "sign": "injection_positive",
+        "location": "orchard",
+        "support": "scenario_intervals"
+      },
+      "curtailment": {
+        "values": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "unit": "W",
+        "basis": "three_phase_total",
+        "sign": "potential_not_injected",
+        "location": "orchard",
+        "support": "scenario_intervals"
+      }
+    },
+    {
+      "node_id": "workshop",
+      "load": {
+        "values": [
+          14000,
+          16000,
+          30000,
+          18000
+        ],
+        "unit": "W",
+        "basis": "three_phase_total",
+        "sign": "consumption_positive",
+        "location": "workshop",
+        "support": "scenario_intervals"
+      },
+      "reactive_load": {
+        "values": [
+          2800.0,
+          3200.0,
+          6000.0,
+          3600.0
+        ],
+        "unit": "var",
+        "basis": "three_phase_total",
+        "sign": "consumption_positive",
+        "location": "workshop",
+        "support": "scenario_intervals"
+      },
+      "generation_available": {
+        "values": [
+          0,
+          50000,
+          8000,
+          0
+        ],
+        "unit": "W",
+        "basis": "three_phase_total",
+        "sign": "injection_positive",
+        "location": "workshop",
+        "support": "scenario_intervals"
+      },
+      "curtailment": {
+        "values": [
+          0,
+          2000,
+          0,
+          0
+        ],
+        "unit": "W",
+        "basis": "three_phase_total",
+        "sign": "potential_not_injected",
+        "location": "workshop",
+        "support": "scenario_intervals"
+      }
+    }
+  ],
+  "storage": {
+    "node_id": "workshop",
+    "capacity": {
+      "value": 72000000,
+      "unit": "J",
+      "basis": "stored_energy",
+      "sign": "positive",
+      "location": "workshop",
+      "support": "constant"
+    },
+    "initial_energy": {
+      "value": 36000000,
+      "unit": "J",
+      "basis": "stored_energy",
+      "sign": "nonnegative",
+      "location": "workshop",
+      "support": "constant"
+    },
+    "charge_limit": {
+      "value": 12000,
+      "unit": "W",
+      "basis": "three_phase_total",
+      "sign": "nonnegative",
+      "location": "workshop",
+      "support": "constant"
+    },
+    "discharge_limit": {
+      "value": 12000,
+      "unit": "W",
+      "basis": "three_phase_total",
+      "sign": "nonnegative",
+      "location": "workshop",
+      "support": "constant"
+    },
+    "charge_efficiency": {
+      "value": 0.9,
+      "unit": "1",
+      "basis": "conversion_ratio",
+      "sign": "positive",
+      "location": "workshop",
+      "support": "constant"
+    },
+    "discharge_efficiency": {
+      "value": 0.9,
+      "unit": "1",
+      "basis": "conversion_ratio",
+      "sign": "positive",
+      "location": "workshop",
+      "support": "constant"
+    },
+    "require_final_equal_initial": true
+  },
+  "policies": [
+    {
+      "id": "baseline",
+      "kind": "idle",
+      "schedule": {
+        "values": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "unit": "W",
+        "basis": "three_phase_total",
+        "sign": "charging_positive",
+        "location": "workshop",
+        "support": "scenario_intervals"
+      }
+    },
+    {
+      "id": "candidate",
+      "kind": "fixed",
+      "schedule": {
+        "values": [
+          0,
+          10000,
+          -8100,
+          0
+        ],
+        "unit": "W",
+        "basis": "three_phase_total",
+        "sign": "charging_positive",
+        "location": "workshop",
+        "support": "scenario_intervals"
+      }
+    }
+  ],
+  "limits": {
+    "voltage_min": {
+      "value": 0.97,
+      "unit": "pu",
+      "basis": "voltage_base",
+      "sign": "positive",
+      "location": "all_nodes",
+      "support": "constant"
+    },
+    "voltage_max": {
+      "value": 1.03,
+      "unit": "pu",
+      "basis": "voltage_base",
+      "sign": "positive",
+      "location": "all_nodes",
+      "support": "constant"
+    }
+  },
+  "uncertainty": {
+    "inputs": "SYNTHETIC_FIXED",
+    "model_error": "NOT_QUANTIFIED",
+    "preference": "NONE"
+  }
+}

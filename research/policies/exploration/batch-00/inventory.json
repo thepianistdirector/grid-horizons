@@ -1,0 +1,494 @@
+[
+  {
+    "case": 0,
+    "policies": [
+      {
+        "metrics": {
+          "energy_residual_kwh": 7.196909734830115e-12,
+          "export_kwh": 299.16787712193934,
+          "import_kwh": 543.7291567753499,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.7292482460211663,
+          "max_power_residual_pu": 4.967948554771323e-11,
+          "max_voltage_pu": 1.0099345737915857,
+          "min_voltage_pu": 0.9903837339265322,
+          "network_loss_kwh": 5.365548453403414,
+          "peak_import_kw": 63.63511285210405,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 0.0,
+          "storage_loss_kwh": 0.0,
+          "total_loss_kwh": 5.365548453403414
+        },
+        "policy": "baseline",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": 2.7554847292776685e-11,
+          "export_kwh": 299.1012236282119,
+          "import_kwh": 543.799042579307,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.7386365550744635,
+          "max_power_residual_pu": 4.589073326352826e-11,
+          "max_voltage_pu": 0.99755730446842,
+          "min_voltage_pu": 0.9777597558161351,
+          "network_loss_kwh": 5.502087751067577,
+          "peak_import_kw": 63.64769748102841,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 0.0,
+          "storage_loss_kwh": 0.0,
+          "total_loss_kwh": 5.502087751067577
+        },
+        "policy": "tap_m2",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": 2.504663143554353e-13,
+          "export_kwh": 299.23212435756494,
+          "import_kwh": 543.6618847625949,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.7200975242300236,
+          "max_power_residual_pu": 5.015913588689111e-11,
+          "max_voltage_pu": 1.0223147679017464,
+          "min_voltage_pu": 1.003004568061877,
+          "network_loss_kwh": 5.234029205029833,
+          "peak_import_kw": 63.6230018648305,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 0.0,
+          "storage_loss_kwh": 0.0,
+          "total_loss_kwh": 5.234029205029833
+        },
+        "policy": "tap_p2",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -5.53068701947268e-12,
+          "export_kwh": 299.2940792602466,
+          "import_kwh": 543.5970973046359,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.7111754130042102,
+          "max_power_residual_pu": 5.0682958999218336e-11,
+          "max_voltage_pu": 1.0346977846842373,
+          "min_voltage_pu": 1.0156223773248254,
+          "network_loss_kwh": 5.107286844394895,
+          "peak_import_kw": 63.611340920077616,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 0.0,
+          "storage_loss_kwh": 0.0,
+          "total_loss_kwh": 5.107286844394895
+        },
+        "policy": "tap_p4",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -2.169375790117556e-13,
+          "export_kwh": 291.28025407248646,
+          "import_kwh": 536.4102708574179,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.7094532144228061,
+          "max_power_residual_pu": 4.6535233658573296e-11,
+          "max_voltage_pu": 1.0099345737915857,
+          "min_voltage_pu": 0.9909394229991882,
+          "network_loss_kwh": 5.154285584931776,
+          "peak_import_kw": 61.80064125572826,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 0.0,
+          "storage_loss_kwh": 0.7799999999999996,
+          "total_loss_kwh": 5.934285584931775
+        },
+        "policy": "storage_0",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -1.9275692153541968e-12,
+          "export_kwh": 291.2911114126716,
+          "import_kwh": 536.4102708574179,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.7094532144228061,
+          "max_power_residual_pu": 4.6535233658573296e-11,
+          "max_voltage_pu": 1.0098181713176249,
+          "min_voltage_pu": 0.9909394229991882,
+          "network_loss_kwh": 5.143428244748261,
+          "peak_import_kw": 61.80064125572826,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 0.0,
+          "storage_loss_kwh": 0.7799999999999996,
+          "total_loss_kwh": 5.92342824474826
+        },
+        "policy": "storage_1",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -1.2989609388114332e-12,
+          "export_kwh": 283.38151062601446,
+          "import_kwh": 529.1011065042543,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.6897226771360921,
+          "max_power_residual_pu": 3.9004708617609943e-11,
+          "max_voltage_pu": 1.0099345737915857,
+          "min_voltage_pu": 0.9910504233009372,
+          "network_loss_kwh": 4.963864678241174,
+          "peak_import_kw": 59.968617287138315,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 0.0,
+          "storage_loss_kwh": 1.5599999999999992,
+          "total_loss_kwh": 6.523864678241173
+        },
+        "policy": "storage_2",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -3.921751812185903e-12,
+          "export_kwh": 283.4032668309943,
+          "import_kwh": 529.1011065042543,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.6897226771360921,
+          "max_power_residual_pu": 3.9004708617609943e-11,
+          "max_voltage_pu": 1.0097015508418123,
+          "min_voltage_pu": 0.9910504233009372,
+          "network_loss_kwh": 4.9421084732639455,
+          "peak_import_kw": 59.968617287138315,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 0.0,
+          "storage_loss_kwh": 1.5599999999999992,
+          "total_loss_kwh": 6.502108473263945
+        },
+        "policy": "storage_3",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -1.3694823053356231e-11,
+          "export_kwh": 267.55047412080955,
+          "import_kwh": 514.511788128725,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.6566175642156024,
+          "max_power_residual_pu": 3.882417713610862e-11,
+          "max_voltage_pu": 1.0099345737915857,
+          "min_voltage_pu": 0.9912718357688993,
+          "network_loss_kwh": 4.6455828079291965,
+          "peak_import_kw": 56.3118731840967,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 7.105427357601002e-15,
+          "storage_loss_kwh": 3.1199999999999983,
+          "total_loss_kwh": 7.765582807929195
+        },
+        "policy": "storage_4",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -2.1503687719359732e-11,
+          "export_kwh": 267.5941538228347,
+          "import_kwh": 514.511788128725,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.6504677990989305,
+          "max_power_residual_pu": 3.882417713610862e-11,
+          "max_voltage_pu": 1.0094676521429722,
+          "min_voltage_pu": 0.9912718357688993,
+          "network_loss_kwh": 4.601903105911804,
+          "peak_import_kw": 56.3118731840967,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 7.105427357601002e-15,
+          "storage_loss_kwh": 3.1199999999999983,
+          "total_loss_kwh": 7.721903105911802
+        },
+        "policy": "storage_5",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -1.3104184404255648e-11,
+          "export_kwh": 251.67438720700875,
+          "import_kwh": 499.9608956137019,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.6566175642156024,
+          "max_power_residual_pu": 3.876161798066354e-11,
+          "max_voltage_pu": 1.0099345737915857,
+          "min_voltage_pu": 0.9914924693479785,
+          "network_loss_kwh": 4.41077720670636,
+          "peak_import_kw": 52.664803128487826,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": -7.105427357601002e-15,
+          "storage_loss_kwh": 4.679999999999998,
+          "total_loss_kwh": 9.090777206706358
+        },
+        "policy": "storage_6",
+        "state": "COMPLETED_INFEASIBLE"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -2.5149660132228746e-11,
+          "export_kwh": 251.74016011656767,
+          "import_kwh": 499.9608956137019,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.6115130878486575,
+          "max_power_residual_pu": 3.876161798066354e-11,
+          "max_voltage_pu": 1.0092328701415318,
+          "min_voltage_pu": 0.9914924693479785,
+          "network_loss_kwh": 4.3450042971594325,
+          "peak_import_kw": 52.664803128487826,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": -7.105427357601002e-15,
+          "storage_loss_kwh": 4.679999999999998,
+          "total_loss_kwh": 9.02500429715943
+        },
+        "policy": "storage_7",
+        "state": "COMPLETED_INFEASIBLE"
+      }
+    ],
+    "state": "RECORDED"
+  },
+  {
+    "case": 1,
+    "policies": [
+      {
+        "metrics": {
+          "energy_residual_kwh": 7.196909734830115e-12,
+          "export_kwh": 299.16787712193934,
+          "import_kwh": 543.7291567753499,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.7292482460211663,
+          "max_power_residual_pu": 4.967948554771323e-11,
+          "max_voltage_pu": 1.0099345737915857,
+          "min_voltage_pu": 0.9903837339265322,
+          "network_loss_kwh": 5.365548453403414,
+          "peak_import_kw": 63.63511285210405,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 0.0,
+          "storage_loss_kwh": 0.0,
+          "total_loss_kwh": 5.365548453403414
+        },
+        "policy": "baseline",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": 2.7554847292776685e-11,
+          "export_kwh": 299.1012236282119,
+          "import_kwh": 543.799042579307,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.7386365550744635,
+          "max_power_residual_pu": 4.589073326352826e-11,
+          "max_voltage_pu": 0.99755730446842,
+          "min_voltage_pu": 0.9777597558161351,
+          "network_loss_kwh": 5.502087751067577,
+          "peak_import_kw": 63.64769748102841,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 0.0,
+          "storage_loss_kwh": 0.0,
+          "total_loss_kwh": 5.502087751067577
+        },
+        "policy": "tap_m2",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": 2.504663143554353e-13,
+          "export_kwh": 299.23212435756494,
+          "import_kwh": 543.6618847625949,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.7200975242300236,
+          "max_power_residual_pu": 5.015913588689111e-11,
+          "max_voltage_pu": 1.0223147679017464,
+          "min_voltage_pu": 1.003004568061877,
+          "network_loss_kwh": 5.234029205029833,
+          "peak_import_kw": 63.6230018648305,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 0.0,
+          "storage_loss_kwh": 0.0,
+          "total_loss_kwh": 5.234029205029833
+        },
+        "policy": "tap_p2",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -5.53068701947268e-12,
+          "export_kwh": 299.2940792602466,
+          "import_kwh": 543.5970973046359,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.7111754130042102,
+          "max_power_residual_pu": 5.0682958999218336e-11,
+          "max_voltage_pu": 1.0346977846842373,
+          "min_voltage_pu": 1.0156223773248254,
+          "network_loss_kwh": 5.107286844394895,
+          "peak_import_kw": 63.611340920077616,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 0.0,
+          "storage_loss_kwh": 0.0,
+          "total_loss_kwh": 5.107286844394895
+        },
+        "policy": "tap_p4",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -1.592259657456907e-11,
+          "export_kwh": 291.4011525951955,
+          "import_kwh": 536.2830810568807,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.6918803121828341,
+          "max_power_residual_pu": 4.793619989414148e-11,
+          "max_voltage_pu": 1.0346977846842373,
+          "min_voltage_pu": 1.016164088040243,
+          "network_loss_kwh": 4.906197261701188,
+          "peak_import_kw": 61.77832469591328,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 0.0,
+          "storage_loss_kwh": 0.7799999999999996,
+          "total_loss_kwh": 5.686197261701188
+        },
+        "policy": "combined_0",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -2.172861890414879e-11,
+          "export_kwh": 291.411507746737,
+          "import_kwh": 536.2830810568807,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.6918803121828341,
+          "max_power_residual_pu": 4.793619989414148e-11,
+          "max_voltage_pu": 1.0345840575821696,
+          "min_voltage_pu": 1.016164088040243,
+          "network_loss_kwh": 4.895842110165505,
+          "peak_import_kw": 61.77832469591328,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 0.0,
+          "storage_loss_kwh": 0.7799999999999996,
+          "total_loss_kwh": 5.6758421101655046
+        },
+        "policy": "combined_1",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -1.2169376617521266e-11,
+          "export_kwh": 283.4976236471284,
+          "import_kwh": 528.9783019017945,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.6726467120219916,
+          "max_power_residual_pu": 4.039352638788612e-11,
+          "max_voltage_pu": 1.0346977846842373,
+          "min_voltage_pu": 1.0162722506369062,
+          "network_loss_kwh": 4.724947054678247,
+          "peak_import_kw": 59.947633313611945,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 0.0,
+          "storage_loss_kwh": 1.5599999999999992,
+          "total_loss_kwh": 6.284947054678247
+        },
+        "policy": "combined_2",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -1.80873094279832e-11,
+          "export_kwh": 283.518371688099,
+          "import_kwh": 528.9783019017945,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.6726467120219916,
+          "max_power_residual_pu": 4.039352638788612e-11,
+          "max_voltage_pu": 1.0344701275143613,
+          "min_voltage_pu": 1.0162722506369062,
+          "network_loss_kwh": 4.704199013713563,
+          "peak_import_kw": 59.947633313611945,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 0.0,
+          "storage_loss_kwh": 1.5599999999999992,
+          "total_loss_kwh": 6.2641990137135615
+        },
+        "policy": "combined_3",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -1.007283145781912e-11,
+          "export_kwh": 267.6585877558063,
+          "import_kwh": 514.3963153890539,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.6409000323187963,
+          "max_power_residual_pu": 3.042962290849447e-11,
+          "max_voltage_pu": 1.0346977846842373,
+          "min_voltage_pu": 1.0164880308547004,
+          "network_loss_kwh": 4.4219964332577995,
+          "peak_import_kw": 56.29318981067172,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 7.105427357601002e-15,
+          "storage_loss_kwh": 3.1199999999999983,
+          "total_loss_kwh": 7.541996433257798
+        },
+        "policy": "combined_4",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -1.9967139053278515e-11,
+          "export_kwh": 267.70023582257846,
+          "import_kwh": 514.3963153890539,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.6343764441188957,
+          "max_power_residual_pu": 3.5529374492193266e-11,
+          "max_voltage_pu": 1.034241655161483,
+          "min_voltage_pu": 1.0164880308547004,
+          "network_loss_kwh": 4.380348366495426,
+          "peak_import_kw": 56.29318981067172,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": 7.105427357601002e-15,
+          "storage_loss_kwh": 3.1199999999999983,
+          "total_loss_kwh": 7.500348366495424
+        },
+        "policy": "combined_5",
+        "state": "COMPLETED_VALID"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -9.724665517296671e-12,
+          "export_kwh": 251.77662621707333,
+          "import_kwh": 499.8508611191922,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.6409000323187963,
+          "max_power_residual_pu": 3.038886200212937e-11,
+          "max_voltage_pu": 1.0346977846842373,
+          "min_voltage_pu": 1.0167030891017625,
+          "network_loss_kwh": 4.198503702128639,
+          "peak_import_kw": 52.647940470848596,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": -7.105427357601002e-15,
+          "storage_loss_kwh": 4.679999999999998,
+          "total_loss_kwh": 8.878503702128636
+        },
+        "policy": "combined_6",
+        "state": "COMPLETED_INFEASIBLE"
+      },
+      {
+        "metrics": {
+          "energy_residual_kwh": -2.2931878618237533e-11,
+          "export_kwh": 251.83932838680533,
+          "import_kwh": 499.8508611191922,
+          "load_kwh": 893.7124283,
+          "max_loading": 0.5963934172987867,
+          "max_power_residual_pu": 3.648270779327103e-11,
+          "max_voltage_pu": 1.0340123609261618,
+          "min_voltage_pu": 1.0167030891017625,
+          "network_loss_kwh": 4.1358015324098405,
+          "peak_import_kw": 52.647940470848596,
+          "solar_kwh": 654.5166971000001,
+          "storage_delta_kwh": -7.105427357601002e-15,
+          "storage_loss_kwh": 4.679999999999998,
+          "total_loss_kwh": 8.81580153240984
+        },
+        "policy": "combined_7",
+        "state": "COMPLETED_INFEASIBLE"
+      }
+    ],
+    "state": "RECORDED"
+  }
+]

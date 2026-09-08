@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "/home/codex/.local/bin/python3",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+    "lab",
+    "verify",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/confirmation/batch-01/case-001"
+  ],
+  "cpu_seconds": 0.24242199999999947,
+  "label": "verify-confirmation-batch-01-case-001",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\n  \"states\": {\n    \"baseline\": \"COMPLETED_VALID\",\n    \"tap_m2\": \"COMPLETED_VALID\",\n    \"tap_p2\": \"COMPLETED_VALID\",\n    \"tap_p4\": \"COMPLETED_VALID\",\n    \"combined_loss\": \"COMPLETED_VALID\",\n    \"combined_peak\": \"COMPLETED_VALID\",\n    \"storage_loss\": \"COMPLETED_VALID\",\n    \"storage_peak\": \"COMPLETED_VALID\"\n  },\n  \"ranking\": [\n    \"tap_p4\",\n    \"tap_p2\",\n    \"baseline\",\n    \"tap_m2\",\n    \"combined_loss\",\n    \"storage_loss\",\n    \"combined_peak\",\n    \"storage_peak\"\n  ],\n  \"seconds\": 0.12250266800401732\n}\n",
+  "wall_seconds": 0.24367329699452966
+}

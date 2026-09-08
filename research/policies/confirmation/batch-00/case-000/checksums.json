@@ -1,0 +1,15 @@
+{
+  "baseline.json": "d674db4e358e5d8af7814bddcdc7f267555a565f23d279f7bc8b6be295305f47",
+  "combined_loss.json": "b5d07b2be581f062c8f3dd6ce0d7d9ef8f45d07830c9e6b0ad9d67ff3c5e5e9a",
+  "combined_peak.json": "59ab5510a38201b990edd426100b4d5945cd695f0945075a92b6229a3b310808",
+  "feasibility.csv": "1c48f14077f2a16daa5f82ea57cd0953fd8ccca0619599ff42b1f4b170238e4f",
+  "manifest.json": "a097d67cad80c252d17c817dbc41a7999a9c72a87d95cbc9bc90ab136d5fd269",
+  "report.html": "dd98699421c6e7d34bc0ab05613316c3372f374b1d615adbdff5392f826a9156",
+  "scenario.json": "7d83174bbe1be61e201e9a0eff0facfe63165369b87c72e9f9c283a5944c0130",
+  "storage_loss.json": "ff4df868818a23837c0a2227180b3c442e0812a9fba9cdf4d3866baf68601383",
+  "storage_peak.json": "c882c0b3ed39ab509dea94a33f15ab37af6c362ad263f13c7a75d9a76fc543e0",
+  "summary.json": "60be88152d03722c250a278c0e5d31b589d293147cba08acb8cd9b4b16b17962",
+  "tap_m2.json": "219b3695f8b9a25e4f7f3b95c90aea4c34bfc13e9364def035c9fd3bfeed0378",
+  "tap_p2.json": "227e813fae6beadec7c4e988447805ab73c1097ad703a5bdcbd9ffab9ec9cdb2",
+  "tap_p4.json": "2380d38bf09f652661fe5147d4223d5c686aa56933a33bc5c6f7505678144584"
+}

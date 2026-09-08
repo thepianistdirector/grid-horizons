@@ -1,0 +1,12 @@
+{
+  "baseline.json": "1b618004a33cf7b52516fd198b8bc87e5e0721b286b2abafa192214cf3d1cf3a",
+  "combined_loss.json": "c874dbb517513b658355e8db58def71522f745d19d43af50c153d7209e999c60",
+  "combined_peak.json": "39c3fe73e398e56e91d6f98c0042566090528ab2a4657d598a5ce3f70653c015",
+  "feasibility.csv": "c1e19250adc387f62f2d5e98ce8f7558353f59f6aaa320ca5bd953e5cd7f0ab4",
+  "manifest.json": "e6728274ed1e081ceb0d729429e4a22d71eaa877d216272d60c36225caa15883",
+  "report.html": "0c36e187e0088778ef6e73b26f842b0ab877b17db00d2ce33a67c48a4c67a167",
+  "scenario.json": "c06eb93faf23dfce864cc1295cab60bfdbd2c167f669e814979f4dc61671ad39",
+  "storage_loss.json": "0f335c1700983b27e362047dbc2507393333a17bcce69171b266475dcd511ad8",
+  "storage_peak.json": "481c2548371d0a7990f67814317becfed80fbcd838de523b0f26e8fd3f714fce",
+  "summary.json": "f78e578ad7cc4f6b7e43726ec7fcc65ff2d57360434a4869ad3e3ebbae0f9e09"
+}

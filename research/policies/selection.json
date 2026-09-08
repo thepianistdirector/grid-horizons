@@ -1,0 +1,270 @@
+{
+  "all_training_scores": [
+    {
+      "eligible": true,
+      "family": "storage",
+      "mean_peak_import_kw": 68.67977362851839,
+      "mean_total_loss_kwh": 6.386252011328365,
+      "policy": "storage_0",
+      "states": [
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID"
+      ]
+    },
+    {
+      "eligible": true,
+      "family": "storage",
+      "mean_peak_import_kw": 68.67977362851839,
+      "mean_total_loss_kwh": 6.3739270671143915,
+      "policy": "storage_1",
+      "states": [
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID"
+      ]
+    },
+    {
+      "eligible": true,
+      "family": "storage",
+      "mean_peak_import_kw": 66.84437107025425,
+      "mean_total_loss_kwh": 6.970197300419962,
+      "policy": "storage_2",
+      "states": [
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID"
+      ]
+    },
+    {
+      "eligible": true,
+      "family": "storage",
+      "mean_peak_import_kw": 66.84437107025425,
+      "mean_total_loss_kwh": 6.945500078635181,
+      "policy": "storage_3",
+      "states": [
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID"
+      ]
+    },
+    {
+      "eligible": true,
+      "family": "storage",
+      "mean_peak_import_kw": 63.18090696787917,
+      "mean_total_loss_kwh": 8.200868381980433,
+      "policy": "storage_4",
+      "states": [
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID"
+      ]
+    },
+    {
+      "eligible": true,
+      "family": "storage",
+      "mean_peak_import_kw": 63.18090696787917,
+      "mean_total_loss_kwh": 8.151283238750356,
+      "policy": "storage_5",
+      "states": [
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID"
+      ]
+    },
+    {
+      "eligible": false,
+      "family": "storage",
+      "mean_peak_import_kw": 59.52716593932604,
+      "mean_total_loss_kwh": 9.515309102985611,
+      "policy": "storage_6",
+      "states": [
+        "COMPLETED_INFEASIBLE",
+        "COMPLETED_INFEASIBLE",
+        "COMPLETED_INFEASIBLE",
+        "COMPLETED_INFEASIBLE"
+      ]
+    },
+    {
+      "eligible": false,
+      "family": "storage",
+      "mean_peak_import_kw": 59.52716593932604,
+      "mean_total_loss_kwh": 9.44064257030763,
+      "policy": "storage_7",
+      "states": [
+        "COMPLETED_INFEASIBLE",
+        "COMPLETED_INFEASIBLE",
+        "COMPLETED_INFEASIBLE",
+        "COMPLETED_INFEASIBLE"
+      ]
+    },
+    {
+      "eligible": true,
+      "family": "combined",
+      "mean_peak_import_kw": 68.65186281647058,
+      "mean_total_loss_kwh": 6.115530384820021,
+      "policy": "combined_0",
+      "states": [
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID"
+      ]
+    },
+    {
+      "eligible": true,
+      "family": "combined",
+      "mean_peak_import_kw": 68.65186281647058,
+      "mean_total_loss_kwh": 6.103779260677028,
+      "policy": "combined_1",
+      "states": [
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID"
+      ]
+    },
+    {
+      "eligible": true,
+      "family": "combined",
+      "mean_peak_import_kw": 66.81796404733389,
+      "mean_total_loss_kwh": 6.708953213563109,
+      "policy": "combined_2",
+      "states": [
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID"
+      ]
+    },
+    {
+      "eligible": true,
+      "family": "combined",
+      "mean_peak_import_kw": 66.81796404733389,
+      "mean_total_loss_kwh": 6.685407970809187,
+      "policy": "combined_3",
+      "states": [
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID"
+      ]
+    },
+    {
+      "eligible": true,
+      "family": "combined",
+      "mean_peak_import_kw": 63.15713932779005,
+      "mean_total_loss_kwh": 7.955548233465641,
+      "policy": "combined_4",
+      "states": [
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID"
+      ]
+    },
+    {
+      "eligible": true,
+      "family": "combined",
+      "mean_peak_import_kw": 63.15713932779005,
+      "mean_total_loss_kwh": 7.908284588200688,
+      "policy": "combined_5",
+      "states": [
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID",
+        "COMPLETED_VALID"
+      ]
+    },
+    {
+      "eligible": false,
+      "family": "combined",
+      "mean_peak_import_kw": 59.50555304447312,
+      "mean_total_loss_kwh": 9.281866632903053,
+      "policy": "combined_6",
+      "states": [
+        "COMPLETED_INFEASIBLE",
+        "COMPLETED_INFEASIBLE",
+        "COMPLETED_INFEASIBLE",
+        "COMPLETED_INFEASIBLE"
+      ]
+    },
+    {
+      "eligible": false,
+      "family": "combined",
+      "mean_peak_import_kw": 59.50555304447312,
+      "mean_total_loss_kwh": 9.210709032025184,
+      "policy": "combined_7",
+      "states": [
+        "COMPLETED_INFEASIBLE",
+        "COMPLETED_INFEASIBLE",
+        "COMPLETED_INFEASIBLE",
+        "COMPLETED_INFEASIBLE"
+      ]
+    }
+  ],
+  "selected": {
+    "combined_loss": {
+      "mean_training_objective": 6.103779260677028,
+      "parameters": {
+        "amplitude_kw": 2,
+        "charge_end": 14,
+        "charge_start": 10,
+        "discharge_end": 21,
+        "discharge_start": 17,
+        "tap": 4
+      },
+      "selection_metric": "total_loss_kwh",
+      "source_policy": "combined_1",
+      "training_case_count": 4
+    },
+    "combined_peak": {
+      "mean_training_objective": 63.15713932779005,
+      "parameters": {
+        "amplitude_kw": 8,
+        "charge_end": 13,
+        "charge_start": 9,
+        "discharge_end": 21,
+        "discharge_start": 17,
+        "tap": 4
+      },
+      "selection_metric": "peak_import_kw",
+      "source_policy": "combined_4",
+      "training_case_count": 4
+    },
+    "storage_loss": {
+      "mean_training_objective": 6.3739270671143915,
+      "parameters": {
+        "amplitude_kw": 2,
+        "charge_end": 14,
+        "charge_start": 10,
+        "discharge_end": 21,
+        "discharge_start": 17,
+        "tap": 0
+      },
+      "selection_metric": "total_loss_kwh",
+      "source_policy": "storage_1",
+      "training_case_count": 4
+    },
+    "storage_peak": {
+      "mean_training_objective": 63.18090696787917,
+      "parameters": {
+        "amplitude_kw": 8,
+        "charge_end": 13,
+        "charge_start": 9,
+        "discharge_end": 21,
+        "discharge_start": 17,
+        "tap": 0
+      },
+      "selection_metric": "peak_import_kw",
+      "source_policy": "storage_4",
+      "training_case_count": 4
+    }
+  }
+}

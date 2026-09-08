@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz/__main__.py", line 2, in <module>
+  File "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz/grid_horizons/cli.py", line 84, in main
+  File "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz/grid_horizons/lab.py", line 122, in main
+  File "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz/grid_horizons/ac.py", line 54, in validate
+  File "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz/grid_horizons/ac.py", line 46, in number
+OverflowError: int too large to convert to float

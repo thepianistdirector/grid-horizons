@@ -1,0 +1,147 @@
+{
+  "dispatch": "tanduna-v1-research-20260908-grid-horizons",
+  "audit_date": "2026-09-08",
+  "previous_goal_turn": "PROGRESS: implementation, three studies, skeptical correction loop and sealed local candidate",
+  "current_goal_turn": "PROGRESS: found and repaired standalone study distribution dependencies; documented replay checks",
+  "completion": "NOT_PROVEN: real human/qualified review and owner-authorized public outcomes remain absent",
+  "requirements": [
+    {
+      "requirement": "Preserve prior project work and reconcile latest mandate/native goal",
+      "state": "PROVEN_LOCAL",
+      "evidence": [
+        "STATUS.md",
+        "docs/v1/STATE.json",
+        "docs/v1/CONTRACT.md",
+        "docs/v1/ROADMAP-RECONCILIATION.md"
+      ]
+    },
+    {
+      "requirement": "Admitted feeder/profiles, numerical engine, physics/units/model/tolerance bounds",
+      "state": "PROVEN_FOR_DECLARED_SYNTHETIC_MODEL",
+      "evidence": [
+        "docs/v1/MODEL.md",
+        "src/grid_horizons/ac.py",
+        "src/grid_horizons/ac_check.py",
+        "research/benchmark/report.md"
+      ]
+    },
+    {
+      "requirement": "Baseline/storage/tap, voltage/loading/energy/SOC limits and infeasible exclusion",
+      "state": "PROVEN_LOCAL",
+      "evidence": [
+        "docs/v1/evidence/runtime-tests.log",
+        "research/policies/report.md",
+        "research/reproduction/report.md"
+      ]
+    },
+    {
+      "requirement": "Chronological sensitivity campaigns and failure retention/recovery",
+      "state": "PROVEN_LOCAL",
+      "evidence": [
+        "docs/v1/evidence/rc4-clean.json",
+        "tools/check_release.py",
+        "research/robustness/all-attempt-inventory.json"
+      ]
+    },
+    {
+      "requirement": "Complete export/reopen/rerun, clean packaged application and UI path",
+      "state": "PROVEN_SAME_HOST_ONLY",
+      "evidence": [
+        "releases/v1.0.0rc4-review/EXTRACTED-PACKAGE-CHECK.json",
+        "docs/v1/evidence/rc4-clean.json",
+        "docs/v1/evidence/rc4-browser.json"
+      ]
+    },
+    {
+      "requirement": "Multiple actual GPT-6 Astra investigators use built platform, distinct substantive studies",
+      "state": "PROVEN_LOCAL",
+      "evidence": [
+        "research/benchmark/findings.json",
+        "research/policies/findings.json",
+        "research/robustness/findings.json",
+        "research/reproduction/reviewed-final-reports.json"
+      ]
+    },
+    {
+      "requirement": "Preregistered comparators/seeds/budgets, held-out confirmation, all-attempt data/rights, measured costs, uncertainty and limitations",
+      "state": "PROVEN_WITH_DISCLOSED_MEASUREMENT_LIMITS",
+      "evidence": [
+        "research/benchmark/report.md",
+        "research/policies/report.md",
+        "research/robustness/report.md",
+        "research/reproduction/claim-audit.json"
+      ]
+    },
+    {
+      "requirement": "Separate skeptical reproduction and build-experiment-improve loop",
+      "state": "PROVEN_PROCESS_SEPARATION_NOT_HUMAN_INDEPENDENCE",
+      "evidence": [
+        "research/reproduction/report.md",
+        "research/reproduction/findings.json",
+        "docs/v1/VALIDATION.md"
+      ]
+    },
+    {
+      "requirement": "Three separately usable research archives",
+      "state": "PROVEN_SAME_HOST_REPLAY",
+      "evidence": [
+        "docs/v1/PACKAGING-AUDIT.md",
+        "runs/package-replay-audit/original-archive-failure.json",
+        "releases/v1.0.0rc4-review-r2/ASSETS.json",
+        "releases/v1.0.0rc4-review-r2/PACKAGING-REPLAY.json"
+      ]
+    },
+    {
+      "requirement": "License/notices, first-run/troubleshooting/contribution guide, screenshots, launch copy and canonical plan",
+      "state": "PROVEN_LOCAL_PREPARATION",
+      "evidence": [
+        "README.md",
+        "CONTRIBUTING.md",
+        "LICENSE",
+        "docs/v1/NOTICES.md",
+        "docs/v1/screenshots/desktop.png",
+        "docs/v1/LAUNCH-COPY.md",
+        "plan/publication.json"
+      ]
+    },
+    {
+      "requirement": "Actual external first-use observation",
+      "state": "MISSING_USER_INPUT_AND_REAL_OBSERVATION",
+      "evidence": [
+        "docs/v1/REVIEW-INSTRUCTIONS.md",
+        "docs/v1/STATE.json"
+      ]
+    },
+    {
+      "requirement": "Qualified distribution-model interpretation review",
+      "state": "MISSING_USER_INPUT_AND_REAL_REVIEW",
+      "evidence": [
+        "docs/v1/REVIEW-INSTRUCTIONS.md",
+        "docs/v1/STATE.json"
+      ]
+    },
+    {
+      "requirement": "Approval for exact v1.0 candidate publication/public commits/Tanduna updates",
+      "state": "MISSING_OWNER_APPROVAL",
+      "evidence": [
+        "docs/v1/STATE.json",
+        "releases/v1.0.0rc4-review-r2/REVIEW.md"
+      ]
+    },
+    {
+      "requirement": "Authorized public release, fresh downloads and Tanduna native plan adoption/readback",
+      "state": "NOT_EXECUTED_PENDING_APPROVAL_AND_APPLICABLE_REVIEWS",
+      "evidence": [
+        "docs/v1/STATE.json",
+        "plan/publication.json"
+      ]
+    }
+  ],
+  "not_substituted": [
+    "No agent is counted as a human participant or qualified human reviewer",
+    "No local archive is counted as a public download",
+    "No local plan export is counted as submitted/adopted/public Tanduna state",
+    "No bounded synthetic numerical agreement is counted as field or hardware validation"
+  ],
+  "next_gate": "Owner identifies/authorizes real reviewers and approves exact publication; do not contact or publish on silence"
+}

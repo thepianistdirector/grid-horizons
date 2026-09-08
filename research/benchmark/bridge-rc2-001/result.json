@@ -1,0 +1,23 @@
+{
+  "modules": {
+    "grid_horizons/ac.py": {
+      "rc1": "93849d5c4557922d453015707c0f95e72f4207fe5e43a7624b4a272e2caa2a1d",
+      "rc2": "93849d5c4557922d453015707c0f95e72f4207fe5e43a7624b4a272e2caa2a1d",
+      "identical": true
+    },
+    "grid_horizons/ac_check.py": {
+      "rc1": "3e39bc596e4895077147e397ea909150e8cca40a90a31ac1354d2648654e6330",
+      "rc2": "3e39bc596e4895077147e397ea909150e8cca40a90a31ac1354d2648654e6330",
+      "identical": true
+    }
+  },
+  "full_policy_records_identical": {
+    "baseline": true,
+    "storage": true,
+    "tap": true,
+    "combined": true
+  },
+  "passed": true,
+  "cpu_seconds": 0.37091199999999996,
+  "wall_seconds": 0.3820747660356574
+}

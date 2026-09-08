@@ -1,0 +1,32 @@
+{
+  "affinity": [
+    0
+  ],
+  "identity": {
+    "build": {
+      "implementation_sha256": "cdf8e0b82397cbad5e9f5979fd01d98fd931a7c772c5dcd1c8b42a35ac90a4a4",
+      "kind": "zipapp",
+      "source_revision": "3d4a4dc7718d72e0d20785c70154c800cc849093",
+      "source_state": "includes preserved uncommitted implementation; implementation hash is authoritative",
+      "version": "1.0.0rc1"
+    },
+    "machine": "x86_64",
+    "model": "balanced-radial-pq/v2",
+    "python": "3.12.14",
+    "system": "Linux"
+  },
+  "package": "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+  "package_sha256": "57573bdb2c8bb9c983b5dcc1b0c8850ac0ae6e3c87b8e6a24d60077ca03fe2ce",
+  "preregistration_sha256": "06bea580aa7907a8c4e07f7d7ecab831bfdac6098ab67d9db2d597fe0c4f304b",
+  "python": "3.12.14",
+  "python_executable": "/home/codex/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/bin/python3.12",
+  "python_executable_sha256": "f7c6210eb40fadcd3c2889dddd24a15fc2c9f926aec5a03bf9da66e12d581526",
+  "rerun_sha256": "77df9a2301bbdddb1e823dd558864c76630b7ce72a7c84a01cde4fd16575fb9c",
+  "source_hashes": {
+    "docs/v1/CONTRACT.md": "078d3703f8bf703935c2c3ebba74703906eaaa30de39f96b703a70062fe5238b",
+    "docs/v1/MODEL.md": "0bb8e6ca282d4ca94a3afedc5e91ddc9e541cb40032ca5b5615a078c70d4bd95",
+    "src/grid_horizons/ac.py": "93849d5c4557922d453015707c0f95e72f4207fe5e43a7624b4a272e2caa2a1d",
+    "src/grid_horizons/ac_check.py": "3e39bc596e4895077147e397ea909150e8cca40a90a31ac1354d2648654e6330",
+    "src/grid_horizons/lab.py": "490082777567a042deb24c096866ec189357facdc41c993ec39955c4ed23a75b"
+  }
+}

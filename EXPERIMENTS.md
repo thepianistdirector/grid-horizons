@@ -1,3 +1,5 @@
+> Current v1.0 implementation and evidence: [delivery contract](docs/v1/CONTRACT.md), [AC model admission](docs/v1/MODEL.md), [research packages](research/README.md). The historical architecture below is preserved; aspirational domains are not current implementation claims.
+
 # Grid Horizons experiment and evaluation contract
 
 Status: accepted architecture-foundation requirements; no experiment has run in this repository.

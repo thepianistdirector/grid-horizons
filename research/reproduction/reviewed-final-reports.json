@@ -1,0 +1,17 @@
+{
+  "benchmark": {
+    "report.md": "1e21a0709b71b6b6d7787a945164ea1daa4ea9604932f1ce6ecbdd68862b6453",
+    "findings.json": "6475ad282befdce6686fac569ce9d464404a8a6a8e2113908167ca1df309f586",
+    "preregistration.md": "ce3eeb7a5639048b13161ee5e9a01ea89b43876083a2b2ee73ba2a296aecfadf"
+  },
+  "policies": {
+    "report.md": "9575c7123de1908943eee11d063b2d4284862b07413263021bae29522e5c481f",
+    "findings.json": "070987abd93d8814e605ed244bf6c171da1a45bd2f67dcb428ace4626515587e",
+    "preregistration.md": "a6ad0fd7e233cac5167d9265d1b846d0741aa6305d9d6ce8982fa6b6833691f7"
+  },
+  "robustness": {
+    "report.md": "791f654c1745d25afc80daa7ad1094624ea4c0f11ff80aa3a20a6e1b957695ba",
+    "findings.json": "491b9caf04b3490864da6b1c7df2d5290271dc2c895cf1f01be44f9f8c61e123",
+    "preregistration.md": "06bea580aa7907a8c4e07f7d7ecab831bfdac6098ab67d9db2d597fe0c4f304b"
+  }
+}

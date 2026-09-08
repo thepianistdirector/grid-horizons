@@ -1,0 +1,24 @@
+{
+  "appendix_preregistration_sha256": "7aced84bf10f27fefbbd8b2faea95a366be0097923dc952286c69334d606fec6",
+  "identity": {
+    "build": {
+      "implementation_sha256": "3f46ec88b717c2811186fe2c4c7f2c926a37e110281c115798720bd87e143023",
+      "kind": "zipapp",
+      "source_revision": "3d4a4dc7718d72e0d20785c70154c800cc849093",
+      "source_state": "includes preserved uncommitted implementation; implementation hash is authoritative",
+      "version": "1.0.0rc2"
+    },
+    "machine": "x86_64",
+    "model": "balanced-radial-pq/v2",
+    "python": "3.12.14",
+    "system": "Linux"
+  },
+  "main_attempt": "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z",
+  "package_sha256": "325e14d7e3d3021555060dd4841f5e90df634238dd858c559a2c4ff7ee912c4e",
+  "script_sha256": "b215aaf4c523b866268ff99f13de73672c27c84677aa071536781c6fec902151",
+  "selection_source_sha256": "5f23d0ad605f9d97f59d66491a50246299552f3c4bfa3a51bc212d5ede078cac",
+  "unchanged_rc1_rc2_members": {
+    "grid_horizons/ac.py": "93849d5c4557922d453015707c0f95e72f4207fe5e43a7624b4a272e2caa2a1d",
+    "grid_horizons/ac_check.py": "3e39bc596e4895077147e397ea909150e8cca40a90a31ac1354d2648654e6330"
+  }
+}

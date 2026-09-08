@@ -1,0 +1,9 @@
+{
+  "child_peak_rss_kib": 32624,
+  "commands": 16,
+  "intervals": 6144,
+  "modeled_policy_trajectories_including_bridge": 64,
+  "scenario_executions": 13,
+  "total_cpu_seconds": 2.26761752,
+  "wall_seconds": 2.307323726010509
+}

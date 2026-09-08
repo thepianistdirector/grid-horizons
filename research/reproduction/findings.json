@@ -1,0 +1,75 @@
+{
+  "schema": "grid-horizons.skeptical-reproduction/v1",
+  "reviewer_model": "gpt-6-astra",
+  "review_type": "process-separated AI review in shared workspace; not human or physical validation",
+  "study_verdicts": {
+    "benchmark": "SUPPORTED_WITH_BOUNDED_SCOPE",
+    "policies": "SUPPORTED_WITH_BOUNDED_SCOPE",
+    "robustness": "SUPPORTED_WITH_BOUNDED_SCOPE"
+  },
+  "product_verdict": "RC4_SUPPORTED_FOR_BOUNDED_LOCAL_COMPUTATIONAL_REVIEW",
+  "final_implementation_sha256": "b2eeb117a34ea3423136a0082442d1b93f01b0c6e13dab429772a0d2c3a8f8e3",
+  "final_package_sha256": "15aaa7913e4069b9483fcb721032c812a8babc865968d652bb681f031abc7c6e",
+  "findings": [
+    {
+      "id": "R1",
+      "state": "FIXED_RC2_VERIFIED_RC2_RC3",
+      "severity": "release-usability",
+      "issue": "RC1 JSON reader rejects generated summaries over 1 MiB",
+      "numerical_claims_affected": false
+    },
+    {
+      "id": "R2",
+      "state": "FIXED_RC3_VERIFIED_RC3_RC4",
+      "severity": "release-usability",
+      "issue": "Reserved policy IDs collide with bundle filenames",
+      "numerical_claims_affected": false
+    },
+    {
+      "id": "R3",
+      "state": "FIXED_RC4_VALIDATE_AND_SOURCE_IDENTITY_VERIFIED",
+      "severity": "release-usability",
+      "issue": "Huge JSON integer causes unhandled OverflowError instead of structured rejection",
+      "numerical_claims_affected": false,
+      "limitation": "Reviewer did not rerun producer after20 run attempts; root owns RC4 run/campaign regressions"
+    }
+  ],
+  "counts": {
+    "retained_bundles": 153,
+    "retained_policy_records": 715,
+    "retained_solved_intervals": 69264,
+    "unchanged_scenario_reruns_rc2": 10,
+    "additional_rc3_bridges": 3,
+    "newton_intervals": 1224,
+    "rc2_checks": 1255,
+    "rc2_expected_defect_failures": 4,
+    "claim_audit_checks": 827,
+    "rc3_bridge_checks": 36,
+    "rc4_checks": 13,
+    "ordinary_custom_id_checks": 1,
+    "run_command_attempts": 20,
+    "max_sample_intervals": 96,
+    "max_allowed_intervals": 480,
+    "max_parallel_producers": 1
+  },
+  "cost": {
+    "measured_cpu_seconds": 25.86313962,
+    "measured_wall_seconds": 25.94699216989102,
+    "peak_measured_child_rss_kib": 28408,
+    "excluded": "authoring, inference, initial manual defect checks, failed first audit harness CPU not measured; failure preserved",
+    "paid_resources": false
+  },
+  "pending_gates": [
+    "root full clean-release acceptance",
+    "external human first-use and qualified engineering review",
+    "owner approval for any public app/research release"
+  ],
+  "artifacts": {
+    "report": "report.md",
+    "primary_result": "attempt-20260908T173727/result.json",
+    "claims": "claim-audit.json",
+    "rc3_bridge": "bridge-rc3-20260908T174103/result.json",
+    "rc4_check": "check-rc4-20260908T174500/result.json",
+    "final_reports": "reviewed-final-reports.json"
+  }
+}

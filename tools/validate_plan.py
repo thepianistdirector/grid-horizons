@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
-"""Validate Grid Horizons planning contracts using only the Python standard library.
+"""Validate canonical plans, generated views, immutable lineage and evidence gates.
 
-This checks plan structure, navigation, dependency semantics, and markdown/JSON
-agreement. It intentionally does not freeze the current task count or the future
-status of implementation tasks; historical-contract preservation is reviewed
-against Git rather than duplicated here.
+Uses only the standard library; historical source hashes/contracts/edges are
+checked independently of current generated mirrors. This is not a physics test.
 """
 
 from __future__ import annotations
 
 import json
+import hashlib
 import re
 import sys
 from dataclasses import dataclass
@@ -22,7 +21,7 @@ PLAN_PATH = ROOT / "plan" / "tasks.json"
 TASKS_PATH = ROOT / "TASKS.md"
 STATUS_PATH = ROOT / "STATUS.md"
 TASK_ID_RE = r"GH-[A-Z0-9]+(?:-[A-Z0-9]+)*"
-CURRENT_SCHEMA_VERSION = 2
+CURRENT_SCHEMA_VERSION = 3
 
 FOUNDATION_CHAIN = {
     "GH-F01": (),
@@ -416,7 +415,7 @@ def local_markdown_targets(path: Path, text: str) -> Iterable[tuple[int, str]]:
 
 
 def validate_navigation(errors: list[str]) -> None:
-    markdown_paths = sorted(ROOT.rglob("*.md"))
+    markdown_paths = sorted(p for p in ROOT.rglob("*.md") if not any(part in {"runs", ".git", "__pycache__", "foundation-2026-09-07"} for part in p.relative_to(ROOT).parts))
     for path in markdown_paths:
         text = path.read_text(encoding="utf-8")
         for line_number, target in local_markdown_targets(path, text):
@@ -462,9 +461,208 @@ def validate_semantic_anchors(by_id: dict[str, dict], errors: list[str]) -> None
             fail(errors, f"ROADMAP.md has duplicate Wave {wave} headers")
 
 
+
+def validate_programme(data: dict, by_id: dict[str, dict], errors: list[str]) -> None:
+    """Check expanded metadata, wave gates, source history and generated exports."""
+    from render_plan import rendered_files
+    if not 200 <= len(by_id) <= 400:
+        fail(errors, "programme task count must be 200–400; record a coverage decision before changing this gate")
+    horizon = {"foundation": 0, "0.1": 1, "later 0.x": 2, "1.0": 3, "long-term": 4, "exploratory": 5}
+    # Reject malformed extension containers before graph or renderer operations.
+    structural_start = len(errors)
+    for tid, task in by_id.items():
+        for field in ("outcome", "featureArea", "targetRelease", "origin", "initialStatus"):
+            if not isinstance(task.get(field), str) or not task[field].strip():
+                fail(errors, f"{tid}: {field} must be non-empty text")
+        for field in ("sourceRefs", "riskEvidence", "textualPrerequisites", "evidence"):
+            if not isinstance(task.get(field), list) or not all(isinstance(x,str) and x.strip() for x in task[field]):
+                fail(errors, f"{tid}: {field} must be a text array")
+        if not isinstance(task.get("dependencyCoverage"),dict):
+            fail(errors, f"{tid}: dependencyCoverage must be an object")
+        if task.get("platformId") is not None and not isinstance(task.get("platformId"),str):
+            fail(errors, f"{tid}: platformId must be null or actual identity text")
+    if len(errors) != structural_start:
+        return
+    outcomes: dict[str, str] = {}
+    for tid, task in by_id.items():
+        for field in ("outcome", "featureArea", "targetRelease", "origin"):
+            if not isinstance(task.get(field), str) or not task[field].strip():
+                fail(errors, f"{tid}: {field} must be non-empty text")
+        for field in ("sourceRefs", "riskEvidence"):
+            if not isinstance(task.get(field), list) or not task[field] or not all(isinstance(x,str) and x.strip() for x in task[field]):
+                fail(errors, f"{tid}: {field} must be a non-empty text array")
+        for field in ("textualPrerequisites", "evidence"):
+            if not isinstance(task.get(field), list) or not all(isinstance(x,str) and x.strip() for x in task[field]):
+                fail(errors, f"{tid}: {field} must be a text array")
+        if task.get("origin") not in {"source_requirement", "proposal", "exploratory"}:
+            fail(errors, f"{tid}: unknown origin classification")
+        release = task.get("targetRelease")
+        if release not in horizon:
+            fail(errors, f"{tid}: unknown release horizon")
+        if task.get("origin") == "exploratory" and release != "exploratory":
+            fail(errors, f"{tid}: exploratory scope cannot be promised delivery")
+        if task.get("initialStatus") != ("DONE" if tid.startswith("GH-F") else "PLANNED"):
+            fail(errors, f"{tid}: initial status history changed")
+        if task.get("status") in {"IMPLEMENTED", "AUTOMATED_PASS", "RUNTIME_VERIFIED", "USER_VALIDATED", "RELEASE_VERIFIED", "DONE"} and not task.get("evidence"):
+            fail(errors, f"{tid}: evidence-bearing state requires evidence references")
+        # Evidence references are artifacts, not unsupported prose attestations.
+        for ref in task.get("evidence", []):
+            if isinstance(ref,str) and not ref.startswith(("https://", "http://")):
+                p = (ROOT/ref.split("#",1)[0]).resolve()
+                if not p.is_relative_to(ROOT) or not p.exists():
+                    fail(errors, f"{tid}: missing or escaping evidence reference: {ref}")
+        normalized = re.sub(r"[^a-z0-9]+", " ", str(task.get("outcome", "")).lower()).strip()
+        if normalized in outcomes:
+            fail(errors, f"{tid}: duplicate outcome with {outcomes[normalized]}")
+        outcomes[normalized] = tid
+        coverage = task.get("dependencyCoverage")
+        expected = {d: by_id[d].get("outcome") for d in task["dependsOn"] if d in by_id}
+        if coverage != expected:
+            fail(errors, f"{tid}: prerequisite outcome coverage differs from dependency contracts")
+        for dependency in task["dependsOn"]:
+            prereq = by_id.get(dependency,{})
+            if horizon.get(prereq.get("targetRelease"), -1) > horizon.get(release, -1):
+                fail(errors, f"{tid}: prerequisite {dependency} has a later release horizon")
+        if tid.startswith("GH-S") and release != "0.1":
+            fail(errors, f"{tid}: synthetic 0.1 task moved out of its declared release")
+    waves = data.get("waves")
+    if not isinstance(waves, list) or not 20 <= len(waves) <= 32:
+        fail(errors, "waves must contain 20–32 outcome waves (native platform maximum 32)")
+        return
+    wave_structure_start=len(errors)
+    for wave in waves:
+        if not isinstance(wave,dict):
+            fail(errors,"wave must be an object"); continue
+        for field in ("id","title","outcome","targetRelease","gateDecision"):
+            if not isinstance(wave.get(field),str) or not wave[field].strip():
+                fail(errors,f"wave: {field} must be non-empty text")
+    if len(errors)!=wave_structure_start:
+        return
+    memberships: dict[str, int] = {}
+    orders=[]; wave_ids=[]
+    for wave in waves:
+        if not isinstance(wave,dict):
+            fail(errors,"wave must be an object"); continue
+        order=wave.get("order"); orders.append(order); wave_ids.append(wave.get("id"))
+        if type(order) is not int or order < 0:
+            fail(errors,"wave order must be a non-negative integer")
+        for field in ("id","title","outcome","targetRelease","gateDecision"):
+            if not isinstance(wave.get(field),str) or not wave[field].strip():
+                fail(errors,f"wave {order}: missing {field}")
+        if len(str(wave.get("title",""))) > 80:
+            fail(errors,f"wave {order}: title exceeds native 80-character limit")
+        ids=wave.get("taskIds")
+        if not isinstance(ids,list) or not ids or not all(isinstance(x,str) for x in ids):
+            fail(errors,f"wave {order}: taskIds must be a non-empty ID array"); continue
+        if not isinstance(wave.get("exitEvidence"),list) or not wave["exitEvidence"] or not all(isinstance(x,str) and x.strip() for x in wave["exitEvidence"]):
+            fail(errors,f"wave {order}: missing exit evidence")
+        entry=set()
+        for tid in ids:
+            memberships[tid]=memberships.get(tid,0)+1
+            task=by_id.get(tid)
+            if task is None:
+                fail(errors,f"wave {order}: unknown assigned task {tid}"); continue
+            if task["wave"] != order or task.get("targetRelease") != wave.get("targetRelease"):
+                fail(errors,f"{tid}: wave assignment or release scope mismatch")
+            entry.update(d for d in task["dependsOn"] if d not in ids)
+        if wave.get("entryDependencies") != sorted(entry):
+            fail(errors,f"wave {order}: entry dependencies differ from assigned tasks")
+    if orders != list(range(len(waves))):
+        fail(errors,"wave ordering must be unique contiguous ascending integers")
+    if any(not isinstance(x,str) for x in wave_ids) or len(set(str(x) for x in wave_ids)) != len(waves):
+        fail(errors,"duplicate or malformed wave ID")
+    for tid in by_id:
+        if memberships.get(tid) != 1:
+            fail(errors,f"{tid}: orphan or duplicate wave membership")
+    lineage=ROOT/"docs/lineage/foundation-2026-09-07"
+    try:
+        manifest=json.loads((lineage/"manifest.json").read_text())
+        original=json.loads((lineage/"plan/tasks.json").read_text())
+    except (OSError,ValueError) as exc:
+        fail(errors,f"cannot read immutable lineage: {exc}"); return
+    if not isinstance(manifest,dict) or not isinstance(original,dict):
+        fail(errors,"immutable lineage roots must be objects"); return
+    lineage_start=len(errors)
+    if manifest.get("sourceCommit") != "3d4a4dc7718d72e0d20785c70154c800cc849093":
+        fail(errors,"immutable lineage source revision differs")
+    if hashlib.sha256((lineage/"manifest.json").read_bytes()).hexdigest() != "37b950ea41a9bf1d0e28ca61941ac77b638e77474acc4e4bfa38db2abb5ecd2a":
+        fail(errors,"immutable lineage manifest hash mismatch"); return
+    for name,digest in manifest.get("files",{}).items():
+        path=(lineage/name).resolve()
+        if not path.is_relative_to(lineage.resolve()) or not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest()!=digest:
+            fail(errors,f"immutable lineage hash mismatch: {name}")
+    if len(errors)!=lineage_start:
+        return
+    originals=original.get("tasks",[])
+    if len(originals)!=27 or sum(len(t.get("dependsOn",[])) for t in originals)!=71:
+        fail(errors,"original lineage must retain 27 contracts and 71 edges")
+    mappings=data.get("sourceMappings")
+    if not isinstance(mappings,list) or not all(isinstance(m,dict) for m in mappings):
+        fail(errors,"source mappings must be object array"); return
+    mapped={m.get("sourceId"):m for m in mappings if isinstance(m.get("sourceId"),str)}
+    if len(mapped)!=len(mappings) or set(mapped)!={t["id"] for t in originals}:
+        fail(errors,"missing or duplicate source mappings")
+    for old in originals:
+        tid=old["id"];current=by_id.get(tid,{})
+        for field in ("id","title","acceptance","dependsOn","ownedPaths"):
+            if current.get(field)!=old[field]:
+                fail(errors,f"{tid}: original {field} contract changed")
+        if current.get("sourceWave")!=old["wave"]:
+            fail(errors,f"{tid}: original wave history changed")
+        mapping=mapped.get(tid,{})
+        for field,expected in {"sourceKey":"grid-horizons:"+tid,"sourceRevision":original["contractVersion"],"sourceStatus":old["status"],"sourceWave":old["wave"],"sourceAcceptance":old["acceptance"],"structuredPrerequisites":old["dependsOn"],"textualPrerequisites":[],"sourcePlatformId":None,"frozenPredecessor":None}.items():
+            if mapping.get(field)!=expected:
+                fail(errors,f"{tid}: source mapping history changed: {field}")
+        if mapping.get("treatment") not in {"retained","expanded","split","merged","deferred","superseded"} or not isinstance(mapping.get("reason"),str) or len(mapping["reason"])<24:
+            fail(errors,f"{tid}: mapping requires explicit treatment and reason")
+        successors=mapping.get("successorIds")
+        if not isinstance(successors,list) or not successors or not all(isinstance(x,str) and x in by_id for x in successors):
+            fail(errors,f"{tid}: missing or dangling successor mappings")
+        elif len(successors)!=len(set(successors)):
+            fail(errors,f"{tid}: duplicate successor mappings")
+        partial=mapping.get("syntheticPartialIds")
+        if not isinstance(partial,list) or not all(isinstance(x,str) and x in by_id and by_id[x].get("targetRelease")=="0.1" for x in partial):
+            fail(errors,f"{tid}: invalid synthetic partial mappings")
+        safe_successors=successors if isinstance(successors,list) else []
+        expected_platform=[{"id":x,"platformId":by_id[x].get("platformId")} for x in safe_successors if isinstance(x,str) and x in by_id]
+        relationships=mapping.get("successorRelationships")
+        expected_relationships=[{"id":x,"relationship":"retained_whole_contract" if x==tid else "bounded_evidence_contribution","completionImplication":"Requires independent acceptance of the complete original contract; no automatic completion from descendant status."} for x in safe_successors]
+        if relationships!=expected_relationships:
+            fail(errors,f"{tid}: successor outcome relationships missing or changed")
+        expected_url="https://github.com/thepianistdirector/grid-horizons/blob/3d4a4dc7718d72e0d20785c70154c800cc849093/plan/tasks.json"
+        if mapping.get("sourceContractUrl")!=expected_url or current.get("sourceIdentity",{}).get("contractUrl")!=expected_url:
+            fail(errors,f"{tid}: original contract URL changed")
+        if mapping.get("platformSuccessors")!=expected_platform:
+            fail(errors,f"{tid}: successor platform identities drift")
+    pub=data.get("publication")
+    if not isinstance(pub,dict):
+        fail(errors,"publication must be an object"); return
+    for field in ("nativeTaskIds","nativeWaveIds"):
+        if not isinstance(pub.get(field),dict):
+            fail(errors,f"publication {field} must be an identity mapping"); return
+    for tid,task in by_id.items():
+        if task.get("platformId") != pub["nativeTaskIds"].get(tid):
+            fail(errors,f"{tid}: platform ID lacks matching actual publication mapping")
+    for wave in waves:
+        if wave.get("platformId") != pub["nativeWaveIds"].get(wave.get("id")):
+            fail(errors,f"wave {wave.get('order')}: platform ID lacks matching actual publication mapping")
+    if set(pub["nativeTaskIds"])-set(by_id) or set(pub["nativeWaveIds"])-set(wave_ids):
+        fail(errors,"publication contains orphan native identity mappings")
+    # Original source state is immutable in lineage; current progress may evolve only with evidence.
+    # Rendering is deterministic, so every metadata field and publication mapping is covered.
+    try:
+        views=rendered_files(data)
+    except (KeyError,TypeError,ValueError) as exc:
+        fail(errors,f"cannot render malformed programme: {exc}"); return
+    for name,expected in views.items():
+        path=ROOT/name
+        if not path.is_file() or path.read_text()!=expected:
+            fail(errors,f"generated view drift: {name}")
+
+
 def main() -> int:
     errors: list[str] = []
-    _, tasks = load_plan(errors)
+    data, tasks = load_plan(errors)
     by_id = validate_json_tasks(tasks, errors)
 
     if errors:
@@ -489,6 +687,7 @@ def main() -> int:
     validate_status(by_id, errors)
     validate_navigation(errors)
     validate_semantic_anchors(by_id, errors)
+    validate_programme(data, by_id, errors)
 
     if errors:
         for error in errors:

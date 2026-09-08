@@ -1,0 +1,23 @@
+{
+  "observed_at_utc": "2026-09-08T18:05:47.255868+00:00",
+  "goal_state": "BLOCKED",
+  "consecutive_external_gate_observations": 3,
+  "previous_goal_turn_classification": "PROGRESS: standalone dependency repair plus documented replay of all153 scenarios/715 records",
+  "current_revalidation": {
+    "all_current_release_asset_hashes": "PASS",
+    "canonical_tanduna_plan_matches_prepared_draft": true,
+    "standalone_replay": "PASS",
+    "remaining_investigator_work": "No live investigator work; available agents report completed and prior agents completed",
+    "new_owner_publication_authorization_received": false,
+    "actual_external_review_received": false
+  },
+  "blockers": [
+    "Owner identifies and authorizes an external first-use participant",
+    "Owner identifies and authorizes a qualified distribution-model reviewer",
+    "Actual review evidence and any required corrections",
+    "Explicit authorization for exact GitHub version/assets and Tanduna publication"
+  ],
+  "candidate": "releases/v1.0.0rc4-review-r2/REVIEW.md",
+  "resumption": "Read current STATE and reviewer evidence/owner instructions; preserve old archives. Resolve required corrections with new candidate hashes if necessary. Publish only authorized assets, verify actual public downloads and Tanduna readback, then close the goal only if all criteria are met.",
+  "public_or_human_completion_claimed": false
+}

@@ -1,0 +1,29 @@
+{
+  "states": {
+    "baseline": "COMPLETED_VALID",
+    "tap_m2": "COMPLETED_VALID",
+    "tap_p2": "COMPLETED_VALID",
+    "tap_p4": "COMPLETED_VALID",
+    "combined_0": "COMPLETED_VALID",
+    "combined_1": "COMPLETED_VALID",
+    "combined_2": "COMPLETED_VALID",
+    "combined_3": "COMPLETED_VALID",
+    "combined_4": "COMPLETED_VALID",
+    "combined_5": "COMPLETED_VALID",
+    "combined_6": "COMPLETED_INFEASIBLE",
+    "combined_7": "COMPLETED_INFEASIBLE"
+  },
+  "ranking": [
+    "tap_p4",
+    "tap_p2",
+    "baseline",
+    "tap_m2",
+    "combined_1",
+    "combined_0",
+    "combined_3",
+    "combined_2",
+    "combined_5",
+    "combined_4"
+  ],
+  "seconds": 0.14454626303631812
+}

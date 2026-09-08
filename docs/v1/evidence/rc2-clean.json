@@ -1,0 +1,28 @@
+{
+  "state": "PASS",
+  "identity": {
+    "build": {
+      "implementation_sha256": "3f46ec88b717c2811186fe2c4c7f2c926a37e110281c115798720bd87e143023",
+      "kind": "zipapp",
+      "source_revision": "3d4a4dc7718d72e0d20785c70154c800cc849093",
+      "source_state": "includes preserved uncommitted implementation; implementation hash is authoritative",
+      "version": "1.0.0rc2"
+    },
+    "python": "3.12.14",
+    "system": "Linux",
+    "machine": "x86_64",
+    "model": "balanced-radial-pq/v2"
+  },
+  "checks": 20,
+  "wall_seconds": 5.199713176989462,
+  "max_child_rss_kib": 40336,
+  "package_sha256": "325e14d7e3d3021555060dd4841f5e90df634238dd858c559a2c4ff7ee912c4e",
+  "artifact_bytes": 128544799,
+  "environment": {
+    "kind": "fresh venv and directory, subprocesses on same Linux host; no container, separate machine, or external person",
+    "python": "3.12.14",
+    "machine": "x86_64",
+    "isolated_python": true,
+    "private_credentials": false
+  }
+}

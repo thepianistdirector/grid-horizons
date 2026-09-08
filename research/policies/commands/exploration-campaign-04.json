@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "/home/codex/.local/bin/python3",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+    "lab",
+    "campaign",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/inputs/exploration-04.json",
+    "--output",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-04"
+  ],
+  "cpu_seconds": 1.218004,
+  "label": "exploration-campaign-04",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\n  \"state\": \"CAMPAIGN_RECORDED\",\n  \"attempts\": 2,\n  \"inventory\": \"/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-04/inventory.json\"\n}\n",
+  "wall_seconds": 1.2372903230134398
+}

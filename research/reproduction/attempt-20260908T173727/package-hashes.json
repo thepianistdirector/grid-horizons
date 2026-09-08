@@ -1,0 +1,44 @@
+{
+  "1.0.0rc1": {
+    "modules": {
+      "__main__.py": "955cfa14824989e888c6c95837b4f0ec026bd9e19a3bac310bb2ddfa04963603",
+      "grid_horizons/__init__.py": "26b252213d3d96b76aa63c12fd1a9b158f3bd5d6256f4e31e974b9877082c565",
+      "grid_horizons/__main__.py": "76fa916e93e0ae1a6c1bb51dcc0bcf289c014e9f760a47165f8a84401ccf41d7",
+      "grid_horizons/ac.py": "93849d5c4557922d453015707c0f95e72f4207fe5e43a7624b4a272e2caa2a1d",
+      "grid_horizons/ac_check.py": "3e39bc596e4895077147e397ea909150e8cca40a90a31ac1354d2648654e6330",
+      "grid_horizons/assets.py": "9df71b26e86505f8726716c9391564c612196e1e581ff3468d2a793dd0e4aa66",
+      "grid_horizons/cli.py": "5fdf0acbfcc781a361f12ce39011051d728ba7a50ef79db234c70f9ce9ea84df",
+      "grid_horizons/contracts.py": "bdbe5a846c7169cfa33484bc7e401a642b2238f1121646cb378812eb4d0013a2",
+      "grid_horizons/coordinator.py": "6594a32ef69f60dc59d45698d49a33a0a938f123ff5152b230a6e5078dae2208",
+      "grid_horizons/evaluator.py": "6e6b3c001c672cc5f352c77e6086261c3e8e0c1e64879c755e21f43b659c1b74",
+      "grid_horizons/kernel.py": "da0dd51b1cf867f166698b3feb8c8964bfd51562399b842014a1a82559ed87ac",
+      "grid_horizons/lab.py": "b520ce32afc55221bd26a819717ccb64a6057f5709eb03737d10fc686ae1323c",
+      "grid_horizons/lab_report.py": "4fe2259ebb6a6f6afb445c581af56cd597d0f2cdb7af46377262a9053cc3ef99",
+      "grid_horizons/raw_contract.py": "0175c1e55d1d3876cf2546a7b397e9beab377d66852f77a1801ca6ed273a1142",
+      "grid_horizons/reports.py": "d8d9cb329b56533b1ebbb6c2becafb558b59c394705e0dc3a775e0ab5d96b9f7"
+    },
+    "path": "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+    "sha256": "57573bdb2c8bb9c983b5dcc1b0c8850ac0ae6e3c87b8e6a24d60077ca03fe2ce"
+  },
+  "1.0.0rc2": {
+    "modules": {
+      "__main__.py": "955cfa14824989e888c6c95837b4f0ec026bd9e19a3bac310bb2ddfa04963603",
+      "grid_horizons/__init__.py": "37efafdefa934a225dcc8e5c362508cec4a34b999a6e6dbf1e09d922b126f384",
+      "grid_horizons/__main__.py": "76fa916e93e0ae1a6c1bb51dcc0bcf289c014e9f760a47165f8a84401ccf41d7",
+      "grid_horizons/ac.py": "93849d5c4557922d453015707c0f95e72f4207fe5e43a7624b4a272e2caa2a1d",
+      "grid_horizons/ac_check.py": "3e39bc596e4895077147e397ea909150e8cca40a90a31ac1354d2648654e6330",
+      "grid_horizons/assets.py": "9df71b26e86505f8726716c9391564c612196e1e581ff3468d2a793dd0e4aa66",
+      "grid_horizons/cli.py": "f71070beb03ca072c8430cdbb3ad5e2cd0af7713ee54c21055740769a1793c25",
+      "grid_horizons/contracts.py": "bdbe5a846c7169cfa33484bc7e401a642b2238f1121646cb378812eb4d0013a2",
+      "grid_horizons/coordinator.py": "6594a32ef69f60dc59d45698d49a33a0a938f123ff5152b230a6e5078dae2208",
+      "grid_horizons/evaluator.py": "6e6b3c001c672cc5f352c77e6086261c3e8e0c1e64879c755e21f43b659c1b74",
+      "grid_horizons/kernel.py": "da0dd51b1cf867f166698b3feb8c8964bfd51562399b842014a1a82559ed87ac",
+      "grid_horizons/lab.py": "490082777567a042deb24c096866ec189357facdc41c993ec39955c4ed23a75b",
+      "grid_horizons/lab_report.py": "4fcbdd0fd2f8c41cf0759bb40885811639b0ecae0952552492d3f0846eddc75d",
+      "grid_horizons/raw_contract.py": "0175c1e55d1d3876cf2546a7b397e9beab377d66852f77a1801ca6ed273a1142",
+      "grid_horizons/reports.py": "d8d9cb329b56533b1ebbb6c2becafb558b59c394705e0dc3a775e0ab5d96b9f7"
+    },
+    "path": "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc2/grid-horizons.pyz",
+    "sha256": "325e14d7e3d3021555060dd4841f5e90df634238dd858c559a2c4ff7ee912c4e"
+  }
+}

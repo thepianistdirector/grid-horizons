@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "/home/codex/.local/bin/python3",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+    "lab",
+    "example",
+    "--seed",
+    "11",
+    "--steps",
+    "96",
+    "--output",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/inputs/example-11.json"
+  ],
+  "cpu_seconds": 0.17278700000000008,
+  "label": "example-11",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\n  \"state\": \"EXAMPLE_WRITTEN\",\n  \"path\": \"/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/inputs/example-11.json\"\n}\n",
+  "wall_seconds": 0.17478863400174305
+}

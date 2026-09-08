@@ -1,0 +1,413 @@
+{
+  "checks": [
+    {
+      "name": "evaluator_unchanged",
+      "passed": true
+    },
+    {
+      "name": "producer_function_unchanged",
+      "passed": true,
+      "function": "example"
+    },
+    {
+      "name": "producer_function_unchanged",
+      "passed": true,
+      "function": "solve"
+    },
+    {
+      "name": "producer_function_unchanged",
+      "passed": true,
+      "function": "produce"
+    },
+    {
+      "name": "reserved_name_rejected",
+      "passed": true,
+      "policy": "scenario"
+    },
+    {
+      "name": "reject_before_output_creation",
+      "passed": true,
+      "policy": "scenario"
+    },
+    {
+      "name": "reserved_name_rejected",
+      "passed": true,
+      "policy": "manifest"
+    },
+    {
+      "name": "reject_before_output_creation",
+      "passed": true,
+      "policy": "manifest"
+    },
+    {
+      "name": "reserved_name_rejected",
+      "passed": true,
+      "policy": "summary"
+    },
+    {
+      "name": "reject_before_output_creation",
+      "passed": true,
+      "policy": "summary"
+    },
+    {
+      "name": "reserved_name_rejected",
+      "passed": true,
+      "policy": "checksums"
+    },
+    {
+      "name": "reject_before_output_creation",
+      "passed": true,
+      "policy": "checksums"
+    },
+    {
+      "name": "bridge_run",
+      "passed": true,
+      "source": "benchmark/attempt-001/s17-n24-tol1e-12"
+    },
+    {
+      "name": "bridge_verify",
+      "passed": true
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "baseline",
+      "source": "benchmark/attempt-001/s17-n24-tol1e-12"
+    },
+    {
+      "name": "bridge_run",
+      "passed": true,
+      "source": "policies/exploration/batch-00/case-000"
+    },
+    {
+      "name": "bridge_verify",
+      "passed": true
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "baseline",
+      "source": "policies/exploration/batch-00/case-000"
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "tap_m2",
+      "source": "policies/exploration/batch-00/case-000"
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "tap_p2",
+      "source": "policies/exploration/batch-00/case-000"
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "tap_p4",
+      "source": "policies/exploration/batch-00/case-000"
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "storage_0",
+      "source": "policies/exploration/batch-00/case-000"
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "storage_1",
+      "source": "policies/exploration/batch-00/case-000"
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "storage_2",
+      "source": "policies/exploration/batch-00/case-000"
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "storage_3",
+      "source": "policies/exploration/batch-00/case-000"
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "storage_4",
+      "source": "policies/exploration/batch-00/case-000"
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "storage_5",
+      "source": "policies/exploration/batch-00/case-000"
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "storage_6",
+      "source": "policies/exploration/batch-00/case-000"
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "storage_7",
+      "source": "policies/exploration/batch-00/case-000"
+    },
+    {
+      "name": "large_generated_summary_verifies",
+      "passed": true,
+      "bytes": 1452226
+    },
+    {
+      "name": "bridge_run",
+      "passed": true,
+      "source": "robustness/attempts/20260908T172908.309735Z/run-101-11"
+    },
+    {
+      "name": "bridge_verify",
+      "passed": true
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "baseline",
+      "source": "robustness/attempts/20260908T172908.309735Z/run-101-11"
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "storage",
+      "source": "robustness/attempts/20260908T172908.309735Z/run-101-11"
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "tap",
+      "source": "robustness/attempts/20260908T172908.309735Z/run-101-11"
+    },
+    {
+      "name": "exact_policy_file",
+      "passed": true,
+      "policy": "combined",
+      "source": "robustness/attempts/20260908T172908.309735Z/run-101-11"
+    }
+  ],
+  "failed": [],
+  "packages": {
+    "1.0.0rc2": {
+      "sha256": "325e14d7e3d3021555060dd4841f5e90df634238dd858c559a2c4ff7ee912c4e",
+      "ac_check_sha256": "3e39bc596e4895077147e397ea909150e8cca40a90a31ac1354d2648654e6330",
+      "ac_sha256": "93849d5c4557922d453015707c0f95e72f4207fe5e43a7624b4a272e2caa2a1d"
+    },
+    "1.0.0rc3": {
+      "sha256": "64ffa6a61548d212438506747c0ad194f4d2c71ec960cf23ec30730bf5bcdee7",
+      "ac_check_sha256": "3e39bc596e4895077147e397ea909150e8cca40a90a31ac1354d2648654e6330",
+      "ac_sha256": "015266bfd560de6bb8acdef2dcd0042bb0cc9b463bc10ce4c7efc096eb99d8d9"
+    }
+  },
+  "commands": [
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz",
+        "lab",
+        "validate",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/scenario.json"
+      ],
+      "returncode": 2,
+      "cpu_seconds": 0.059223000000000026,
+      "wall_seconds": 0.05933233501855284
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz",
+        "lab",
+        "run",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/scenario.json",
+        "--output",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/invalid-scenario"
+      ],
+      "returncode": 2,
+      "cpu_seconds": 0.04347500000000004,
+      "wall_seconds": 0.04352654598187655
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz",
+        "lab",
+        "validate",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/manifest.json"
+      ],
+      "returncode": 2,
+      "cpu_seconds": 0.04981399999999997,
+      "wall_seconds": 0.0499168960377574
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz",
+        "lab",
+        "run",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/manifest.json",
+        "--output",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/invalid-manifest"
+      ],
+      "returncode": 2,
+      "cpu_seconds": 0.059852000000000016,
+      "wall_seconds": 0.059965302993077785
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz",
+        "lab",
+        "validate",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/summary.json"
+      ],
+      "returncode": 2,
+      "cpu_seconds": 0.045696000000000014,
+      "wall_seconds": 0.04577718395739794
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz",
+        "lab",
+        "run",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/summary.json",
+        "--output",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/invalid-summary"
+      ],
+      "returncode": 2,
+      "cpu_seconds": 0.04523699999999997,
+      "wall_seconds": 0.04526929999701679
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz",
+        "lab",
+        "validate",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/checksums.json"
+      ],
+      "returncode": 2,
+      "cpu_seconds": 0.04475299999999993,
+      "wall_seconds": 0.044821535993833095
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz",
+        "lab",
+        "run",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/checksums.json",
+        "--output",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/invalid-checksums"
+      ],
+      "returncode": 2,
+      "cpu_seconds": 0.04458200000000001,
+      "wall_seconds": 0.04476270597660914
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz",
+        "lab",
+        "run",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/benchmark/attempt-001/s17-n24-tol1e-12/scenario.json",
+        "--output",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/study-0"
+      ],
+      "returncode": 0,
+      "cpu_seconds": 0.06148200000000004,
+      "wall_seconds": 0.06154022295959294
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz",
+        "lab",
+        "verify",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/study-0"
+      ],
+      "returncode": 0,
+      "cpu_seconds": 0.052528999999999826,
+      "wall_seconds": 0.0525828970130533
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz",
+        "lab",
+        "run",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-00/case-000/scenario.json",
+        "--output",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/study-1"
+      ],
+      "returncode": 0,
+      "cpu_seconds": 0.252645,
+      "wall_seconds": 0.2532519659725949
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz",
+        "lab",
+        "verify",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/study-1"
+      ],
+      "returncode": 0,
+      "cpu_seconds": 0.12645399999999984,
+      "wall_seconds": 0.126728383009322
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz",
+        "lab",
+        "run",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/attempts/20260908T172908.309735Z/run-101-11/scenario.json",
+        "--output",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/study-2"
+      ],
+      "returncode": 0,
+      "cpu_seconds": 0.11761400000000011,
+      "wall_seconds": 0.11781940801301971
+    },
+    {
+      "argv": [
+        "/home/codex/.local/bin/python",
+        "-I",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc3/grid-horizons.pyz",
+        "lab",
+        "verify",
+        "/home/codex/projects/tanduna-open-source/grid-horizons/research/reproduction/bridge-rc3-20260908T174103/study-2"
+      ],
+      "returncode": 0,
+      "cpu_seconds": 0.07524099999999989,
+      "wall_seconds": 0.07532991102198139
+    }
+  ],
+  "producer_scenarios": 3,
+  "rejected_runs": 4,
+  "cpu_seconds": 1.107838,
+  "wall_seconds": 1.1099581709713675,
+  "peak_child_rss_kib": 28408
+}

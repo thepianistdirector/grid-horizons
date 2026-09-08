@@ -1,0 +1,11 @@
+{
+  "frozen_utc": "2026-09-08T17:28:53.091831+00:00",
+  "reason": "Root supplied rc2 fixing input size, help and graph scaling after rc1 confirmation. Additive bridge checks no numerical change.",
+  "original_preregistration_sha256": "7c9e882939e4de701412da8894113d3d6fc7db92d687f184b7d450c3d0d5f60b",
+  "old_package_sha256": "57573bdb2c8bb9c983b5dcc1b0c8850ac0ae6e3c87b8e6a24d60077ca03fe2ce",
+  "new_package_sha256": "325e14d7e3d3021555060dd4841f5e90df634238dd858c559a2c4ff7ee912c4e",
+  "new_implementation_sha256": "3f46ec88b717c2811186fe2c4c7f2c926a37e110281c115798720bd87e143023",
+  "case": "Original seed17 96-step four-policy scenario, exact saved rc1 scenario input",
+  "acceptance": "ac.py/ac_check.py byte-identical across packages; raw records and full evaluations identical for every policy; verify succeeds.",
+  "budget": "One additional scenario, four policy combinations, 96 intervals each; total 53 scenarios/59 combinations; one CPU child at a time."
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "intervals": 24,
+    "maxima": {
+      "loss": 7.812084312774914e-13,
+      "source": 2.5333358724057435e-11,
+      "voltage": 9.143565067221065e-15
+    },
+    "original": "benchmark/attempt-001/s17-n24-tol1e-12",
+    "policy": "baseline"
+  },
+  {
+    "intervals": 24,
+    "maxima": {
+      "loss": 1.609823385706477e-15,
+      "source": 4.440892098500626e-14,
+      "voltage": 1.1102230246251565e-16
+    },
+    "original": "benchmark/attempt-001/analytic-two-bus",
+    "policy": "baseline"
+  },
+  {
+    "intervals": 24,
+    "maxima": {
+      "loss": 0.0,
+      "source": 0.0,
+      "voltage": 0.0
+    },
+    "original": "benchmark/attempt-001/no-load",
+    "policy": "baseline"
+  },
+  {
+    "intervals": 96,
+    "maxima": {
+      "loss": 6.644690353496685e-11,
+      "source": 5.972076187955832e-11,
+      "voltage": 9.523868057398072e-13
+    },
+    "original": "policies/confirmation/batch-00/case-000",
+    "policy": "baseline"
+  },
+  {
+    "intervals": 96,
+    "maxima": {
+      "loss": 5.790462553889597e-11,
+      "source": 4.8913638585791566e-11,
+      "voltage": 7.78613606534762e-13
+    },
+    "original": "policies/confirmation/batch-00/case-000",
+    "policy": "tap_m2"
+  },
+  {
+    "intervals": 96,
+    "maxima": {
+      "loss": 7.075123820143858e-11,
+      "source": 6.617604446350926e-11,
+      "voltage": 9.735332928687512e-13
+    },
+    "original": "policies/confirmation/batch-00/case-000",
+    "policy": "tap_p2"
+  },
+  {
+    "intervals": 96,
+    "maxima": {
+      "loss": 6.124284412933889e-11,
+      "source": 5.2356470609808196e-11,
+      "voltage": 8.52866116406414e-13
+    },
+    "original": "policies/confirmation/batch-00/case-000",
+    "policy": "tap_p4"
+  },
+  {
+    "intervals": 96,
+    "maxima": {
+      "loss": 6.083117343180788e-11,
+      "source": 5.740505635090365e-11,
+      "voltage": 8.880443778231611e-13
+    },
+    "original": "policies/confirmation/batch-00/case-000",
+    "policy": "combined_loss"
+  },
+  {
+    "intervals": 96,
+    "maxima": {
+      "loss": 6.124284412933889e-11,
+      "source": 5.2356470609808196e-11,
+      "voltage": 8.52866116406414e-13
+    },
+    "original": "policies/confirmation/batch-00/case-000",
+    "policy": "combined_peak"
+  },
+  {
+    "intervals": 96,
+    "maxima": {
+      "loss": 6.52606857443061e-11,
+      "source": 6.642523386904721e-11,
+      "voltage": 9.654414168014688e-13
+    },
+    "original": "policies/confirmation/batch-00/case-000",
+    "policy": "storage_loss"
+  },
+  {
+    "intervals": 96,
+    "maxima": {
+      "loss": 6.282369069410265e-11,
+      "source": 5.2094331205397396e-11,
+      "voltage": 8.926765025687332e-13
+    },
+    "original": "policies/confirmation/batch-00/case-000",
+    "policy": "storage_peak"
+  },
+  {
+    "intervals": 96,
+    "maxima": {
+      "loss": 3.301807716127314e-10,
+      "source": 2.423961978883168e-10,
+      "voltage": 1.9386185968448994e-12
+    },
+    "original": "robustness/attempts/20260908T172908.309735Z/run-101-11",
+    "policy": "baseline"
+  },
+  {
+    "intervals": 96,
+    "maxima": {
+      "loss": 3.301807716127314e-10,
+      "source": 2.423961978883168e-10,
+      "voltage": 1.9386185968448994e-12
+    },
+    "original": "robustness/attempts/20260908T172908.309735Z/run-101-11",
+    "policy": "storage"
+  },
+  {
+    "intervals": 96,
+    "maxima": {
+      "loss": 3.5897373962257006e-10,
+      "source": 4.591219103351353e-11,
+      "voltage": 2.0667166320229516e-12
+    },
+    "original": "robustness/attempts/20260908T172908.309735Z/run-101-11",
+    "policy": "tap"
+  },
+  {
+    "intervals": 96,
+    "maxima": {
+      "loss": 3.5897373962257006e-10,
+      "source": 4.950686153692637e-11,
+      "voltage": 2.0667166320229516e-12
+    },
+    "original": "robustness/attempts/20260908T172908.309735Z/run-101-11",
+    "policy": "combined"
+  }
+]

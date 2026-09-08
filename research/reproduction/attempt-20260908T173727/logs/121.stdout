@@ -1,0 +1,15 @@
+{
+  "states": {
+    "baseline": "COMPLETED_VALID",
+    "storage": "COMPLETED_VALID",
+    "tap": "COMPLETED_VALID",
+    "combined": "COMPLETED_VALID"
+  },
+  "ranking": [
+    "tap",
+    "baseline",
+    "combined",
+    "storage"
+  ],
+  "seconds": 0.05282739398535341
+}

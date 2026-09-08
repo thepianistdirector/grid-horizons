@@ -1,0 +1,12 @@
+{
+  "budget_cpu_seconds": 300,
+  "child_peak_rss_kib": 47456,
+  "command_count": 109,
+  "modeled_policy_trajectories_including_repeat": 196,
+  "one_cpu_affinity": true,
+  "package_sha256_after": "57573bdb2c8bb9c983b5dcc1b0c8850ac0ae6e3c87b8e6a24d60077ca03fe2ce",
+  "scenario_executions": 50,
+  "solver_intervals_including_repeat": 18816,
+  "total_cpu_seconds": 10.178055207,
+  "wall_seconds": 10.212653060036246
+}

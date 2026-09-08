@@ -1,0 +1,17 @@
+{
+  "evaluation": {
+    "error": "iteration budget exhausted",
+    "intervals": [],
+    "invalid": [],
+    "metrics": {},
+    "state": "FAILED_SOLVER",
+    "violations": []
+  },
+  "policy": "baseline",
+  "raw": {
+    "error": "iteration budget exhausted",
+    "failed_interval": 0,
+    "rows": [],
+    "state": "FAILED_SOLVER"
+  }
+}

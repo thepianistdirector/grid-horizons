@@ -1,0 +1,47 @@
+{
+  "dispatch": "tanduna-v1-research-20260908-grid-horizons",
+  "accepted_once": true,
+  "date": "2026-09-08",
+  "native_goal_task": "01a081ff-71cf-7e70-b363-087585f20e30",
+  "native_goal_state": "ACTIVE",
+  "previous_goal_task": "01a07e1c-85eb-7f73-914b-141a759e234e",
+  "previous_goal_treatment": "unfinished preserved; old task not loaded",
+  "delivery_state": "APPROVED_RC_PUBLICATION_IN_PROGRESS",
+  "version": "1.0.0rc4",
+  "implementation_sha256": "b2eeb117a34ea3423136a0082442d1b93f01b0c6e13dab429772a0d2c3a8f8e3",
+  "package_sha256": "15aaa7913e4069b9483fcb721032c812a8babc865968d652bb681f031abc7c6e",
+  "investigators": [
+    "benchmark",
+    "policies",
+    "robustness"
+  ],
+  "skeptical_review": "research/reproduction/report.md",
+  "model": "gpt-6-astra",
+  "release_review_directory": "releases/v1.0.0rc4-review-r2",
+  "public_release": "AUTHORIZED_PRERELEASE_PENDING_UPLOAD",
+  "tanduna_plan": "AUTHORIZED_NATIVE_PUBLICATION_PENDING_CONNECTION_AND_GOVERNANCE",
+  "human_first_use": "NOT_OBSERVED",
+  "qualified_model_review": "NOT_OBTAINED",
+  "next_actions": [
+    "Publish approved RC4 GitHub prerelease and verify fresh public downloads",
+    "Use an authenticated supported Tanduna connection to reconcile/save/submit the approved native plan and follow actual governance review",
+    "Obtain actual external first-use and qualified model review; public candidate does not substitute for them",
+    "Close goal only after all applicable criteria are satisfied"
+  ],
+  "packaging_revision": 2,
+  "completion_audit": "docs/v1/COMPLETION-AUDIT.json",
+  "standalone_replay": {
+    "scenarios": 153,
+    "exact_policy_records": 715,
+    "state": "PASS",
+    "evidence": "releases/v1.0.0rc4-review-r2/PACKAGING-REPLAY.json"
+  },
+  "pending_external_gate_observations": 0,
+  "blocked_audit": "docs/v1/BLOCKED-GATE-AUDIT.json",
+  "publication_approval": {
+    "owner": "Lucas Santana",
+    "instruction": "procced, aproved.",
+    "scope": "Publish exact proposed RC4 prerelease/assets and prepared Tanduna plan; keep missing human/qualified review explicit, do not claim full v1.0 qualification",
+    "recorded_at_utc": "2026-09-08T18:12:03.868057+00:00"
+  }
+}

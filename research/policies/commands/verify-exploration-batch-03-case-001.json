@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "/home/codex/.local/bin/python3",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/releases/1.0.0rc1/grid-horizons.pyz",
+    "lab",
+    "verify",
+    "/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/exploration/batch-03/case-001"
+  ],
+  "cpu_seconds": 0.049869000000000274,
+  "label": "verify-exploration-batch-03-case-001",
+  "returncode": 2,
+  "stderr": "",
+  "stdout": "{\"state\": \"REJECTED\", \"error\": \"$: JSON exceeds the 1048576-byte limit\", \"recovery\": \"Preserve existing evidence. Correct the input or use its original build, then choose a new output path.\"}\n",
+  "wall_seconds": 0.05062623898265883
+}

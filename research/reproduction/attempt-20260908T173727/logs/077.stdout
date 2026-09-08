@@ -1,0 +1,14 @@
+{
+  "states": {
+    "baseline": "COMPLETED_INFEASIBLE",
+    "tap_m2": "COMPLETED_INFEASIBLE",
+    "tap_p2": "COMPLETED_INFEASIBLE",
+    "tap_p4": "COMPLETED_INFEASIBLE",
+    "combined_loss": "COMPLETED_VALID",
+    "combined_peak": "COMPLETED_VALID",
+    "storage_loss": "COMPLETED_INFEASIBLE",
+    "storage_peak": "COMPLETED_VALID"
+  },
+  "ranking": [],
+  "seconds": 0.09460852498887107
+}

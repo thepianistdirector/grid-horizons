@@ -1,0 +1,10 @@
+{
+  "states": {
+    "baseline": "COMPLETED_INFEASIBLE",
+    "storage": "COMPLETED_VALID",
+    "tap": "COMPLETED_INFEASIBLE",
+    "combined": "COMPLETED_VALID"
+  },
+  "ranking": [],
+  "seconds": 0.05482411902630702
+}

@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "build": {
+      "implementation_sha256": "4eca8b07be24c82ddfdfcb67010edb5c9c375a6bfbdc8807a58fda81345c7956",
+      "kind": "zipapp",
+      "source_revision": "3d4a4dc7718d72e0d20785c70154c800cc849093",
+      "source_state": "includes preserved uncommitted implementation; implementation hash is authoritative",
+      "version": "1.0.0rc3"
+    },
+    "machine": "x86_64",
+    "model": "balanced-radial-pq/v2",
+    "python": "3.12.14",
+    "system": "Linux"
+  },
+  "scenario_sha256": "b501faf37282781cff11d7d1293c113221db64a677e53c63535b2877730e0120",
+  "schema": "grid-horizons.ac-study/v2"
+}

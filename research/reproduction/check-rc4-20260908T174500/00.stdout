@@ -1,0 +1,13 @@
+{
+  "build": {
+    "implementation_sha256": "b2eeb117a34ea3423136a0082442d1b93f01b0c6e13dab429772a0d2c3a8f8e3",
+    "kind": "zipapp",
+    "source_revision": "3d4a4dc7718d72e0d20785c70154c800cc849093",
+    "source_state": "implementation hash and bundled source identify the build; Git base alone does not identify uncommitted work",
+    "version": "1.0.0rc4"
+  },
+  "python": "3.12.14",
+  "system": "Linux",
+  "machine": "x86_64",
+  "model": "balanced-radial-pq/v2"
+}

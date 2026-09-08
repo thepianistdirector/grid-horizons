@@ -1,0 +1,78 @@
+record_file,label,returncode,cpu_seconds,wall_seconds,error
+commands/bridge-identity.json,bridge-identity,0,0.054116,0.055068604997359216,
+commands/bridge-run-00.json,bridge-run-00,0,0.261928,0.2630793449934572,
+commands/bridge-run-01.json,bridge-run-01,0,0.2715540000000001,0.2725804130313918,
+commands/bridge-run-02.json,bridge-run-02,0,0.24366200000000002,0.2446142669650726,
+commands/bridge-run-03.json,bridge-run-03,0,0.2820999999999999,0.28303106903331354,
+commands/bridge-run-04.json,bridge-run-04,0,0.49909700000000007,0.5011725689982995,
+commands/bridge-run-05.json,bridge-run-05,0,0.5111610000000005,0.5131926540052518,
+commands/bridge-run-06.json,bridge-run-06,0,0.43536500000000017,0.4372363440343179,
+commands/bridge-run-07.json,bridge-run-07,0,0.257751,0.25873100297758356,
+commands/bridge-run-08.json,bridge-run-08,0,0.297921,0.29893578100018203,
+commands/bridge-run-09.json,bridge-run-09,0,0.24783599999999978,0.24880608700914308,
+commands/bridge-run-10.json,bridge-run-10,0,0.24655599999999955,0.24756388500100002,
+commands/bridge-run-11.json,bridge-run-11,0,0.24560399999999927,0.24667171598412097,
+commands/bridge-run-12.json,bridge-run-12,0,0.20256099999999877,0.20337398297851905,
+commands/confirmation-campaign-00.json,confirmation-campaign-00,0,0.32789900000000005,0.3289650770020671,
+commands/confirmation-campaign-01.json,confirmation-campaign-01,0,0.3575730000000001,0.35882210003910586,
+commands/confirmation-campaign-02.json,confirmation-campaign-02,0,0.323711,0.32484466896858066,
+commands/confirmation-campaign-03.json,confirmation-campaign-03,0,0.3101589999999999,0.31163834797916934,
+commands/confirmation-campaign-04.json,confirmation-campaign-04,0,0.492731,0.4948300870019011,
+commands/confirmation-campaign-05.json,confirmation-campaign-05,0,0.490221,0.4923957269638777,
+commands/example-11.json,example-11,0,0.17278700000000008,0.17478863400174305,
+commands/example-13.json,example-13,0,0.2418369999999998,0.24427329195896164,
+commands/example-41.json,example-41,0,0.043615,0.04393981798784807,
+commands/example-43.json,example-43,0,0.04372799999999999,0.04409387399209663,
+commands/example-47.json,example-47,0,0.04700800000000002,0.047454857965931296,
+commands/example-53.json,example-53,0,0.042086,0.0424566279980354,
+commands/example-default.json,example-default,0,0.19125099999999995,0.19295601797057316,
+commands/exploration-campaign-00.json,exploration-campaign-00,0,0.8629220000000004,0.8669725530198775,
+commands/exploration-campaign-01.json,exploration-campaign-01,0,0.6482569999999999,0.6646447670063935,
+commands/exploration-campaign-02.json,exploration-campaign-02,0,0.7194669999999999,0.7270111100515351,
+commands/exploration-campaign-03.json,exploration-campaign-03,0,0.5983390000000004,0.6057881940505467,
+commands/exploration-campaign-04.json,exploration-campaign-04,0,1.218004,1.2372903230134398,
+commands/exploration-campaign-05.json,exploration-campaign-05,0,1.0699649999999996,1.090272830973845,
+commands/identity.json,identity,0,0.18112199999999998,0.18270938302157447,
+commands/run-default.json,run-default,0,0.7243160000000001,0.781612585997209,
+commands/setup-failure-example-11.json,example-11,2,0.09362599999999996,0.09446505800588056,[Errno 2] No such file or directory: '/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/inputs/example-11.json'
+commands/setup-failure-example-default.json,example-default,2,0.07943799999999998,0.08016438997583464,[Errno 2] No such file or directory: '/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/inputs/default.json'
+commands/setup-failure-identity.json,identity,0,0.077126,0.07785193697782233,
+commands/setup-failure-run-default.json,run-default,2,0.08044700000000003,0.08150075696175918,[Errno 2] No such file or directory: '/home/codex/projects/tanduna-open-source/grid-horizons/research/policies/inputs/default.json'
+commands/verify-bridge-case-00.json,verify-bridge-case-00,0,0.15052699999999997,0.15122028201585636,
+commands/verify-bridge-case-01.json,verify-bridge-case-01,0,0.12459399999999993,0.1253604949451983,
+commands/verify-bridge-case-02.json,verify-bridge-case-02,0,0.127885,0.1284183540265076,
+commands/verify-bridge-case-03.json,verify-bridge-case-03,0,0.323814,0.3251625210396014,
+commands/verify-bridge-case-04.json,verify-bridge-case-04,0,0.29785799999999985,0.29941606597276405,
+commands/verify-bridge-case-05.json,verify-bridge-case-05,0,0.2955739999999999,0.29701700201258063,
+commands/verify-bridge-case-06.json,verify-bridge-case-06,0,0.16225600000000023,0.16290524398209527,
+commands/verify-bridge-case-07.json,verify-bridge-case-07,0,0.13549800000000045,0.13617454597260803,
+commands/verify-bridge-case-08.json,verify-bridge-case-08,0,0.13211100000000037,0.1326278269989416,
+commands/verify-bridge-case-09.json,verify-bridge-case-09,0,0.12740099999999976,0.12796747597167268,
+commands/verify-bridge-case-10.json,verify-bridge-case-10,0,0.1350450000000003,0.13569302001269534,
+commands/verify-bridge-case-11.json,verify-bridge-case-11,0,0.13171200000000072,0.13230522599769756,
+commands/verify-bridge-case-12.json,verify-bridge-case-12,0,0.10760800000000037,0.10814792796736583,
+commands/verify-confirmation-batch-00-case-000.json,verify-confirmation-batch-00-case-000,0,0.183875,0.18509929900756106,
+commands/verify-confirmation-batch-00-case-001.json,verify-confirmation-batch-00-case-001,0,0.33497399999999977,0.33709752798313275,
+commands/verify-confirmation-batch-01-case-000.json,verify-confirmation-batch-01-case-000,0,0.22278600000000015,0.22519790998194367,
+commands/verify-confirmation-batch-01-case-001.json,verify-confirmation-batch-01-case-001,0,0.24242199999999947,0.24367329699452966,
+commands/verify-confirmation-batch-02-case-000.json,verify-confirmation-batch-02-case-000,0,0.31125999999999965,0.31319434294709936,
+commands/verify-confirmation-batch-02-case-001.json,verify-confirmation-batch-02-case-001,0,0.3407030000000011,0.34353263198863715,
+commands/verify-confirmation-batch-03-case-000.json,verify-confirmation-batch-03-case-000,0,0.30415399999999904,0.3072499620029703,
+commands/verify-confirmation-batch-03-case-001.json,verify-confirmation-batch-03-case-001,0,0.2576190000000006,0.2604012209922075,
+commands/verify-confirmation-batch-04-case-000.json,verify-confirmation-batch-04-case-000,0,0.10006299999999957,0.10094547597691417,
+commands/verify-confirmation-batch-04-case-001.json,verify-confirmation-batch-04-case-001,0,0.1047389999999997,0.10611639800481498,
+commands/verify-confirmation-batch-05-case-000.json,verify-confirmation-batch-05-case-000,0,0.10601700000000014,0.1080015060142614,
+commands/verify-confirmation-batch-05-case-001.json,verify-confirmation-batch-05-case-001,0,0.10217699999999996,0.10369733703555539,
+commands/verify-default.json,verify-default,0,0.08201800000000012,0.08252662501763552,
+commands/verify-exploration-batch-00-case-000.json,verify-exploration-batch-00-case-000,2,0.04849000000000009,0.048761388985440135,$: JSON exceeds the 1048576-byte limit
+commands/verify-exploration-batch-00-case-001.json,verify-exploration-batch-00-case-001,2,0.06278399999999995,0.06314851896604523,$: JSON exceeds the 1048576-byte limit
+commands/verify-exploration-batch-01-case-000.json,verify-exploration-batch-01-case-000,2,0.059209999999999985,0.05962886998895556,$: JSON exceeds the 1048576-byte limit
+commands/verify-exploration-batch-01-case-001.json,verify-exploration-batch-01-case-001,2,0.05644700000000019,0.0570260570384562,$: JSON exceeds the 1048576-byte limit
+commands/verify-exploration-batch-02-case-000.json,verify-exploration-batch-02-case-000,2,0.04976699999999967,0.05003941699396819,$: JSON exceeds the 1048576-byte limit
+commands/verify-exploration-batch-02-case-001.json,verify-exploration-batch-02-case-001,2,0.060531000000000446,0.06167478597490117,$: JSON exceeds the 1048576-byte limit
+commands/verify-exploration-batch-03-case-000.json,verify-exploration-batch-03-case-000,2,0.05910299999999996,0.06949264404829592,$: JSON exceeds the 1048576-byte limit
+commands/verify-exploration-batch-03-case-001.json,verify-exploration-batch-03-case-001,2,0.049869000000000274,0.05062623898265883,$: JSON exceeds the 1048576-byte limit
+commands/verify-exploration-batch-04-case-000.json,verify-exploration-batch-04-case-000,2,0.07423600000000008,0.0749445470282808,$: JSON exceeds the 1048576-byte limit
+commands/verify-exploration-batch-04-case-001.json,verify-exploration-batch-04-case-001,2,0.15838399999999964,0.16211738798301667,$: JSON exceeds the 1048576-byte limit
+commands/verify-exploration-batch-05-case-000.json,verify-exploration-batch-05-case-000,2,0.11117700000000008,0.11212232301477343,$: JSON exceeds the 1048576-byte limit
+commands/verify-exploration-batch-05-case-001.json,verify-exploration-batch-05-case-001,2,0.0741449999999999,0.07517341303173453,$: JSON exceeds the 1048576-byte limit

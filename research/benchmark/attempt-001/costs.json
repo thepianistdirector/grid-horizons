@@ -1,0 +1,28 @@
+{
+  "wall_seconds": 22.139426878013182,
+  "cpu_seconds": 21.783227,
+  "reference_cpu_seconds": 6.920614000000017,
+  "cli_cpu_seconds": 13.449064000000016,
+  "cli_commands": 105,
+  "scenarios": 52,
+  "policy_combinations": 55,
+  "intervals": 5928,
+  "output_bytes_before_hash_manifest": 47613296,
+  "paid_resources": false,
+  "runtime_identity": {
+    "build": {
+      "implementation_sha256": "cdf8e0b82397cbad5e9f5979fd01d98fd931a7c772c5dcd1c8b42a35ac90a4a4",
+      "kind": "zipapp",
+      "source_revision": "3d4a4dc7718d72e0d20785c70154c800cc849093",
+      "source_state": "includes preserved uncommitted implementation; implementation hash is authoritative",
+      "version": "1.0.0rc1"
+    },
+    "python": "3.12.14",
+    "system": "Linux",
+    "machine": "x86_64",
+    "model": "balanced-radial-pq/v2"
+  },
+  "package_sha256": "57573bdb2c8bb9c983b5dcc1b0c8850ac0ae6e3c87b8e6a24d60077ca03fe2ce",
+  "preregistration_sha256": "7c9e882939e4de701412da8894113d3d6fc7db92d687f184b7d450c3d0d5f60b",
+  "rerun_script_sha256": "468051d27dded2c317bcbdc22b8a021365b0895891db0d400649615a1f4ba8eb"
+}

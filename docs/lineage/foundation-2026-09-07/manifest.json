@@ -1,0 +1,22 @@
+{
+  "sourceCommit": "3d4a4dc7718d72e0d20785c70154c800cc849093",
+  "sourceRevision": "architecture-foundation-2026-09-07",
+  "originalTaskCount": 27,
+  "originalDependencyCount": 71,
+  "files": {
+    "plan/tasks.json": "62939652b94a2dfc349a7816da9ba0bda9dd7197edec6564eff9f12d934a75d8",
+    "TASKS.md": "137a81c6eb25ad259c0d0f26a4f9959addcbab7b6eeb27d7fd07745d6ec53d56",
+    "ROADMAP.md": "6b014ec6545eef238969ad128aaf6c1d8f367fee4e4cfff48b803a76226293eb",
+    "docs/work-packets/GH-001.md": "cc8cf483720c6d0366d12c24785df61359810ede37fc3c712263cec9f325a26c",
+    "tools/validate_plan.py": "f2623f6cfd3851a8226bdf8af1adad4f0ce68427d2b896640b2457a560cb7e60",
+    "tools/test_validate_plan.py": "b1ca01d62c012beab212191ad4695334a09796247247b48259b92b78185e565c",
+    "README.md": "7954e8aa340e74f71caba0b81b43dc225feeffce1da04576a1303522d58731dd",
+    "ARCHITECTURE.md": "dbfa77c3d5210021d322df8a757ae0112111dc1cdeb9bf81a2154e7230a76590",
+    "EXPERIMENTS.md": "248493e8d5d1e365924b1a52b52a1842144a28700be439d9be7ea300fcd4f72d",
+    "SOURCES.md": "2d2fef025e85526b4d79ce9c978e79181928286f69c3e0223b9c5e388949b633",
+    "STATUS.md": "066ebe8d0b351084eeaa9bedeaa1dc617ff87e108ad225169e240c2e23b3d732",
+    "CONTRIBUTING.md": "023634ca20e51c078b8e389a7263c425a3617083d4af3205a5b42bf83f06dae7",
+    "LICENSE": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+    ".gitignore": "ecfa21d832349649b6ffae14dec7c8ff1b812f9271a72755962c71f9a6781051"
+  }
+}

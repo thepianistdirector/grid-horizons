@@ -1,0 +1,525 @@
+[
+  {
+    "baseline_state": "COMPLETED_INFEASIBLE",
+    "directory": "default",
+    "name": "Synthetic Canopy 13 / seed 17",
+    "policy_count": 4,
+    "ranking": []
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "exploration/batch-00/case-000",
+    "name": "exploration family=storage seed=11 scale=0.7",
+    "policy_count": 12,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "storage_1",
+      "storage_0",
+      "storage_3",
+      "storage_2",
+      "storage_5",
+      "storage_4"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "exploration/batch-00/case-001",
+    "name": "exploration family=combined seed=11 scale=0.7",
+    "policy_count": 12,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_1",
+      "combined_0",
+      "combined_3",
+      "combined_2",
+      "combined_5",
+      "combined_4"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "exploration/batch-01/case-000",
+    "name": "exploration family=storage seed=11 scale=0.85",
+    "policy_count": 12,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "storage_1",
+      "storage_0",
+      "storage_3",
+      "storage_2",
+      "storage_5",
+      "storage_4"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "exploration/batch-01/case-001",
+    "name": "exploration family=combined seed=11 scale=0.85",
+    "policy_count": 12,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_1",
+      "combined_0",
+      "combined_3",
+      "combined_2",
+      "combined_5",
+      "combined_4"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_INFEASIBLE",
+    "directory": "exploration/batch-02/case-000",
+    "name": "exploration family=storage seed=11 scale=1.0",
+    "policy_count": 12,
+    "ranking": []
+  },
+  {
+    "baseline_state": "COMPLETED_INFEASIBLE",
+    "directory": "exploration/batch-02/case-001",
+    "name": "exploration family=combined seed=11 scale=1.0",
+    "policy_count": 12,
+    "ranking": []
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "exploration/batch-03/case-000",
+    "name": "exploration family=storage seed=13 scale=0.7",
+    "policy_count": 12,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "storage_1",
+      "storage_0",
+      "storage_3",
+      "storage_2",
+      "storage_5",
+      "storage_4"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "exploration/batch-03/case-001",
+    "name": "exploration family=combined seed=13 scale=0.7",
+    "policy_count": 12,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_1",
+      "combined_0",
+      "combined_3",
+      "combined_2",
+      "combined_5",
+      "combined_4"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "exploration/batch-04/case-000",
+    "name": "exploration family=storage seed=13 scale=0.85",
+    "policy_count": 12,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "storage_1",
+      "storage_0",
+      "storage_3",
+      "storage_2",
+      "storage_5",
+      "storage_4"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "exploration/batch-04/case-001",
+    "name": "exploration family=combined seed=13 scale=0.85",
+    "policy_count": 12,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_1",
+      "combined_0",
+      "combined_3",
+      "combined_2",
+      "combined_5",
+      "combined_4"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_INFEASIBLE",
+    "directory": "exploration/batch-05/case-000",
+    "name": "exploration family=storage seed=13 scale=1.0",
+    "policy_count": 12,
+    "ranking": []
+  },
+  {
+    "baseline_state": "COMPLETED_INFEASIBLE",
+    "directory": "exploration/batch-05/case-001",
+    "name": "exploration family=combined seed=13 scale=1.0",
+    "policy_count": 12,
+    "ranking": []
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "confirmation/batch-00/case-000",
+    "name": "confirmation seed=41 scale=0.7",
+    "policy_count": 8,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_loss",
+      "storage_loss",
+      "combined_peak",
+      "storage_peak"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "confirmation/batch-00/case-001",
+    "name": "confirmation seed=41 scale=0.85",
+    "policy_count": 8,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_loss",
+      "storage_loss",
+      "combined_peak",
+      "storage_peak"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_INFEASIBLE",
+    "directory": "confirmation/batch-01/case-000",
+    "name": "confirmation seed=41 scale=1.0",
+    "policy_count": 8,
+    "ranking": []
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "confirmation/batch-01/case-001",
+    "name": "confirmation seed=43 scale=0.7",
+    "policy_count": 8,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_loss",
+      "storage_loss",
+      "combined_peak",
+      "storage_peak"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "confirmation/batch-02/case-000",
+    "name": "confirmation seed=43 scale=0.85",
+    "policy_count": 8,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_loss",
+      "storage_loss",
+      "combined_peak",
+      "storage_peak"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_INFEASIBLE",
+    "directory": "confirmation/batch-02/case-001",
+    "name": "confirmation seed=43 scale=1.0",
+    "policy_count": 8,
+    "ranking": []
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "confirmation/batch-03/case-000",
+    "name": "confirmation seed=47 scale=0.7",
+    "policy_count": 8,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_loss",
+      "storage_loss",
+      "combined_peak",
+      "storage_peak"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "confirmation/batch-03/case-001",
+    "name": "confirmation seed=47 scale=0.85",
+    "policy_count": 8,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_loss",
+      "storage_loss",
+      "combined_peak",
+      "storage_peak"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_INFEASIBLE",
+    "directory": "confirmation/batch-04/case-000",
+    "name": "confirmation seed=47 scale=1.0",
+    "policy_count": 8,
+    "ranking": []
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "confirmation/batch-04/case-001",
+    "name": "confirmation seed=53 scale=0.7",
+    "policy_count": 8,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_loss",
+      "storage_loss",
+      "combined_peak",
+      "storage_peak"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "confirmation/batch-05/case-000",
+    "name": "confirmation seed=53 scale=0.85",
+    "policy_count": 8,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_loss",
+      "storage_loss",
+      "combined_peak",
+      "storage_peak"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_INFEASIBLE",
+    "directory": "confirmation/batch-05/case-001",
+    "name": "confirmation seed=53 scale=1.0",
+    "policy_count": 8,
+    "ranking": []
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "bridge/case-00",
+    "name": "exploration family=storage seed=11 scale=0.7",
+    "policy_count": 12,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "storage_1",
+      "storage_0",
+      "storage_3",
+      "storage_2",
+      "storage_5",
+      "storage_4"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "bridge/case-01",
+    "name": "exploration family=combined seed=11 scale=0.7",
+    "policy_count": 12,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_1",
+      "combined_0",
+      "combined_3",
+      "combined_2",
+      "combined_5",
+      "combined_4"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "bridge/case-02",
+    "name": "exploration family=storage seed=11 scale=0.85",
+    "policy_count": 12,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "storage_1",
+      "storage_0",
+      "storage_3",
+      "storage_2",
+      "storage_5",
+      "storage_4"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "bridge/case-03",
+    "name": "exploration family=combined seed=11 scale=0.85",
+    "policy_count": 12,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_1",
+      "combined_0",
+      "combined_3",
+      "combined_2",
+      "combined_5",
+      "combined_4"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_INFEASIBLE",
+    "directory": "bridge/case-04",
+    "name": "exploration family=storage seed=11 scale=1.0",
+    "policy_count": 12,
+    "ranking": []
+  },
+  {
+    "baseline_state": "COMPLETED_INFEASIBLE",
+    "directory": "bridge/case-05",
+    "name": "exploration family=combined seed=11 scale=1.0",
+    "policy_count": 12,
+    "ranking": []
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "bridge/case-06",
+    "name": "exploration family=storage seed=13 scale=0.7",
+    "policy_count": 12,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "storage_1",
+      "storage_0",
+      "storage_3",
+      "storage_2",
+      "storage_5",
+      "storage_4"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "bridge/case-07",
+    "name": "exploration family=combined seed=13 scale=0.7",
+    "policy_count": 12,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_1",
+      "combined_0",
+      "combined_3",
+      "combined_2",
+      "combined_5",
+      "combined_4"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "bridge/case-08",
+    "name": "exploration family=storage seed=13 scale=0.85",
+    "policy_count": 12,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "storage_1",
+      "storage_0",
+      "storage_3",
+      "storage_2",
+      "storage_5",
+      "storage_4"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "bridge/case-09",
+    "name": "exploration family=combined seed=13 scale=0.85",
+    "policy_count": 12,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_1",
+      "combined_0",
+      "combined_3",
+      "combined_2",
+      "combined_5",
+      "combined_4"
+    ]
+  },
+  {
+    "baseline_state": "COMPLETED_INFEASIBLE",
+    "directory": "bridge/case-10",
+    "name": "exploration family=storage seed=13 scale=1.0",
+    "policy_count": 12,
+    "ranking": []
+  },
+  {
+    "baseline_state": "COMPLETED_INFEASIBLE",
+    "directory": "bridge/case-11",
+    "name": "exploration family=combined seed=13 scale=1.0",
+    "policy_count": 12,
+    "ranking": []
+  },
+  {
+    "baseline_state": "COMPLETED_VALID",
+    "directory": "bridge/case-12",
+    "name": "confirmation seed=41 scale=0.7",
+    "policy_count": 8,
+    "ranking": [
+      "tap_p4",
+      "tap_p2",
+      "baseline",
+      "tap_m2",
+      "combined_loss",
+      "storage_loss",
+      "combined_peak",
+      "storage_peak"
+    ]
+  }
+]

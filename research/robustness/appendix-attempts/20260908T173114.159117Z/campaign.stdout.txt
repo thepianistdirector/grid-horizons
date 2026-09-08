@@ -1,0 +1,5 @@
+{
+  "state": "CAMPAIGN_RECORDED",
+  "attempts": 12,
+  "inventory": "/home/codex/projects/tanduna-open-source/grid-horizons/research/robustness/appendix-attempts/20260908T173114.159117Z/campaign/inventory.json"
+}

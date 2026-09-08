@@ -1,0 +1,6513 @@
+{
+  "aggregate": {
+    "baseline": {
+      "all_scenario_loss_saving_kwh": [
+        0.0,
+        0.0
+      ],
+      "all_scenario_peak_saving_kw": [
+        0.0,
+        0.0
+      ],
+      "jointly_feasible": 0,
+      "states": {
+        "COMPLETED_INFEASIBLE": 12
+      }
+    },
+    "combined_loss": {
+      "all_scenario_loss_saving_kwh": [
+        -0.25507872368837514,
+        0.07550930934833744
+      ],
+      "all_scenario_peak_saving_kw": [
+        0.04922167805675315,
+        1.8951842470191878
+      ],
+      "jointly_feasible": 0,
+      "states": {
+        "COMPLETED_INFEASIBLE": 8,
+        "COMPLETED_VALID": 4
+      }
+    },
+    "combined_peak": {
+      "all_scenario_loss_saving_kwh": [
+        -2.2321327577141314,
+        -1.8896799786293847
+      ],
+      "all_scenario_peak_saving_kw": [
+        0.04922167805675315,
+        7.41888621660307
+      ],
+      "jointly_feasible": 0,
+      "states": {
+        "COMPLETED_INFEASIBLE": 8,
+        "COMPLETED_VALID": 4
+      }
+    },
+    "storage_loss": {
+      "all_scenario_loss_saving_kwh": [
+        -0.6240486966705916,
+        -0.5213492875489498
+      ],
+      "all_scenario_peak_saving_kw": [
+        0.0,
+        1.8481155027340748
+      ],
+      "jointly_feasible": 0,
+      "states": {
+        "COMPLETED_INFEASIBLE": 12
+      }
+    },
+    "storage_peak": {
+      "all_scenario_loss_saving_kwh": [
+        -2.626849816167553,
+        -2.2598073648952353
+      ],
+      "all_scenario_peak_saving_kw": [
+        0.0,
+        7.377513776642218
+      ],
+      "jointly_feasible": 0,
+      "states": {
+        "COMPLETED_INFEASIBLE": 8,
+        "COMPLETED_VALID": 4
+      }
+    }
+  },
+  "bridge_exact_raw_and_evaluation_equality": true,
+  "max_abs_energy_residual_kwh": 4.50547821273517e-10,
+  "max_power_residual_pu": 8.639666953014589e-11,
+  "modeled_scenarios": 12,
+  "rows": [
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": 0.0,
+      "metrics": {
+        "energy_residual_kwh": 5.199307651082563e-11,
+        "export_kwh": 192.9636889554916,
+        "import_kwh": 833.277264026497,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 1.045543207850872,
+        "max_power_residual_pu": 5.933655404496739e-11,
+        "max_voltage_pu": 1.0092449698226305,
+        "min_voltage_pu": 0.9862086149428978,
+        "network_loss_kwh": 7.575932920952785,
+        "peak_import_kw": 91.21185019320413,
+        "solar_kwh": 643.9943998,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.0,
+        "total_loss_kwh": 7.575932920952785
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "baseline",
+      "seed": 101,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "nominal",
+      "violations": [
+        {
+          "interval": 73,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        },
+        {
+          "interval": 74,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 75,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 76,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 77,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 78,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.1753969385521028,
+      "metrics": {
+        "energy_residual_kwh": 4.6445292056773724e-11,
+        "export_kwh": 185.1403865904317,
+        "import_kwh": 825.6293585999839,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 0.999996808449277,
+        "max_power_residual_pu": 5.4899863176113574e-11,
+        "max_voltage_pu": 1.0339106605344965,
+        "min_voltage_pu": 1.012200888236597,
+        "network_loss_kwh": 6.9713298595048885,
+        "peak_import_kw": 89.31666594618494,
+        "solar_kwh": 643.9943998,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 7.751329859504888
+      },
+      "peak_saving_kw": 1.8951842470191878,
+      "policy": "combined_loss",
+      "seed": 101,
+      "state": "COMPLETED_VALID",
+      "treatment": "nominal",
+      "violations": []
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -1.9550810064788982,
+      "metrics": {
+        "energy_residual_kwh": 4.5570658357974025e-11,
+        "export_kwh": 161.33339285320497,
+        "import_kwh": 803.6020489306832,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 0.9419513623388659,
+        "max_power_residual_pu": 5.201054573723241e-11,
+        "max_voltage_pu": 1.0335676590718557,
+        "min_voltage_pu": 1.0126132715752618,
+        "network_loss_kwh": 6.411013927431685,
+        "peak_import_kw": 83.79296397660106,
+        "solar_kwh": 643.9943998,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 9.531013927431683
+      },
+      "peak_saving_kw": 7.41888621660307,
+      "policy": "combined_peak",
+      "seed": 101,
+      "state": "COMPLETED_VALID",
+      "treatment": "nominal",
+      "violations": []
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.5320728877726131,
+      "metrics": {
+        "energy_residual_kwh": 4.804312503381425e-11,
+        "export_kwh": 185.06303261168523,
+        "import_kwh": 825.9086805704596,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 1.025578518774492,
+        "max_power_residual_pu": 4.884128711844679e-11,
+        "max_voltage_pu": 1.0091283544322274,
+        "min_voltage_pu": 0.9868729256068808,
+        "network_loss_kwh": 7.328005808725399,
+        "peak_import_kw": 89.36373469047005,
+        "solar_kwh": 643.9943998,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 8.108005808725398
+      },
+      "peak_saving_kw": 1.8481155027340748,
+      "policy": "storage_loss",
+      "seed": 101,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "nominal",
+      "violations": [
+        {
+          "interval": 74,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0142494292508941
+        },
+        {
+          "interval": 75,
+          "reason": "branch 0-1 current loading",
+          "value": 1.025578518774492
+        },
+        {
+          "interval": 76,
+          "reason": "branch 0-1 current loading",
+          "value": 1.025578518774492
+        },
+        {
+          "interval": 77,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0142494292508941
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -2.2829849046057733,
+      "metrics": {
+        "energy_residual_kwh": 4.6410875143010344e-11,
+        "export_kwh": 161.26563791893687,
+        "import_kwh": 803.8621978945428,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 0.9660130459627737,
+        "max_power_residual_pu": 4.390074245665099e-11,
+        "max_voltage_pu": 1.0087771916879607,
+        "min_voltage_pu": 0.9872962913181771,
+        "network_loss_kwh": 6.73891782555856,
+        "peak_import_kw": 83.83433641656191,
+        "solar_kwh": 643.9943998,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 9.858917825558558
+      },
+      "peak_saving_kw": 7.377513776642218,
+      "policy": "storage_peak",
+      "seed": 101,
+      "state": "COMPLETED_VALID",
+      "treatment": "nominal",
+      "violations": []
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": 0.0,
+      "metrics": {
+        "energy_residual_kwh": 5.990408169509465e-11,
+        "export_kwh": 161.12534808068693,
+        "import_kwh": 801.1900566904333,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.045543207850872,
+        "max_power_residual_pu": 5.933655404496739e-11,
+        "max_voltage_pu": 1.0071073236996821,
+        "min_voltage_pu": 0.9862086149428978,
+        "network_loss_kwh": 7.327066459686316,
+        "peak_import_kw": 91.21185019320413,
+        "solar_kwh": 643.9943998,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.0,
+        "total_loss_kwh": 7.327066459686316
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "baseline",
+      "seed": 101,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.25507872368837514,
+      "metrics": {
+        "energy_residual_kwh": 5.250977430648618e-11,
+        "export_kwh": 153.26645957268227,
+        "import_kwh": 793.5862469061096,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.0194492031977853,
+        "max_power_residual_pu": 5.4899863176113574e-11,
+        "max_voltage_pu": 1.0318229010296023,
+        "min_voltage_pu": 1.011553485469669,
+        "network_loss_kwh": 6.802145183374692,
+        "peak_import_kw": 91.16262851514738,
+        "solar_kwh": 643.9943998,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 7.582145183374691
+      },
+      "peak_saving_kw": 0.04922167805675315,
+      "policy": "combined_loss",
+      "seed": 101,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.008403452566614
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0194492031977853
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0194492031977853
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.008403452566614
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -2.2321327577141314,
+      "metrics": {
+        "energy_residual_kwh": 5.135092351338244e-11,
+        "export_kwh": 129.4024483033675,
+        "import_kwh": 771.6992896708196,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.0194492031977853,
+        "max_power_residual_pu": 4.887837271727098e-11,
+        "max_voltage_pu": 1.0314778483807359,
+        "min_voltage_pu": 1.011553485469669,
+        "network_loss_kwh": 6.439199217400449,
+        "peak_import_kw": 91.16262851514738,
+        "solar_kwh": 643.9943998,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 9.559199217400447
+      },
+      "peak_saving_kw": 0.04922167805675315,
+      "policy": "combined_peak",
+      "seed": 101,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.008403452566614
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0194492031977853
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0194492031977853
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.008403452566614
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.6039763951986785,
+      "metrics": {
+        "energy_residual_kwh": 5.7011950715946114e-11,
+        "export_kwh": 153.202410628074,
+        "import_kwh": 793.8710956330164,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.045543207850872,
+        "max_power_residual_pu": 5.933655404496739e-11,
+        "max_voltage_pu": 1.0069899789768662,
+        "min_voltage_pu": 0.9862086149428978,
+        "network_loss_kwh": 7.151042854884995,
+        "peak_import_kw": 91.21185019320413,
+        "solar_kwh": 643.9943998,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 7.9310428548849945
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "storage_loss",
+      "seed": 101,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -2.562498021491459,
+      "metrics": {
+        "energy_residual_kwh": 5.6847859752906515e-11,
+        "export_kwh": 129.34518396410397,
+        "import_kwh": 771.9723905953388,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.045543207850872,
+        "max_power_residual_pu": 5.933655404496739e-11,
+        "max_voltage_pu": 1.0066366121603865,
+        "min_voltage_pu": 0.9862086149428978,
+        "network_loss_kwh": 6.769564481177776,
+        "peak_import_kw": 91.21185019320413,
+        "solar_kwh": 643.9943998,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 9.889564481177775
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "storage_peak",
+      "seed": 101,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": 0.0,
+      "metrics": {
+        "energy_residual_kwh": 3.4441605123447516e-10,
+        "export_kwh": 3.8459277496155932,
+        "import_kwh": 1099.1622628478794,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5822701751588968,
+        "max_power_residual_pu": 8.639666953014589e-11,
+        "max_voltage_pu": 1.003440429580107,
+        "min_voltage_pu": 0.9760464856543802,
+        "network_loss_kwh": 14.033964617919137,
+        "peak_import_kw": 110.4518314863745,
+        "solar_kwh": 450.79607986,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.0,
+        "total_loss_kwh": 14.033964617919137
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "baseline",
+      "seed": 101,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1361797907031834
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0669685843243453
+        },
+        {
+          "interval": 2,
+          "reason": "branch 0-1 current loading",
+          "value": 1.003466708817337
+        },
+        {
+          "interval": 77,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0034667121335261
+        },
+        {
+          "interval": 78,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0669685876458888
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1361797907031834
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2092191020564649
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2835993998925301
+        },
+        {
+          "interval": 81,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0588858897976874
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3563326363777815
+        },
+        {
+          "interval": 82,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1189381825783211
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4241069729659952
+        },
+        {
+          "interval": 83,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1749012756060158
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4241069729659952
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1749012756060158
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3563326363777815
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1189381825783211
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2835993998925301
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0588858897976874
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2092191020564649
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": 0.06392199196320014,
+      "metrics": {
+        "energy_residual_kwh": 4.5004688864480613e-10,
+        "export_kwh": 3.854559334300056,
+        "import_kwh": 1099.1069724407064,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5420898842039141,
+        "max_power_residual_pu": 8.005138902501468e-11,
+        "max_voltage_pu": 1.0283580886338153,
+        "min_voltage_pu": 1.0016560602644227,
+        "network_loss_kwh": 13.190042625955938,
+        "peak_import_kw": 110.34164835074395,
+        "solar_kwh": 450.79607986,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 13.970042625955937
+      },
+      "peak_saving_kw": 0.1101831356305496,
+      "policy": "combined_loss",
+      "seed": 101,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1076589116228628
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0402326872260632
+        },
+        {
+          "interval": 78,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0158070459355881
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0831827280723727
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1542780057015198
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2266711328790563
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.297453874249869
+        },
+        {
+          "interval": 82,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0505305649629881
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3634041256127432
+        },
+        {
+          "interval": 83,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1049506375433347
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4459493040220763
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1929111199584925
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4925475318942552
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2313906990449264
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0257253556499057
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5252371471763841
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2583862801162842
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0482020690851677
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5420898842039141
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2723039658539528
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0597898586357086
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5420898842039141
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2723039658539528
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0597898586357086
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5252371471763841
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2583862801162842
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0482020690851677
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4925475318942552
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2313906990449264
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0257253556499057
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4459493040220763
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1929111199584925
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3880914945652225
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.145136853462187
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3220913585289937
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0906436056703157
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.25125521322758
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0321625636419265
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1788075960752944
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -1.9460388870079317,
+      "metrics": {
+        "energy_residual_kwh": 4.37418101739695e-10,
+        "export_kwh": 0.5037061480422172,
+        "import_kwh": 1097.766080133407,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5420898842039141,
+        "max_power_residual_pu": 8.005138902501468e-11,
+        "max_voltage_pu": 1.0276593632078705,
+        "min_voltage_pu": 1.0016560602644227,
+        "network_loss_kwh": 12.86000350492707,
+        "peak_import_kw": 110.34164835074395,
+        "solar_kwh": 450.79607986,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 15.980003504927069
+      },
+      "peak_saving_kw": 0.1101831356305496,
+      "policy": "combined_peak",
+      "seed": 101,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1076589116228628
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0402326872260632
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0102741104613784
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.081196496764291
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1534151023132648
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2240283139333528
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2898213382073371
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4459493040220763
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1929111199584925
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4925475318942552
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2313906990449264
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0257253556499057
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5252371471763841
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2583862801162842
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0482020690851677
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5420898842039141
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2723039658539528
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0597898586357086
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5420898842039141
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2723039658539528
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0597898586357086
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5252371471763841
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2583862801162842
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0482020690851677
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4925475318942552
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2313906990449264
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0257253556499057
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4459493040220763
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1929111199584925
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3880914945652225
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.145136853462187
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3220913585289937
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0906436056703157
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.25125521322758
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0321625636419265
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1788075960752944
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.6240486966705916,
+      "metrics": {
+        "energy_residual_kwh": 3.4962410744299177e-10,
+        "export_kwh": 3.8459277496155932,
+        "import_kwh": 1099.7863115445552,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5822701751588968,
+        "max_power_residual_pu": 8.639666953014589e-11,
+        "max_voltage_pu": 1.003440429580107,
+        "min_voltage_pu": 0.9760464856543802,
+        "network_loss_kwh": 13.87801331458973,
+        "peak_import_kw": 110.4518314863745,
+        "solar_kwh": 450.79607986,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 14.658013314589729
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "storage_loss",
+      "seed": 101,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1361797907031834
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0669685843243453
+        },
+        {
+          "interval": 2,
+          "reason": "branch 0-1 current loading",
+          "value": 1.003466708817337
+        },
+        {
+          "interval": 78,
+          "reason": "branch 0-1 current loading",
+          "value": 1.041893476683812
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1110500670852586
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1840316409912708
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2583530042866853
+        },
+        {
+          "interval": 81,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0177819421758358
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3310284562347872
+        },
+        {
+          "interval": 82,
+          "reason": "branch 1-2 current loading",
+          "value": 1.077749384706265
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.398748794871629
+        },
+        {
+          "interval": 83,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1336333683237363
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4241069729659952
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1749012756060158
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3563326363777815
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1189381825783211
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2835993998925301
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0588858897976874
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2092191020564649
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -2.6165207015309644,
+      "metrics": {
+        "energy_residual_kwh": 3.4289637795836825e-10,
+        "export_kwh": 0.5016902464334828,
+        "import_kwh": 1098.4345460462268,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5822701751588968,
+        "max_power_residual_pu": 8.639666953014589e-11,
+        "max_voltage_pu": 1.0027244236811494,
+        "min_voltage_pu": 0.9760464856543802,
+        "network_loss_kwh": 13.530485319450104,
+        "peak_import_kw": 110.4518314863745,
+        "solar_kwh": 450.79607986,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 16.6504853194501
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "storage_peak",
+      "seed": 101,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1361797907031834
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0669685843243453
+        },
+        {
+          "interval": 2,
+          "reason": "branch 0-1 current loading",
+          "value": 1.003466708817337
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.03621082728451
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1090063868519775
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1831398100830417
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2556325472893934
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3231833087216094
+        },
+        {
+          "interval": 83,
+          "reason": "branch 1-2 current loading",
+          "value": 1.01099280910613
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4241069729659952
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1749012756060158
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3563326363777815
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1189381825783211
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2835993998925301
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0588858897976874
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2092191020564649
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": 0.0,
+      "metrics": {
+        "energy_residual_kwh": 3.853006802501113e-11,
+        "export_kwh": 197.81939310909587,
+        "import_kwh": 837.0058815461083,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 1.045543207850872,
+        "max_power_residual_pu": 5.933655404496739e-11,
+        "max_voltage_pu": 1.0080431298214794,
+        "min_voltage_pu": 0.9862086149428978,
+        "network_loss_kwh": 7.605636886973239,
+        "peak_import_kw": 91.21185019320413,
+        "solar_kwh": 645.1511904000001,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.0,
+        "total_loss_kwh": 7.605636886973239
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "baseline",
+      "seed": 103,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "nominal",
+      "violations": [
+        {
+          "interval": 73,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        },
+        {
+          "interval": 74,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 75,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 76,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 77,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 78,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.17547964062365118,
+      "metrics": {
+        "energy_residual_kwh": 3.3838487567550146e-11,
+        "export_kwh": 189.9951764432984,
+        "import_kwh": 829.3571445209299,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 0.999996808449277,
+        "max_power_residual_pu": 5.4899863176113574e-11,
+        "max_voltage_pu": 1.0327366584947972,
+        "min_voltage_pu": 1.012200888236597,
+        "network_loss_kwh": 7.001116527596891,
+        "peak_import_kw": 89.31666594618494,
+        "solar_kwh": 645.1511904000001,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 7.7811165275968905
+      },
+      "peak_saving_kw": 1.8951842470191878,
+      "policy": "combined_loss",
+      "seed": 103,
+      "state": "COMPLETED_VALID",
+      "treatment": "nominal",
+      "violations": []
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -1.9541935350320783,
+      "metrics": {
+        "energy_residual_kwh": 4.47020198635073e-11,
+        "export_kwh": 166.18765860654477,
+        "import_kwh": 807.3283405785954,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 0.9419513623388659,
+        "max_power_residual_pu": 5.3109460996939455e-11,
+        "max_voltage_pu": 1.0323924568551603,
+        "min_voltage_pu": 1.0126132715752618,
+        "network_loss_kwh": 6.439830422005319,
+        "peak_import_kw": 83.79296397660106,
+        "solar_kwh": 645.1511904000001,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 9.559830422005318
+      },
+      "peak_saving_kw": 7.41888621660307,
+      "policy": "combined_peak",
+      "seed": 103,
+      "state": "COMPLETED_VALID",
+      "treatment": "nominal",
+      "violations": []
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.5337088975548463,
+      "metrics": {
+        "energy_residual_kwh": 3.2333913324578134e-11,
+        "export_kwh": 189.91657274163944,
+        "import_kwh": 829.6367700762007,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 1.025578518774492,
+        "max_power_residual_pu": 4.884128711844679e-11,
+        "max_voltage_pu": 1.0079260877499188,
+        "min_voltage_pu": 0.9868729256068808,
+        "network_loss_kwh": 7.359345784528085,
+        "peak_import_kw": 89.36373469047005,
+        "solar_kwh": 645.1511904000001,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 8.139345784528086
+      },
+      "peak_saving_kw": 1.8481155027340748,
+      "policy": "storage_loss",
+      "seed": 103,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "nominal",
+      "violations": [
+        {
+          "interval": 74,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0142494292508941
+        },
+        {
+          "interval": 75,
+          "reason": "branch 0-1 current loading",
+          "value": 1.025578518774492
+        },
+        {
+          "interval": 76,
+          "reason": "branch 0-1 current loading",
+          "value": 1.025578518774492
+        },
+        {
+          "interval": 77,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0142494292508941
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -2.283584368916867,
+      "metrics": {
+        "energy_residual_kwh": 3.6146197146535997e-11,
+        "export_kwh": 166.1186418834397,
+        "import_kwh": 807.5887146893666,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 0.9660130459627737,
+        "max_power_residual_pu": 4.390074245665099e-11,
+        "max_voltage_pu": 1.0075736356914724,
+        "min_voltage_pu": 0.9872962913181771,
+        "network_loss_kwh": 6.769221255890107,
+        "peak_import_kw": 83.83433641656191,
+        "solar_kwh": 645.1511904000001,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 9.889221255890106
+      },
+      "peak_saving_kw": 7.377513776642218,
+      "policy": "storage_peak",
+      "seed": 103,
+      "state": "COMPLETED_VALID",
+      "treatment": "nominal",
+      "violations": []
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": 0.0,
+      "metrics": {
+        "energy_residual_kwh": 6.52731202421819e-11,
+        "export_kwh": 164.0705427186928,
+        "import_kwh": 803.0132951068547,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.045543207850872,
+        "max_power_residual_pu": 5.933655404496739e-11,
+        "max_voltage_pu": 1.0064374600680737,
+        "min_voltage_pu": 0.9862086149428978,
+        "network_loss_kwh": 7.3619008380967275,
+        "peak_import_kw": 91.21185019320413,
+        "solar_kwh": 645.1511904000001,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.0,
+        "total_loss_kwh": 7.3619008380967275
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "baseline",
+      "seed": 103,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.25503064693912414,
+      "metrics": {
+        "energy_residual_kwh": 5.544786851885419e-11,
+        "export_kwh": 156.211190467916,
+        "import_kwh": 795.4089735030075,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.0194492031977853,
+        "max_power_residual_pu": 5.4899863176113574e-11,
+        "max_voltage_pu": 1.0312831805667957,
+        "min_voltage_pu": 1.011553485469669,
+        "network_loss_kwh": 6.836931485035852,
+        "peak_import_kw": 91.16262851514738,
+        "solar_kwh": 645.1511904000001,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 7.616931485035852
+      },
+      "peak_saving_kw": 0.04922167805675315,
+      "policy": "combined_loss",
+      "seed": 103,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.008403452566614
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0194492031977853
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0194492031977853
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.008403452566614
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -2.2312798477657543,
+      "metrics": {
+        "energy_residual_kwh": 5.3023363477677776e-11,
+        "export_kwh": 132.3465234365028,
+        "import_kwh": 773.5205556724184,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.0194492031977853,
+        "max_power_residual_pu": 4.887837271727098e-11,
+        "max_voltage_pu": 1.0312831805667957,
+        "min_voltage_pu": 1.011553485469669,
+        "network_loss_kwh": 6.473180685862484,
+        "peak_import_kw": 91.16262851514738,
+        "solar_kwh": 645.1511904000001,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 9.593180685862482
+      },
+      "peak_saving_kw": 0.04922167805675315,
+      "policy": "combined_peak",
+      "seed": 103,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.008403452566614
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0194492031977853
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0194492031977853
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.008403452566614
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.6056719071521108,
+      "metrics": {
+        "energy_residual_kwh": 6.18516349248921e-11,
+        "export_kwh": 156.14539430440118,
+        "import_kwh": 795.6938185997119,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.045543207850872,
+        "max_power_residual_pu": 5.933655404496739e-11,
+        "max_voltage_pu": 1.0064374600680737,
+        "min_voltage_pu": 0.9862086149428978,
+        "network_loss_kwh": 7.187572745248839,
+        "peak_import_kw": 91.21185019320413,
+        "solar_kwh": 645.1511904000001,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 7.967572745248838
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "storage_loss",
+      "seed": 103,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -2.5633391260646965,
+      "metrics": {
+        "energy_residual_kwh": 5.95319349372403e-11,
+        "export_kwh": 132.28748659369379,
+        "import_kwh": 773.7935781079146,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.045543207850872,
+        "max_power_residual_pu": 5.933655404496739e-11,
+        "max_voltage_pu": 1.0064374600680737,
+        "min_voltage_pu": 0.9862086149428978,
+        "network_loss_kwh": 6.8052399641614265,
+        "peak_import_kw": 91.21185019320413,
+        "solar_kwh": 645.1511904000001,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 9.925239964161424
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "storage_peak",
+      "seed": 103,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": 0.0,
+      "metrics": {
+        "energy_residual_kwh": 3.448228369506978e-10,
+        "export_kwh": 7.24813057857105,
+        "import_kwh": 1101.7771459944775,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5822701751588968,
+        "max_power_residual_pu": 8.639666953014589e-11,
+        "max_voltage_pu": 1.0033314882597288,
+        "min_voltage_pu": 0.9760464856543802,
+        "network_loss_kwh": 14.056398355561317,
+        "peak_import_kw": 110.4518314863745,
+        "solar_kwh": 451.60583328000007,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.0,
+        "total_loss_kwh": 14.056398355561317
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "baseline",
+      "seed": 103,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1361797907031834
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0669685843243453
+        },
+        {
+          "interval": 2,
+          "reason": "branch 0-1 current loading",
+          "value": 1.003466708817337
+        },
+        {
+          "interval": 77,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0034667121335261
+        },
+        {
+          "interval": 78,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0669685876458888
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1361797907031834
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2092191020564649
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2835993998925301
+        },
+        {
+          "interval": 81,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0588858897976874
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3563326363777815
+        },
+        {
+          "interval": 82,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1189381825783211
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4241069729659952
+        },
+        {
+          "interval": 83,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1749012756060158
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4241069729659952
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1749012756060158
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3563326363777815
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1189381825783211
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2835993998925301
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0588858897976874
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2092191020564649
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": 0.0670177390861646,
+      "metrics": {
+        "energy_residual_kwh": 4.50547821273517e-10,
+        "export_kwh": 7.257150521645899,
+        "import_kwh": 1101.7191481985717,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5420898842039141,
+        "max_power_residual_pu": 8.005138902501468e-11,
+        "max_voltage_pu": 1.0282516535322324,
+        "min_voltage_pu": 1.0016560602644227,
+        "network_loss_kwh": 13.209380616475153,
+        "peak_import_kw": 110.34164835074395,
+        "solar_kwh": 451.60583328000007,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 13.989380616475152
+      },
+      "peak_saving_kw": 0.1101831356305496,
+      "policy": "combined_loss",
+      "seed": 103,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1076589116228628
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0402326872260632
+        },
+        {
+          "interval": 78,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0158070459355881
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0831827280723727
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1542780057015198
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2266711328790563
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.297453874249869
+        },
+        {
+          "interval": 82,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0505305649629881
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3634041256127432
+        },
+        {
+          "interval": 83,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1049506375433347
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4459493040220763
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1929111199584925
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4925475318942552
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2313906990449264
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0257253556499057
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5252371471763841
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2583862801162842
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0482020690851677
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5420898842039141
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2723039658539528
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0597898586357086
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5420898842039141
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2723039658539528
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0597898586357086
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5252371471763841
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2583862801162842
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0482020690851677
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4925475318942552
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2313906990449264
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0257253556499057
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4459493040220763
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1929111199584925
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3880914945652225
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.145136853462187
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3220913585289937
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0906436056703157
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.25125521322758
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0321625636419265
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1788075960752944
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -1.9548070046371464,
+      "metrics": {
+        "energy_residual_kwh": 4.368887474015537e-10,
+        "export_kwh": 7.257150521645899,
+        "import_kwh": 1103.7409729422814,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5420898842039141,
+        "max_power_residual_pu": 8.005138902501468e-11,
+        "max_voltage_pu": 1.0282516535322324,
+        "min_voltage_pu": 1.0016560602644227,
+        "network_loss_kwh": 12.891205360198464,
+        "peak_import_kw": 110.34164835074395,
+        "solar_kwh": 451.60583328000007,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 16.011205360198463
+      },
+      "peak_saving_kw": 0.1101831356305496,
+      "policy": "combined_peak",
+      "seed": 103,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1076589116228628
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0402326872260632
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0102741104613784
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.081196496764291
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1534151023132648
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2240283139333528
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2898213382073371
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4459493040220763
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1929111199584925
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4925475318942552
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2313906990449264
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0257253556499057
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5252371471763841
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2583862801162842
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0482020690851677
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5420898842039141
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2723039658539528
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0597898586357086
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5420898842039141
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2723039658539528
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0597898586357086
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5252371471763841
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2583862801162842
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0482020690851677
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4925475318942552
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2313906990449264
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0257253556499057
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4459493040220763
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1929111199584925
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3880914945652225
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.145136853462187
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3220913585289937
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0906436056703157
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.25125521322758
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0321625636419265
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1788075960752944
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.6219406239538703,
+      "metrics": {
+        "energy_residual_kwh": 3.5001490594765983e-10,
+        "export_kwh": 7.24813057857105,
+        "import_kwh": 1102.3990866184365,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5822701751588968,
+        "max_power_residual_pu": 8.639666953014589e-11,
+        "max_voltage_pu": 1.0033314882597288,
+        "min_voltage_pu": 0.9760464856543802,
+        "network_loss_kwh": 13.898338979515188,
+        "peak_import_kw": 110.4518314863745,
+        "solar_kwh": 451.60583328000007,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 14.678338979515187
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "storage_loss",
+      "seed": 103,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1361797907031834
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0669685843243453
+        },
+        {
+          "interval": 2,
+          "reason": "branch 0-1 current loading",
+          "value": 1.003466708817337
+        },
+        {
+          "interval": 78,
+          "reason": "branch 0-1 current loading",
+          "value": 1.041893476683812
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1110500670852586
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1840316409912708
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2583530042866853
+        },
+        {
+          "interval": 81,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0177819421758358
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3310284562347872
+        },
+        {
+          "interval": 82,
+          "reason": "branch 1-2 current loading",
+          "value": 1.077749384706265
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.398748794871629
+        },
+        {
+          "interval": 83,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1336333683237363
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4241069729659952
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1749012756060158
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3563326363777815
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1189381825783211
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2835993998925301
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0588858897976874
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2092191020564649
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -2.626849816167553,
+      "metrics": {
+        "energy_residual_kwh": 3.418838545599101e-10,
+        "export_kwh": 7.24813057857105,
+        "import_kwh": 1104.403995810642,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5822701751588968,
+        "max_power_residual_pu": 8.639666953014589e-11,
+        "max_voltage_pu": 1.0033314882597288,
+        "min_voltage_pu": 0.9760464856543802,
+        "network_loss_kwh": 13.563248171728873,
+        "peak_import_kw": 110.4518314863745,
+        "solar_kwh": 451.60583328000007,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 16.68324817172887
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "storage_peak",
+      "seed": 103,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1361797907031834
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0669685843243453
+        },
+        {
+          "interval": 2,
+          "reason": "branch 0-1 current loading",
+          "value": 1.003466708817337
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.03621082728451
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1090063868519775
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1831398100830417
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2556325472893934
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3231833087216094
+        },
+        {
+          "interval": 83,
+          "reason": "branch 1-2 current loading",
+          "value": 1.01099280910613
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4241069729659952
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1749012756060158
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3563326363777815
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1189381825783211
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2835993998925301
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0588858897976874
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2092191020564649
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": 0.0,
+      "metrics": {
+        "energy_residual_kwh": 5.285816229161355e-11,
+        "export_kwh": 205.30449735587507,
+        "import_kwh": 822.994703808252,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 1.045543207850872,
+        "max_power_residual_pu": 5.933655404496739e-11,
+        "max_voltage_pu": 1.0090730991677792,
+        "min_voltage_pu": 0.9862086149428978,
+        "network_loss_kwh": 7.745017402323476,
+        "peak_import_kw": 91.21185019320413,
+        "solar_kwh": 666.7868529000001,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.0,
+        "total_loss_kwh": 7.745017402323476
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "baseline",
+      "seed": 107,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "nominal",
+      "violations": [
+        {
+          "interval": 73,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        },
+        {
+          "interval": 74,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 75,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 76,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 77,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 78,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.15727686679695907,
+      "metrics": {
+        "energy_residual_kwh": 2.9726221484338566e-11,
+        "export_kwh": 197.50239116904908,
+        "import_kwh": 815.3498744882,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 0.999996808449277,
+        "max_power_residual_pu": 5.4899863176113574e-11,
+        "max_voltage_pu": 1.0337427516756859,
+        "min_voltage_pu": 1.012200888236597,
+        "network_loss_kwh": 7.122294269120435,
+        "peak_import_kw": 89.31666594618494,
+        "solar_kwh": 666.7868529000001,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 7.902294269120435
+      },
+      "peak_saving_kw": 1.8951842470191878,
+      "policy": "combined_loss",
+      "seed": 107,
+      "state": "COMPLETED_VALID",
+      "treatment": "nominal",
+      "violations": []
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -1.92507258538775,
+      "metrics": {
+        "energy_residual_kwh": 2.589661818319655e-11,
+        "export_kwh": 174.61571549382015,
+        "import_kwh": 794.2309945315579,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 0.9419513623388659,
+        "max_power_residual_pu": 5.066445411153742e-11,
+        "max_voltage_pu": 1.0333995756704575,
+        "min_voltage_pu": 1.0126132715752618,
+        "network_loss_kwh": 6.550089987711226,
+        "peak_import_kw": 83.79296397660106,
+        "solar_kwh": 666.7868529000001,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 9.670089987711226
+      },
+      "peak_saving_kw": 7.41888621660307,
+      "policy": "combined_peak",
+      "seed": 107,
+      "state": "COMPLETED_VALID",
+      "treatment": "nominal",
+      "violations": []
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.5213492875489498,
+      "metrics": {
+        "energy_residual_kwh": 4.507927364727493e-11,
+        "export_kwh": 197.41521619557992,
+        "import_kwh": 815.6267719354981,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 1.025578518774492,
+        "max_power_residual_pu": 4.884128711844679e-11,
+        "max_voltage_pu": 1.0089564217337148,
+        "min_voltage_pu": 0.9868729256068808,
+        "network_loss_kwh": 7.486366689872425,
+        "peak_import_kw": 89.36373469047005,
+        "solar_kwh": 666.7868529000001,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 8.266366689872426
+      },
+      "peak_saving_kw": 1.8481155027340748,
+      "policy": "storage_loss",
+      "seed": 107,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "nominal",
+      "violations": [
+        {
+          "interval": 74,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0142494292508941
+        },
+        {
+          "interval": 75,
+          "reason": "branch 0-1 current loading",
+          "value": 1.025578518774492
+        },
+        {
+          "interval": 76,
+          "reason": "branch 0-1 current loading",
+          "value": 1.025578518774492
+        },
+        {
+          "interval": 77,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0142494292508941
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -2.2598073648952353,
+      "metrics": {
+        "energy_residual_kwh": 3.452260699532417e-11,
+        "export_kwh": 174.539632184351,
+        "import_kwh": 794.489646001605,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 0.9660130459627737,
+        "max_power_residual_pu": 4.390074245665099e-11,
+        "max_voltage_pu": 1.008605071521099,
+        "min_voltage_pu": 0.9872962913181771,
+        "network_loss_kwh": 6.884824767218712,
+        "peak_import_kw": 83.83433641656191,
+        "solar_kwh": 666.7868529000001,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 10.004824767218711
+      },
+      "peak_saving_kw": 7.377513776642218,
+      "policy": "storage_peak",
+      "seed": 107,
+      "state": "COMPLETED_VALID",
+      "treatment": "nominal",
+      "violations": []
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": 0.0,
+      "metrics": {
+        "energy_residual_kwh": 4.991207447346824e-11,
+        "export_kwh": 175.9290613086646,
+        "import_kwh": 793.3728660269778,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.045543207850872,
+        "max_power_residual_pu": 5.933655404496739e-11,
+        "max_voltage_pu": 1.007626440227683,
+        "min_voltage_pu": 0.9862086149428978,
+        "network_loss_kwh": 7.498615668263138,
+        "peak_import_kw": 91.21185019320413,
+        "solar_kwh": 666.7868529000001,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.0,
+        "total_loss_kwh": 7.498615668263138
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "baseline",
+      "seed": 107,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.2366593098228007,
+      "metrics": {
+        "energy_residual_kwh": 4.526223840173316e-11,
+        "export_kwh": 168.09050177628316,
+        "import_kwh": 785.7709658044145,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.0194492031977853,
+        "max_power_residual_pu": 5.4899863176113574e-11,
+        "max_voltage_pu": 1.032329766079877,
+        "min_voltage_pu": 1.011553485469669,
+        "network_loss_kwh": 6.9552749780859395,
+        "peak_import_kw": 91.16262851514738,
+        "solar_kwh": 666.7868529000001,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 7.735274978085939
+      },
+      "peak_saving_kw": 0.04922167805675315,
+      "policy": "combined_loss",
+      "seed": 107,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.008403452566614
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0194492031977853
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0194492031977853
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.008403452566614
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -2.2015662763387454,
+      "metrics": {
+        "energy_residual_kwh": 4.766675942846632e-11,
+        "export_kwh": 144.24044014180677,
+        "import_kwh": 763.8858111364563,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.0194492031977853,
+        "max_power_residual_pu": 4.887837271727098e-11,
+        "max_voltage_pu": 1.0319851827113133,
+        "min_voltage_pu": 1.011553485469669,
+        "network_loss_kwh": 6.580181944601885,
+        "peak_import_kw": 91.16262851514738,
+        "solar_kwh": 666.7868529000001,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 9.700181944601884
+      },
+      "peak_saving_kw": 0.04922167805675315,
+      "policy": "combined_peak",
+      "seed": 107,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.008403452566614
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0194492031977853
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0194492031977853
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.008403452566614
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.593154149590001,
+      "metrics": {
+        "energy_residual_kwh": 4.828382138555298e-11,
+        "export_kwh": 168.01758219322215,
+        "import_kwh": 786.0545410611237,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.045543207850872,
+        "max_power_residual_pu": 5.933655404496739e-11,
+        "max_voltage_pu": 1.007509262409388,
+        "min_voltage_pu": 0.9862086149428978,
+        "network_loss_kwh": 7.311769817853139,
+        "peak_import_kw": 91.21185019320413,
+        "solar_kwh": 666.7868529000001,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 8.09176981785314
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "storage_loss",
+      "seed": 107,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -2.5389366301444483,
+      "metrics": {
+        "energy_residual_kwh": 5.242029033070139e-11,
+        "export_kwh": 144.1749895151906,
+        "import_kwh": 764.1577308636506,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.045543207850872,
+        "max_power_residual_pu": 5.933655404496739e-11,
+        "max_voltage_pu": 1.007156400071574,
+        "min_voltage_pu": 0.9862086149428978,
+        "network_loss_kwh": 6.917552298407588,
+        "peak_import_kw": 91.21185019320413,
+        "solar_kwh": 666.7868529000001,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 10.037552298407586
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "storage_peak",
+      "seed": 107,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": 0.0,
+      "metrics": {
+        "energy_residual_kwh": 3.4364333600933605e-10,
+        "export_kwh": 3.0379049445693282,
+        "import_kwh": 1082.344305998611,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5822701751588968,
+        "max_power_residual_pu": 8.639666953014589e-11,
+        "max_voltage_pu": 1.0026168968253757,
+        "min_voltage_pu": 0.9760464856543802,
+        "network_loss_kwh": 13.978747743697713,
+        "peak_import_kw": 110.4518314863745,
+        "solar_kwh": 466.7507970300001,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.0,
+        "total_loss_kwh": 13.978747743697713
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "baseline",
+      "seed": 107,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1361797907031834
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0669685843243453
+        },
+        {
+          "interval": 2,
+          "reason": "branch 0-1 current loading",
+          "value": 1.003466708817337
+        },
+        {
+          "interval": 77,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0034667121335261
+        },
+        {
+          "interval": 78,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0669685876458888
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1361797907031834
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2092191020564649
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2835993998925301
+        },
+        {
+          "interval": 81,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0588858897976874
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3563326363777815
+        },
+        {
+          "interval": 82,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1189381825783211
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4241069729659952
+        },
+        {
+          "interval": 83,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1749012756060158
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4241069729659952
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1749012756060158
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3563326363777815
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1189381825783211
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2835993998925301
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0588858897976874
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2092191020564649
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": 0.06982926036501524,
+      "metrics": {
+        "energy_residual_kwh": 4.489917326822024e-10,
+        "export_kwh": 3.045571711785474,
+        "import_kwh": 1082.2821435055673,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5420898842039141,
+        "max_power_residual_pu": 8.005138902501468e-11,
+        "max_voltage_pu": 1.0275543188064191,
+        "min_voltage_pu": 1.0016560602644227,
+        "network_loss_kwh": 13.128918483332699,
+        "peak_import_kw": 110.34164835074395,
+        "solar_kwh": 466.7507970300001,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 13.908918483332698
+      },
+      "peak_saving_kw": 0.1101831356305496,
+      "policy": "combined_loss",
+      "seed": 107,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1076589116228628
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0402326872260632
+        },
+        {
+          "interval": 78,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0158070459355881
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0831827280723727
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1542780057015198
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2266711328790563
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.297453874249869
+        },
+        {
+          "interval": 82,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0505305649629881
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3634041256127432
+        },
+        {
+          "interval": 83,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1049506375433347
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4459493040220763
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1929111199584925
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4925475318942552
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2313906990449264
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0257253556499057
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5252371471763841
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2583862801162842
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0482020690851677
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5420898842039141
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2723039658539528
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0597898586357086
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5420898842039141
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2723039658539528
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0597898586357086
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5252371471763841
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2583862801162842
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0482020690851677
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4925475318942552
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2313906990449264
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0257253556499057
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4459493040220763
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1929111199584925
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3880914945652225
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.145136853462187
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3220913585289937
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0906436056703157
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.25125521322758
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0321625636419265
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1788075960752944
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -1.9090519114483264,
+      "metrics": {
+        "energy_residual_kwh": 4.348743587456738e-10,
+        "export_kwh": 2.1879756637630727,
+        "import_kwh": 1083.4034286293443,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5420898842039141,
+        "max_power_residual_pu": 8.005138902501468e-11,
+        "max_voltage_pu": 1.0274335240704835,
+        "min_voltage_pu": 1.0016560602644227,
+        "network_loss_kwh": 12.76779965514604,
+        "peak_import_kw": 110.34164835074395,
+        "solar_kwh": 466.7507970300001,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 15.88779965514604
+      },
+      "peak_saving_kw": 0.1101831356305496,
+      "policy": "combined_peak",
+      "seed": 107,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1076589116228628
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0402326872260632
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0102741104613784
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.081196496764291
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1534151023132648
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2240283139333528
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2898213382073371
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4459493040220763
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1929111199584925
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4925475318942552
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2313906990449264
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0257253556499057
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5252371471763841
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2583862801162842
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0482020690851677
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5420898842039141
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2723039658539528
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0597898586357086
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5420898842039141
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2723039658539528
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0597898586357086
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5252371471763841
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2583862801162842
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0482020690851677
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4925475318942552
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2313906990449264
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0257253556499057
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4459493040220763
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1929111199584925
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3880914945652225
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.145136853462187
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3220913585289937
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0906436056703157
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.25125521322758
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0321625636419265
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1788075960752944
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.6149806852200292,
+      "metrics": {
+        "energy_residual_kwh": 3.48577833264585e-10,
+        "export_kwh": 3.0379049445693282,
+        "import_kwh": 1082.959286683836,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5822701751588968,
+        "max_power_residual_pu": 8.639666953014589e-11,
+        "max_voltage_pu": 1.0026168968253757,
+        "min_voltage_pu": 0.9760464856543802,
+        "network_loss_kwh": 13.813728428917743,
+        "peak_import_kw": 110.4518314863745,
+        "solar_kwh": 466.7507970300001,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 14.593728428917743
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "storage_loss",
+      "seed": 107,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1361797907031834
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0669685843243453
+        },
+        {
+          "interval": 2,
+          "reason": "branch 0-1 current loading",
+          "value": 1.003466708817337
+        },
+        {
+          "interval": 78,
+          "reason": "branch 0-1 current loading",
+          "value": 1.041893476683812
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1110500670852586
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1840316409912708
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2583530042866853
+        },
+        {
+          "interval": 81,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0177819421758358
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3310284562347872
+        },
+        {
+          "interval": 82,
+          "reason": "branch 1-2 current loading",
+          "value": 1.077749384706265
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.398748794871629
+        },
+        {
+          "interval": 83,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1336333683237363
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4241069729659952
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1749012756060158
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3563326363777815
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1189381825783211
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2835993998925301
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0588858897976874
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2092191020564649
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -2.574759454352673,
+      "metrics": {
+        "energy_residual_kwh": 3.4003999616061265e-10,
+        "export_kwh": 2.1831485825280206,
+        "import_kwh": 1084.0643090909186,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5822701751588968,
+        "max_power_residual_pu": 8.639666953014589e-11,
+        "max_voltage_pu": 1.0024932276781895,
+        "min_voltage_pu": 0.9760464856543802,
+        "network_loss_kwh": 13.433507198050389,
+        "peak_import_kw": 110.4518314863745,
+        "solar_kwh": 466.7507970300001,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 16.553507198050387
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "storage_peak",
+      "seed": 107,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1361797907031834
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0669685843243453
+        },
+        {
+          "interval": 2,
+          "reason": "branch 0-1 current loading",
+          "value": 1.003466708817337
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.03621082728451
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1090063868519775
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1831398100830417
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2556325472893934
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3231833087216094
+        },
+        {
+          "interval": 83,
+          "reason": "branch 1-2 current loading",
+          "value": 1.01099280910613
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4241069729659952
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1749012756060158
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3563326363777815
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1189381825783211
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2835993998925301
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0588858897976874
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2092191020564649
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": 0.0,
+      "metrics": {
+        "energy_residual_kwh": 4.475442239026961e-11,
+        "export_kwh": 213.31689081020022,
+        "import_kwh": 826.3206237830078,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 1.045543207850872,
+        "max_power_residual_pu": 5.933655404496739e-11,
+        "max_voltage_pu": 1.0088445874111316,
+        "min_voltage_pu": 0.9862086149428978,
+        "network_loss_kwh": 7.81241272276183,
+        "peak_import_kw": 91.21185019320413,
+        "solar_kwh": 671.5407216999998,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.0,
+        "total_loss_kwh": 7.81241272276183
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "baseline",
+      "seed": 109,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "nominal",
+      "violations": [
+        {
+          "interval": 73,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        },
+        {
+          "interval": 74,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 75,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 76,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 77,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 78,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.15643030720326223,
+      "metrics": {
+        "energy_residual_kwh": 2.8102631333126737e-11,
+        "export_kwh": 205.51312411793052,
+        "import_kwh": 818.6732873979246,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 0.999996808449277,
+        "max_power_residual_pu": 5.4899863176113574e-11,
+        "max_voltage_pu": 1.0335195213142647,
+        "min_voltage_pu": 1.012200888236597,
+        "network_loss_kwh": 7.188843029965093,
+        "peak_import_kw": 89.31666594618494,
+        "solar_kwh": 671.5407216999998,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 7.968843029965092
+      },
+      "peak_saving_kw": 1.8951842470191878,
+      "policy": "combined_loss",
+      "seed": 109,
+      "state": "COMPLETED_VALID",
+      "treatment": "nominal",
+      "violations": []
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -1.9490538175050043,
+      "metrics": {
+        "energy_residual_kwh": 2.9101165921474603e-11,
+        "export_kwh": 181.8958557592109,
+        "import_kwh": 796.8486425495078,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 0.9419513623388659,
+        "max_power_residual_pu": 5.324398629823271e-11,
+        "max_voltage_pu": 1.0331986860406315,
+        "min_voltage_pu": 1.0126132715752618,
+        "network_loss_kwh": 6.641466540266835,
+        "peak_import_kw": 83.79296397660106,
+        "solar_kwh": 671.5407216999998,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 9.761466540266834
+      },
+      "peak_saving_kw": 7.41888621660307,
+      "policy": "combined_peak",
+      "seed": 109,
+      "state": "COMPLETED_VALID",
+      "treatment": "nominal",
+      "violations": []
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.5239135642448103,
+      "metrics": {
+        "energy_residual_kwh": 3.749067722935706e-11,
+        "export_kwh": 205.42380549600261,
+        "import_kwh": 818.9514520330476,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 1.025578518774492,
+        "max_power_residual_pu": 4.884128711844679e-11,
+        "max_voltage_pu": 1.0087278284200976,
+        "min_voltage_pu": 0.9868729256068808,
+        "network_loss_kwh": 7.55632628700664,
+        "peak_import_kw": 89.36373469047005,
+        "solar_kwh": 671.5407216999998,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 8.33632628700664
+      },
+      "peak_saving_kw": 1.8481155027340748,
+      "policy": "storage_loss",
+      "seed": 109,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "nominal",
+      "violations": [
+        {
+          "interval": 74,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0142494292508941
+        },
+        {
+          "interval": 75,
+          "reason": "branch 0-1 current loading",
+          "value": 1.025578518774492
+        },
+        {
+          "interval": 76,
+          "reason": "branch 0-1 current loading",
+          "value": 1.025578518774492
+        },
+        {
+          "interval": 77,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0142494292508941
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -2.288395414467611,
+      "metrics": {
+        "energy_residual_kwh": 3.2317259979208757e-11,
+        "export_kwh": 181.8163209040161,
+        "import_kwh": 797.1084492912787,
+        "load_kwh": 1276.7320419500008,
+        "max_loading": 0.9660130459627737,
+        "max_power_residual_pu": 4.390074245665099e-11,
+        "max_voltage_pu": 1.0083992499934096,
+        "min_voltage_pu": 0.9872962913181771,
+        "network_loss_kwh": 6.980808137229443,
+        "peak_import_kw": 83.83433641656191,
+        "solar_kwh": 671.5407216999998,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 10.100808137229441
+      },
+      "peak_saving_kw": 7.377513776642218,
+      "policy": "storage_peak",
+      "seed": 109,
+      "state": "COMPLETED_VALID",
+      "treatment": "nominal",
+      "violations": []
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": 0.0,
+      "metrics": {
+        "energy_residual_kwh": 4.916689277933983e-11,
+        "export_kwh": 185.2005200723334,
+        "import_kwh": 797.9724634241559,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.045543207850872,
+        "max_power_residual_pu": 5.933655404496739e-11,
+        "max_voltage_pu": 1.0075679757238936,
+        "min_voltage_pu": 0.9862086149428978,
+        "network_loss_kwh": 7.580623101773145,
+        "peak_import_kw": 91.21185019320413,
+        "solar_kwh": 671.5407216999998,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.0,
+        "total_loss_kwh": 7.580623101773145
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "baseline",
+      "seed": 109,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.2352841121474789,
+      "metrics": {
+        "energy_residual_kwh": 4.452327395654265e-11,
+        "export_kwh": 177.36135566812044,
+        "import_kwh": 790.3685831320861,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.0194492031977853,
+        "max_power_residual_pu": 5.4899863176113574e-11,
+        "max_voltage_pu": 1.03227261682918,
+        "min_voltage_pu": 1.011553485469669,
+        "network_loss_kwh": 7.035907213920624,
+        "peak_import_kw": 91.16262851514738,
+        "solar_kwh": 671.5407216999998,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 7.815907213920624
+      },
+      "peak_saving_kw": 0.04922167805675315,
+      "policy": "combined_loss",
+      "seed": 109,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.008403452566614
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0194492031977853
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0194492031977853
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.008403452566614
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -2.2253429050838074,
+      "metrics": {
+        "energy_residual_kwh": 4.122835406406011e-11,
+        "export_kwh": 153.48271230462538,
+        "import_kwh": 768.4799985615239,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.0194492031977853,
+        "max_power_residual_pu": 4.887837271727098e-11,
+        "max_voltage_pu": 1.0323870898064194,
+        "min_voltage_pu": 1.011553485469669,
+        "network_loss_kwh": 6.685966006856955,
+        "peak_import_kw": 91.16262851514738,
+        "solar_kwh": 671.5407216999998,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 9.805966006856952
+      },
+      "peak_saving_kw": 0.04922167805675315,
+      "policy": "combined_peak",
+      "seed": 109,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.008403452566614
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0194492031977853
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0194492031977853
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.008403452566614
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.5958131290593522,
+      "metrics": {
+        "energy_residual_kwh": 4.883893289786556e-11,
+        "export_kwh": 177.28517159103842,
+        "import_kwh": 790.65292807192,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.045543207850872,
+        "max_power_residual_pu": 5.933655404496739e-11,
+        "max_voltage_pu": 1.0074507721816404,
+        "min_voltage_pu": 0.9862086149428978,
+        "network_loss_kwh": 7.396436230832498,
+        "peak_import_kw": 91.21185019320413,
+        "solar_kwh": 671.5407216999998,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 8.176436230832497
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "storage_loss",
+      "seed": 109,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -2.5679766281279486,
+      "metrics": {
+        "energy_residual_kwh": 4.490008365110043e-11,
+        "export_kwh": 153.412592309194,
+        "import_kwh": 768.7525122891403,
+        "load_kwh": 1276.7320419500002,
+        "max_loading": 1.045543207850872,
+        "max_power_residual_pu": 5.933655404496739e-11,
+        "max_voltage_pu": 1.0075679757238936,
+        "min_voltage_pu": 0.9862086149428978,
+        "network_loss_kwh": 7.028599729901094,
+        "peak_import_kw": 91.21185019320413,
+        "solar_kwh": 671.5407216999998,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 10.148599729901093
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "storage_peak",
+      "seed": 109,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "load_late",
+      "violations": [
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.045543207850872
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0342080451829812
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0122151092182359
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": 0.0,
+      "metrics": {
+        "energy_residual_kwh": 3.4507863233557146e-10,
+        "export_kwh": 1.9156968430909946,
+        "import_kwh": 1077.8872945259495,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5822701751588968,
+        "max_power_residual_pu": 8.639666953014589e-11,
+        "max_voltage_pu": 1.003025783075419,
+        "min_voltage_pu": 0.9760464856543802,
+        "network_loss_kwh": 13.971652532513264,
+        "peak_import_kw": 110.4518314863745,
+        "solar_kwh": 470.07850519000004,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.0,
+        "total_loss_kwh": 13.971652532513264
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "baseline",
+      "seed": 109,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1361797907031834
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0669685843243453
+        },
+        {
+          "interval": 2,
+          "reason": "branch 0-1 current loading",
+          "value": 1.003466708817337
+        },
+        {
+          "interval": 77,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0034667121335261
+        },
+        {
+          "interval": 78,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0669685876458888
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1361797907031834
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2092191020564649
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2835993998925301
+        },
+        {
+          "interval": 81,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0588858897976874
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3563326363777815
+        },
+        {
+          "interval": 82,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1189381825783211
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4241069729659952
+        },
+        {
+          "interval": 83,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1749012756060158
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4241069729659952
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1749012756060158
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3563326363777815
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1189381825783211
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2835993998925301
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0588858897976874
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2092191020564649
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": 0.07550930934833744,
+      "metrics": {
+        "energy_residual_kwh": 4.499722816575513e-10,
+        "export_kwh": 1.9203005798721813,
+        "import_kwh": 1077.8163889534874,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5420898842039141,
+        "max_power_residual_pu": 8.005138902501468e-11,
+        "max_voltage_pu": 1.0279533847701796,
+        "min_voltage_pu": 1.0016560602644227,
+        "network_loss_kwh": 13.116143223164928,
+        "peak_import_kw": 110.34164835074395,
+        "solar_kwh": 470.07850519000004,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 13.896143223164927
+      },
+      "peak_saving_kw": 0.1101831356305496,
+      "policy": "combined_loss",
+      "seed": 109,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1076589116228628
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0402326872260632
+        },
+        {
+          "interval": 78,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0158070459355881
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0831827280723727
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1542780057015198
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2266711328790563
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.297453874249869
+        },
+        {
+          "interval": 82,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0505305649629881
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3634041256127432
+        },
+        {
+          "interval": 83,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1049506375433347
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4459493040220763
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1929111199584925
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4925475318942552
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2313906990449264
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0257253556499057
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5252371471763841
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2583862801162842
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0482020690851677
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5420898842039141
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2723039658539528
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0597898586357086
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5420898842039141
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2723039658539528
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0597898586357086
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5252371471763841
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2583862801162842
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0482020690851677
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4925475318942552
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2313906990449264
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0257253556499057
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4459493040220763
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1929111199584925
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3880914945652225
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.145136853462187
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3220913585289937
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0906436056703157
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.25125521322758
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0321625636419265
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1788075960752944
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -1.8896799786293847,
+      "metrics": {
+        "energy_residual_kwh": 4.3510173242111705e-10,
+        "export_kwh": 0.0,
+        "import_kwh": 1077.861277661578,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5420898842039141,
+        "max_power_residual_pu": 8.005138902501468e-11,
+        "max_voltage_pu": 1.027253889511663,
+        "min_voltage_pu": 1.0016560602644227,
+        "network_loss_kwh": 12.74133251114265,
+        "peak_import_kw": 110.34164835074395,
+        "solar_kwh": 470.07850519000004,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 15.861332511142649
+      },
+      "peak_saving_kw": 0.1101831356305496,
+      "policy": "combined_peak",
+      "seed": 109,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1076589116228628
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0402326872260632
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0102741104613784
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.081196496764291
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1534151023132648
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2240283139333528
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2898213382073371
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4459493040220763
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1929111199584925
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4925475318942552
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2313906990449264
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0257253556499057
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5252371471763841
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2583862801162842
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0482020690851677
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5420898842039141
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2723039658539528
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0597898586357086
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5420898842039141
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2723039658539528
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0597898586357086
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5252371471763841
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2583862801162842
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0482020690851677
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4925475318942552
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2313906990449264
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0257253556499057
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4459493040220763
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1929111199584925
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3880914945652225
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.145136853462187
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3220913585289937
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0906436056703157
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.25125521322758
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0321625636419265
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1788075960752944
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -0.6086620286319793,
+      "metrics": {
+        "energy_residual_kwh": 3.4954417138521876e-10,
+        "export_kwh": 1.9156968430909946,
+        "import_kwh": 1078.495956554586,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5822701751588968,
+        "max_power_residual_pu": 8.639666953014589e-11,
+        "max_voltage_pu": 1.003025783075419,
+        "min_voltage_pu": 0.9760464856543802,
+        "network_loss_kwh": 13.800314561145244,
+        "peak_import_kw": 110.4518314863745,
+        "solar_kwh": 470.07850519000004,
+        "storage_delta_kwh": 0.0,
+        "storage_loss_kwh": 0.7799999999999996,
+        "total_loss_kwh": 14.580314561145244
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "storage_loss",
+      "seed": 109,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1361797907031834
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0669685843243453
+        },
+        {
+          "interval": 2,
+          "reason": "branch 0-1 current loading",
+          "value": 1.003466708817337
+        },
+        {
+          "interval": 78,
+          "reason": "branch 0-1 current loading",
+          "value": 1.041893476683812
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1110500670852586
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1840316409912708
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2583530042866853
+        },
+        {
+          "interval": 81,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0177819421758358
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3310284562347872
+        },
+        {
+          "interval": 82,
+          "reason": "branch 1-2 current loading",
+          "value": 1.077749384706265
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.398748794871629
+        },
+        {
+          "interval": 83,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1336333683237363
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4241069729659952
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1749012756060158
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3563326363777815
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1189381825783211
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2835993998925301
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0588858897976874
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2092191020564649
+        }
+      ]
+    },
+    {
+      "baseline_state": "COMPLETED_INFEASIBLE",
+      "invalid": [],
+      "loss_saving_kwh": -2.5540413877369623,
+      "metrics": {
+        "energy_residual_kwh": 3.4012348493206446e-10,
+        "export_kwh": 0.0,
+        "import_kwh": 1078.5256390705906,
+        "load_kwh": 1532.0784503400002,
+        "max_loading": 1.5822701751588968,
+        "max_power_residual_pu": 8.639666953014589e-11,
+        "max_voltage_pu": 1.0023089487387453,
+        "min_voltage_pu": 0.9760464856543802,
+        "network_loss_kwh": 13.405693920250227,
+        "peak_import_kw": 110.4518314863745,
+        "solar_kwh": 470.07850519000004,
+        "storage_delta_kwh": 7.105427357601002e-15,
+        "storage_loss_kwh": 3.1199999999999983,
+        "total_loss_kwh": 16.525693920250227
+      },
+      "peak_saving_kw": 0.0,
+      "policy": "storage_peak",
+      "seed": 109,
+      "state": "COMPLETED_INFEASIBLE",
+      "treatment": "joint_adverse",
+      "violations": [
+        {
+          "interval": 0,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1361797907031834
+        },
+        {
+          "interval": 1,
+          "reason": "branch 0-1 current loading",
+          "value": 1.0669685843243453
+        },
+        {
+          "interval": 2,
+          "reason": "branch 0-1 current loading",
+          "value": 1.003466708817337
+        },
+        {
+          "interval": 79,
+          "reason": "branch 0-1 current loading",
+          "value": 1.03621082728451
+        },
+        {
+          "interval": 80,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1090063868519775
+        },
+        {
+          "interval": 81,
+          "reason": "branch 0-1 current loading",
+          "value": 1.1831398100830417
+        },
+        {
+          "interval": 82,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2556325472893934
+        },
+        {
+          "interval": 83,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3231833087216094
+        },
+        {
+          "interval": 83,
+          "reason": "branch 1-2 current loading",
+          "value": 1.01099280910613
+        },
+        {
+          "interval": 84,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 84,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 85,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 85,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 86,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 86,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 87,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 87,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 88,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5822701751588968
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-2 current loading",
+          "value": 1.3055201755631372
+        },
+        {
+          "interval": 88,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0874322772612606
+        },
+        {
+          "interval": 89,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5649599439485133
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2912232220357107
+        },
+        {
+          "interval": 89,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0755292927789488
+        },
+        {
+          "interval": 90,
+          "reason": "branch 0-1 current loading",
+          "value": 1.5313841261735504
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2634930375892681
+        },
+        {
+          "interval": 90,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0524420501341731
+        },
+        {
+          "interval": 91,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4835253891930422
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-2 current loading",
+          "value": 1.2239687354016582
+        },
+        {
+          "interval": 91,
+          "reason": "branch 1-8 current loading",
+          "value": 1.0195345661825683
+        },
+        {
+          "interval": 92,
+          "reason": "branch 0-1 current loading",
+          "value": 1.4241069729659952
+        },
+        {
+          "interval": 92,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1749012756060158
+        },
+        {
+          "interval": 93,
+          "reason": "branch 0-1 current loading",
+          "value": 1.3563326363777815
+        },
+        {
+          "interval": 93,
+          "reason": "branch 1-2 current loading",
+          "value": 1.1189381825783211
+        },
+        {
+          "interval": 94,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2835993998925301
+        },
+        {
+          "interval": 94,
+          "reason": "branch 1-2 current loading",
+          "value": 1.0588858897976874
+        },
+        {
+          "interval": 95,
+          "reason": "branch 0-1 current loading",
+          "value": 1.2092191020564649
+        }
+      ]
+    }
+  ],
+  "trajectories": 60,
+  "verified_studies": 13
+}

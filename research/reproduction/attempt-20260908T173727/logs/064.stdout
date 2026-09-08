@@ -1,0 +1,18 @@
+{
+  "states": {
+    "baseline": "COMPLETED_INFEASIBLE",
+    "tap_m2": "COMPLETED_INFEASIBLE",
+    "tap_p2": "COMPLETED_INFEASIBLE",
+    "tap_p4": "COMPLETED_INFEASIBLE",
+    "combined_0": "COMPLETED_VALID",
+    "combined_1": "COMPLETED_VALID",
+    "combined_2": "COMPLETED_VALID",
+    "combined_3": "COMPLETED_VALID",
+    "combined_4": "COMPLETED_VALID",
+    "combined_5": "COMPLETED_VALID",
+    "combined_6": "COMPLETED_INFEASIBLE",
+    "combined_7": "COMPLETED_INFEASIBLE"
+  },
+  "ranking": [],
+  "seconds": 0.14451682899380103
+}

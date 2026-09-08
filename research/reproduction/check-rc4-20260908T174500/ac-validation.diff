@@ -1,0 +1,11 @@
+--- 
++++ 
+@@ -43,7 +43,7 @@
+         if not ok: raise ValueError(message)
+     def fields(obj, expected,where):
+         require(isinstance(obj,dict) and set(obj)==set(expected.split()),f'{where}: unsupported or missing fields')
+-    def number(x,lo,hi): return type(x) in (int,float) and math.isfinite(x) and lo<=x<=hi
++    def number(x,lo,hi): return type(x) in (int,float) and lo<=x<=hi and math.isfinite(x)
+     fields(s,'schema model name provenance base_kva base_kv dt_hours branches load_kw reactive_kvar solar_kw voltage_limits_pu solver storage policies','scenario')
+     require(s['schema']==SCHEMA and s['model']==MODEL,'unsupported schema/model; use original build for older studies')
+     require(isinstance(s['name'],str) and 0<len(s['name'])<=160,'name: 1..160 characters')
